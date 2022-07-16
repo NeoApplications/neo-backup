@@ -173,6 +173,7 @@ abstract class BaseAppAction protected constructor(
             | ^com\.(google\.)?android\.gsf
             | ^com\.(google\.)?android\.providers\.media\b.*
             | ^com\.(google\.)?android\.providers\..*
+            | ^com\.topjohnwu\.magisk
             | """ + Regex.escape(BuildConfig.APPLICATION_ID) + """
             """).toRegex()
 
