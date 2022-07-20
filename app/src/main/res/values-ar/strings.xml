@@ -356,4 +356,5 @@
     <string name="sortBackupSize">حجم النسخ الاحتياطي</string>
     <string name="add_tag">إضافة علامة جديدة</string>
     <string name="edit_note">تحرير الملاحظة</string>
+    <string name="prefs_theme_dynamic">النسق الديناميكي (إن وجد)</string>
 </resources>
