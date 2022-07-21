@@ -151,6 +151,68 @@
     <string name="prefs_saveappslist_summary">Writes apps list to a txt file in the user\'s backup directory</string>
     <string name="prefs_logviewer">View the log</string>
     <string name="prefs_unset">Unset</string>
+    <!-- dev settings begin -->
+    <string name="prefs_showinfologbar" translatable="false">showInfoLogBar</string>
+    <string name="prefs_showinfologbar_summary" translatable="false">show the info log in top bar</string>
+    <string name="prefs_cachepackages" translatable="false">cachePackages</string>
+    <string name="prefs_cachepackages_summary" translatable="false">cache Packages</string>
+    <string name="prefs_usepackagecacheonupdate" translatable="false">usePackageCacheOnUpdate</string>
+    <string name="prefs_usepackagecacheonupdate_summary" translatable="false">use cached Package in updateDataOf</string>
+    <string name="prefs_usecolumnnamesaf" translatable="false">useColumnNameSAF</string>
+    <string name="prefs_usecolumnnamesaf_summary" translatable="false">eventually disable this, if you have problems with SAF storage</string>
+    <string name="prefs_cancelonstart" translatable="false">cancelOnStart</string>
+    <string name="prefs_cancelonstart_summary" translatable="false">cancel all remaining jobs on OAndBackupX start [needs reboot]</string>
+    <string name="prefs_usealarmclock" translatable="false">useAlarmClock</string>
+    <string name="prefs_usealarmclock_summary" translatable="false">use the alarm clock to schedule backups, this shows an alarm icon in the notification bar [needs reboot]</string>
+    <string name="prefs_useexactalarm" translatable="false">useExactAlarm</string>
+    <string name="prefs_useexactalarm_summary" translatable="false">if not using useAlarmClock, then use exact alarms, otherwise use inexact alarms which may be better for battery [needs reboot]</string>
+    <string name="prefs_pauseapps" translatable="false">pauseApps</string>
+    <string name="prefs_pauseapps_summary" translatable="false">pause apps during backups and restores to avoid inconsistent backups caused by ongoing file changes or other conflicts</string>
+    <string name="prefs_pmsuspend" translatable="false">pmSuspend</string>
+    <string name="prefs_pmsuspend_summary" translatable="false">additionally use pm suspend command to pause apps</string>
+    <string name="prefs_backuptarcmd" translatable="false">backupTarCmd</string>
+    <string name="prefs_backuptarcmd_summary" translatable="false">use tar shell command for backup</string>
+    <string name="prefs_restoretarcmd" translatable="false">restoreTarCmd</string>
+    <string name="prefs_restoretarcmd_summary" translatable="false">use tar shell command for restore</string>
+    <string name="prefs_stricthardlinks" translatable="false">strictHardLinks</string>
+    <string name="prefs_stricthardlinks_summary" translatable="false">for API tar only: unpack hard links as hard links (otherwise they become symlinks)</string>
+    <string name="prefs_restoreavoidtempcopy" translatable="false">restoreAvoidTemporaryCopy</string>
+    <string name="prefs_restoreavoidtempcopy_summary" translatable="false">for API tar only: avoid using a temporary directory to extract files</string>
+    <string name="prefs_shadowrootfile" translatable="false">shadowRootFile</string>
+    <string name="prefs_shadowrootfile_summary" translatable="false">use superuser file system access instead of SAF if the real file system can be found</string>
+    <string name="prefs_allowshadowingdefault" translatable="false">allowShadowingDefault</string>
+    <string name="prefs_allowshadowingdefault_summary" translatable="false">the default for StorageFile creation (enable for now, if you want to use root shadow at all)</string>
+    <string name="prefs_usefindls" translatable="false">useFindLs</string>
+    <string name="prefs_usefindls_summary" translatable="false">use \'find \.\.\. | xargs \.\.\. ls \.\.\.\' for recursive FileInfo collection</string>
+    <string name="prefs_assemblefilelistonestep" translatable="false">assembleFileListOneStep</string>
+    <string name="prefs_assemblefilelistonestep_summary" translatable="false">(tarapi) collect whole tree in one step</string>
+    <string name="prefs_catchuncaughtexception" translatable="false">catchUncaughtException</string>
+    <string name="prefs_catchuncaughtexception_summary" translatable="false">unexpected exceptions are caught and output to logcat and app is restarted [needs reboot]</string>
+    <string name="prefs_maxcrashlines" translatable="false">maxCrashLines</string>
+    <string name="prefs_maxcrashlines_summary" translatable="false">maximum number of lines to be saved from the logcat on an uncaughtException</string>
+    <string name="prefs_invalidateselective" translatable="false">invalidateSelective</string>
+    <string name="prefs_invalidateselective_summary" translatable="false">only invalidate cache for specific package</string>
+    <string name="prefs_cacheuris" translatable="false">cacheUris</string>
+    <string name="prefs_cacheuris_summary" translatable="false">cache StorageFile per URI</string>
+    <string name="prefs_cachefilelists" translatable="false">cacheFileLists</string>
+    <string name="prefs_cachefilelists_summary" translatable="false">cache file lists per directory</string>
+    <string name="prefs_maxretriesperpackage" translatable="false">maxRetriesPerPackage</string>
+    <string name="prefs_maxretriesperpackage_summary" translatable="false">maximum number of retires per Package per Batch</string>
+    <string name="prefs_delaybeforerefreshappinfo" translatable="false">delayBeforeRefreshAppInfo</string>
+    <string name="prefs_delaybeforerefreshappinfo_summary" translatable="false">[seconds] delay between pm install and refreshing AppInfo</string>
+    <string name="prefs_refreshappinfotimeout" translatable="false">refreshAppInfoTimeout</string>
+    <string name="prefs_refreshappinfotimeout_summary" translatable="false">[seconds] maximum time to retry on refreshing AppInfo after pm install</string>
+    <string name="prefs_useforeground" translatable="false">useForeground</string>
+    <string name="prefs_useforeground_summary" translatable="false">use foreground notifications to ensure app keeps running (if wakelock isn\'t enough)</string>
+    <string name="prefs_useexpedited" translatable="false">useExpedited</string>
+    <string name="prefs_useexpedited_summary" translatable="false">use work manager forground to overcome 10 minute job timeouts</string>
+    <string name="prefs_useworkmanagerforsinglebackup" translatable="false">useWorkManagerForSingleBackup</string>
+    <string name="prefs_useworkmanagerforsinglebackup_summary" translatable="false">use work manager for single backup from app sheet</string>
+    <string name="prefs_useworkmanagerforsinglerestore" translatable="false">useWorkManagerForSingleRestore</string>
+    <string name="prefs_useworkmanagerforsinglerestore_summary" translatable="false">use work manager for single restore from app sheet (note this is for test only, for now it doesn't restore the selected backup but the newest)</string>
+    <string name="prefs_fakebackupseconds" translatable="false">fakeBackupSeconds</string>
+    <string name="prefs_fakebackupseconds_summary" translatable="false">[seconds] time for faked backups, 0 = do not fake</string>>Exit code: 0    Time: 0.110
+    <!-- dev settings end -->
     <string name="sched_name">Name:</string>
     <string name="sched_title">Scheduling</string>
     <string name="sched_add">Add Schedule</string>

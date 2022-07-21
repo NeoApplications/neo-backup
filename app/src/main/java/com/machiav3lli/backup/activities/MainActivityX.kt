@@ -32,7 +32,7 @@ import androidx.navigation.fragment.NavHostFragment
 import com.machiav3lli.backup.BuildConfig
 import com.machiav3lli.backup.OABX
 import com.machiav3lli.backup.OABX.Companion.addInfoText
-import com.machiav3lli.backup.PREFS_CATCHUNCAUGHT
+import com.machiav3lli.backup.PREFS_CATCHUNCAUGHTEXCEPTION
 import com.machiav3lli.backup.PREFS_MAXCRASHLINES
 import com.machiav3lli.backup.PREFS_SKIPPEDENCRYPTION
 import com.machiav3lli.backup.R
@@ -80,7 +80,7 @@ class MainActivityX : BaseActivity() {
 
         OABX.appsSuspendedChecked = false
 
-        if (OABX.prefFlag(PREFS_CATCHUNCAUGHT, false)) {
+        if (OABX.prefFlag(PREFS_CATCHUNCAUGHTEXCEPTION, false)) {
             Thread.setDefaultUncaughtExceptionHandler { _, e ->
                 try {
                     val maxCrashLines = OABX.prefInt(PREFS_MAXCRASHLINES, 50)

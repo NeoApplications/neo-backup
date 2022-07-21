@@ -29,7 +29,7 @@ import com.machiav3lli.backup.PREFS_ENABLESESSIONINSTALLER
 import com.machiav3lli.backup.PREFS_EXCLUDECACHE
 import com.machiav3lli.backup.PREFS_INSTALLER_PACKAGENAME
 import com.machiav3lli.backup.PREFS_REFRESHDELAY
-import com.machiav3lli.backup.PREFS_REFRESHTIMEOUT
+import com.machiav3lli.backup.PREFS_REFRESHAPPINFOTIMEOUT
 import com.machiav3lli.backup.PREFS_REFRESHTIMEOUT_DEFAULT
 import com.machiav3lli.backup.PREFS_RESTOREAVOIDTEMPCOPY
 import com.machiav3lli.backup.PREFS_RESTOREPERMISSIONS
@@ -1010,7 +1010,7 @@ open class RestoreAppAction(context: Context, work: AppActionWork?, shell: Shell
 
         // try multiple times to get valid paths from PackageManager
         // maxWaitMs is cumulated sleep time between tries
-        val maxWaitMs = OABX.prefInt(PREFS_REFRESHTIMEOUT, PREFS_REFRESHTIMEOUT_DEFAULT) * 1000L
+        val maxWaitMs = OABX.prefInt(PREFS_REFRESHAPPINFOTIMEOUT, PREFS_REFRESHTIMEOUT_DEFAULT) * 1000L
         timeWaitedMs = 0L
         var attemptNo = 0
         do {

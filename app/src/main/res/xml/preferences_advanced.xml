@@ -61,146 +61,146 @@
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="showInfoLogBar"
-            android:summary="show the info log in top bar"
-            android:title="showInfoLogBar" />
+            android:summary="@string/prefs_showinfologbar_summary"
+            android:title="@string/prefs_showinfologbar" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="cachePackages"
-            android:summary="cache Packages"
-            android:title="usePackageCache" />
+            android:summary="@string/prefs_cachepackages_summary"
+            android:title="@string/prefs_cachepackages" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="usePackageCacheOnUpdate"
-            android:summary="use cached Package in updateDataOf"
-            android:title="usePackageCacheOnUpdate" />
+            android:summary="@string/prefs_usepackagecacheonupdate_summary"
+            android:title="@string/prefs_usepackagecacheonupdate" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="useColumnNameSAF"
-            android:summary="eventually disable this, if you have problems with SAF storage"
-            android:title="useColumnNameSAF" />
+            android:summary="@string/prefs_usecolumnnamesaf_summary"
+            android:title="@string/prefs_usecolumnnamesaf" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="cancelOnStart"
-            android:summary="cancel all remaining jobs on OAndBackupX start [needs reboot]"
-            android:title="cancelOnStart" />
+            android:summary="@string/prefs_cancelonstart_summary"
+            android:title="@string/prefs_cancelonstart" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="useAlarmClock"
-            android:summary="use the alarm clock to schedule backups, this shows an alarm icon in the notification bar [needs reboot]"
-            android:title="useAlarmClock" />
+            android:summary="@string/prefs_usealarmclock_summary"
+            android:title="@string/prefs_usealarmclock" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="useExactAlarm"
-            android:summary="if not using useAlarmClock, then use exact alarms, otherwise use inexact alarms which may be better for battery [needs reboot]"
-            android:title="useExactAlarm" />
+            android:summary="@string/prefs_useexactalarm_summary"
+            android:title="@string/prefs_useexactalarm" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="pauseApps"
-            android:summary="pause apps during backups and restores to avoid inconsistent backups caused by ongoing file changes or other conflicts"
-            android:title="pauseApps" />
+            android:summary="@string/prefs_pauseapps_summary"
+            android:title="@string/prefs_pauseapps" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="pmSuspend"
-            android:summary="additionally use pm suspend command to pause apps"
-            android:title="pmSuspend" />
+            android:summary="@string/prefs_pmsuspend_summary"
+            android:title="@string/prefs_pmsuspend" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="backupTarCmd"
-            android:summary="use tar shell command for backup"
-            android:title="backupTarCmd" />
+            android:summary="@string/prefs_backuptarcmd_summary"
+            android:title="@string/prefs_backuptarcmd" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="restoreTarCmd"
-            android:summary="use tar shell command for restore"
-            android:title="restoreTarCmd" />
+            android:summary="@string/prefs_restoretarcmd_summary"
+            android:title="@string/prefs_restoretarcmd" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="strictHardLinks"
-            android:summary="for API tar only: unpack hard links as hard links (otherwise they become symlinks)"
-            android:title="strictHardLinks" />
+            android:summary="@string/prefs_stricthardlinks_summary"
+            android:title="@string/prefs_stricthardlinks" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="restoreAvoidTemporaryCopy"
-            android:summary="for API tar only: avoid using a temporary directory to extract files"
-            android:title="restoreAvoidTemporaryCopy" />
+            android:summary="@string/prefs_restoreavoidtempcopy_summary"
+            android:title="@string/prefs_restoreavoidtempcopy" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
-            android:key="shadowRootFileForSAF"
-            android:summary="use superuser file system access instead of SAF if the real file system can be found"
-            android:title="shadowRootFileForSAF" />
+            android:key="shadowRootFile"
+            android:summary="@string/prefs_shadowrootfile_summary"
+            android:title="@string/prefs_shadowrootfile" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="allowShadowingDefault"
-            android:summary="the default for StorageFile creation (enable for now, if you want to use root shadow at all)"
-            android:title="allowShadowingDefault" />
+            android:summary="@string/prefs_allowshadowingdefault_summary"
+            android:title="@string/prefs_allowshadowingdefault" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="useFindLs"
-            android:summary="use 'find ... | xargs ... ls ...' for recursive FileInfo collection"
-            android:title="useFindLs" />
+            android:summary="@string/prefs_usefindls_summary"
+            android:title="@string/prefs_usefindls" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
-            android:key="useAssembleFileListOneStep"
-            android:summary="(tarapi) collect whole tree in one step"
-            android:title="useAssembleFileListOneStep" />
+            android:key="assembleFileListOneStep"
+            android:summary="@string/prefs_assemblefilelistonestep_summary"
+            android:title="@string/prefs_assemblefilelistonestep" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="false"
             android:key="catchUncaughtException"
-            android:summary="unexpected exceptions are caught and output to logcat and app is restarted [needs reboot]"
-            android:title="catchUncaughtException" />
+            android:summary="@string/prefs_catchuncaughtexception_summary"
+            android:title="@string/prefs_catchuncaughtexception" />
 
         <androidx.preference.SeekBarPreference
             android:defaultValue="50"
             android:inputType="number"
             android:key="maxCrashLines"
             android:max="1000"
-            android:summary="maximum number of lines to be saved from the logcat on an uncaughtException"
-            android:title="maxCrashLines"
+            android:summary="@string/prefs_maxcrashlines_summary"
+            android:title="@string/prefs_maxcrashlines"
             app:min="0"
             app:showSeekBarValue="true" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="invalidateSelective"
-            android:summary=""
-            android:title="invalidateSelective" />
+            android:summary="@string/prefs_invalidateselective_summary"
+            android:title="@string/prefs_invalidateselective" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="cacheUris"
-            android:summary=""
-            android:title="cacheUris" />
+            android:summary="@string/prefs_cacheuris_summary"
+            android:title="@string/prefs_cacheuris" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="cacheFileLists"
-            android:summary=""
-            android:title="cacheFileLists" />
+            android:summary="@string/prefs_cachefilelists_summary"
+            android:title="@string/prefs_cachefilelists" />
 
         <androidx.preference.SeekBarPreference
             android:defaultValue="1"
             android:inputType="number"
             android:key="maxRetriesPerPackage"
             android:max="10"
-            android:summary="maximum number of retires per Package per Batch"
-            android:title="maxRetriesPerPackage"
+            android:summary="@string/prefs_maxretriesperpackage_summary"
+            android:title="@string/prefs_maxretriesperpackage"
             app:min="0"
             app:showSeekBarValue="true" />
 
@@ -209,8 +209,8 @@
             android:inputType="number"
             android:key="delayBeforeRefreshAppInfo"
             android:max="10"
-            android:summary="[seconds] delay between pm install and refreshing AppInfo"
-            android:title="delayBeforeRefreshAppInfo"
+            android:summary="@string/prefs_delaybeforerefreshappinfo_summary"
+            android:title="@string/prefs_delaybeforerefreshappinfo"
             app:min="0"
             app:showSeekBarValue="true" />
 
@@ -219,30 +219,30 @@
             android:inputType="number"
             android:key="refreshAppInfoTimeout"
             android:max="120"
-            android:summary="[seconds] maximum time to retry on refreshing AppInfo after pm install"
-            android:title="refreshAppInfoTimeout"
+            android:summary="@string/prefs_refreshappinfotimeout_summary"
+            android:title="@string/prefs_refreshappinfotimeout"
             app:min="0"
             app:showSeekBarValue="true" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="useForeground"
-            android:summary="use forground notifications to ensure app keeps running (if wakelock isn't enough)"
-            android:title="useForeground" />
+            android:summary="@string/prefs_useforeground_summary"
+            android:title="@string/prefs_useforeground" />
 
         <androidx.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="useExpedited"
-            android:summary="use work manager forground to overcome 10 minute job timeouts"
-            android:title="useExpedited" />
+            android:summary="@string/prefs_useexpedited_summary"
+            android:title="@string/prefs_useexpedited" />
 
         <androidx.preference.SeekBarPreference
             android:defaultValue="0"
             android:inputType="number"
             android:key="fakeBackupSeconds"
             android:max="1200"
-            android:summary="[seconds] time for faked backups, 0 = do not fake"
-            android:title="fakeBackupSeconds"
+            android:summary="@string/prefs_fakebackupseconds_summary"
+            android:title="@string/prefs_fakebackupseconds"
             app:min="0"
             app:showSeekBarValue="true" />
 
