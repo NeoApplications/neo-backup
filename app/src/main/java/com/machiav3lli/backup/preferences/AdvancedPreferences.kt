@@ -124,8 +124,8 @@ val ShowInfoLogBarPref = Pref.BooleanPref(
 
 val CachePackagePref = Pref.BooleanPref(
     key = PREFS_CACHEPACKAGES,
-    titleId = R.string.prefs_usepackagecache,
-    summaryId = R.string.prefs_usepackagecache_summary,
+    titleId = R.string.prefs_cachepackages,
+    summaryId = R.string.prefs_cachepackages_summary,
     defaultValue = true
 )
 

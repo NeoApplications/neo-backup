@@ -154,8 +154,8 @@
     <!-- dev settings begin -->
     <string name="prefs_showinfologbar" translatable="false">showInfoLogBar</string>
     <string name="prefs_showinfologbar_summary" translatable="false">show the info log in top bar</string>
-    <string name="prefs_usepackagecache" translatable="false">usePackageCache</string>
-    <string name="prefs_usepackagecache_summary" translatable="false">cache Packages</string>
+    <string name="prefs_cachepackages" translatable="false">cachePackages</string>
+    <string name="prefs_cachepackages_summary" translatable="false">cache Packages</string>
     <string name="prefs_usepackagecacheonupdate" translatable="false">usePackageCacheOnUpdate</string>
     <string name="prefs_usepackagecacheonupdate_summary" translatable="false">use cached Package in updateDataOf</string>
     <string name="prefs_usecolumnnamesaf" translatable="false">useColumnNameSAF</string>
@@ -206,10 +206,6 @@
     <string name="prefs_useforeground_summary" translatable="false">use foreground notifications to ensure app keeps running (if wakelock isn\'t enough)</string>
     <string name="prefs_useexpedited" translatable="false">useExpedited</string>
     <string name="prefs_useexpedited_summary" translatable="false">use work manager forground to overcome 10 minute job timeouts</string>
-    <string name="prefs_useworkmanagerforsinglebackup" translatable="false">useWorkManagerForSingleBackup</string>
-    <string name="prefs_useworkmanagerforsinglebackup_summary" translatable="false">use work manager for single backup from app sheet</string>
-    <string name="prefs_useworkmanagerforsinglerestore" translatable="false">useWorkManagerForSingleRestore</string>
-    <string name="prefs_useworkmanagerforsinglerestore_summary" translatable="false">use work manager for single restore from app sheet (note this is for test only, for now it doesn't restore the selected backup but the newest)</string>
     <string name="prefs_fakebackupseconds" translatable="false">fakeBackupSeconds</string>
     <string name="prefs_fakebackupseconds_summary" translatable="false">[seconds] time for faked backups, 0 = do not fake</string>>Exit code: 0    Time: 0.110
     <!-- dev settings end -->
