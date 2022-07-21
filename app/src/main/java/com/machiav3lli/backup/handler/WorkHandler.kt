@@ -13,7 +13,7 @@ import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import com.machiav3lli.backup.BuildConfig
 import com.machiav3lli.backup.OABX
-import com.machiav3lli.backup.PREFS_MAXRETRIES
+import com.machiav3lli.backup.PREFS_MAXRETRIESPERPACKAGE
 import com.machiav3lli.backup.R
 import com.machiav3lli.backup.activities.MainActivityX
 import com.machiav3lli.backup.classAddress
@@ -289,7 +289,7 @@ class WorkHandler(appContext: Context) {
                 val operation = data.getString("operation")
                 val failures = data.getInt("failures", -1)
 
-                val maxRetries = OABX.prefInt(PREFS_MAXRETRIES, 3)
+                val maxRetries = OABX.prefInt(PREFS_MAXRETRIESPERPACKAGE, 3)
 
                 //Timber.d("%%%%% $batchName $packageName $operation $backupBoolean ${info.state} fail=$failures max=$maxRetries")
 

@@ -29,10 +29,10 @@ import com.machiav3lli.backup.MODE_DATA_MEDIA
 import com.machiav3lli.backup.MODE_DATA_OBB
 import com.machiav3lli.backup.OABX
 import com.machiav3lli.backup.OABX.Companion.app
-import com.machiav3lli.backup.PREFS_ASSEMBLE_FILE_ONE_STEP
+import com.machiav3lli.backup.PREFS_ASSEMBLEFILELISTONESTEP
 import com.machiav3lli.backup.PREFS_BACKUPTARCMD
 import com.machiav3lli.backup.PREFS_EXCLUDECACHE
-import com.machiav3lli.backup.PREFS_FAKEBACKUPTIME
+import com.machiav3lli.backup.PREFS_FAKEBACKUPSECONDS
 import com.machiav3lli.backup.dbs.entity.Backup
 import com.machiav3lli.backup.handler.BackupBuilder
 import com.machiav3lli.backup.handler.LogsHandler
@@ -126,7 +126,7 @@ open class BackupAppAction(context: Context, work: AppActionWork?, shell: ShellH
             }
 
             try {
-                val fakeSeconds = OABX.prefInt(PREFS_FAKEBACKUPTIME, 0)
+                val fakeSeconds = OABX.prefInt(PREFS_FAKEBACKUPSECONDS, 0)
                 if (fakeSeconds > 0) {
 
                     val actionResult: ActionResult? = null
@@ -422,7 +422,7 @@ open class BackupAppAction(context: Context, work: AppActionWork?, shell: ShellH
 
     @Throws(BackupFailedException::class)
     private fun assembleFileList(sourcePath: String): List<ShellHandler.FileInfo> {
-        return if (OABX.prefFlag(PREFS_ASSEMBLE_FILE_ONE_STEP, true))
+        return if (OABX.prefFlag(PREFS_ASSEMBLEFILELISTONESTEP, true))
             assembleFileListOneStep(sourcePath)
         else
             assembleFileListTwoStep(sourcePath)
