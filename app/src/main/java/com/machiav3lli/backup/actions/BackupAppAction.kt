@@ -32,6 +32,7 @@ import com.machiav3lli.backup.OABX.Companion.app
 import com.machiav3lli.backup.PREFS_ASSEMBLE_FILE_ONE_STEP
 import com.machiav3lli.backup.PREFS_BACKUPTARCMD
 import com.machiav3lli.backup.PREFS_EXCLUDECACHE
+import com.machiav3lli.backup.PREFS_FAKEBACKUPTIME
 import com.machiav3lli.backup.dbs.entity.Backup
 import com.machiav3lli.backup.handler.BackupBuilder
 import com.machiav3lli.backup.handler.LogsHandler
@@ -123,7 +124,33 @@ open class BackupAppAction(context: Context, work: AppActionWork?, shell: ShellH
                 Timber.d("pre-process package (to avoid file inconsistencies during backup etc.)")
                 preprocessPackage(app.packageName)
             }
+
             try {
+                val fakeSeconds = OABX.prefInt(PREFS_FAKEBACKUPTIME, 0)
+                if (fakeSeconds > 0) {
+
+                    val actionResult: ActionResult? = null
+
+                    val step = 1000L * 1
+                    val startTime = System.currentTimeMillis()
+                    do {
+                        val now = System.currentTimeMillis()
+                        val seconds = (now - startTime) / 1000.0
+                        work?.setOperation((seconds/10).toInt().toString().padStart(3, '0'))
+                        Thread.sleep(step)
+                    } while (seconds < fakeSeconds)
+
+                    val succeeded = true // random() < 0.75
+
+                    return if (succeeded) {
+                        Timber.w("package: ${app.packageName} faking success")
+                        ActionResult(app, null, "faked backup succeeded", true)
+                    } else {
+                        Timber.w("package: ${app.packageName} faking failure")
+                        ActionResult(app, null, "faked backup failed", false)
+                    }
+                }
+
                 if (backupMode and MODE_APK == MODE_APK) {
                     Timber.i("$app: Backing up package")
                     work?.setOperation("apk")

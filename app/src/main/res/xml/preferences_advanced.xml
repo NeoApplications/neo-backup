@@ -239,10 +239,10 @@
         <androidx.preference.SeekBarPreference
             android:defaultValue="0"
             android:inputType="number"
-            android:key="fakeBackupMinutes"
-            android:max="60"
-            android:summary="[minutes] time for faked backups, 0 = do not fake"
-            android:title="fakeBackupMinutes"
+            android:key="fakeBackupSeconds"
+            android:max="1200"
+            android:summary="[seconds] time for faked backups, 0 = do not fake"
+            android:title="fakeBackupSeconds"
             app:min="0"
             app:showSeekBarValue="true" />
 
