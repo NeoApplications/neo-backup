@@ -346,4 +346,5 @@
     <string name="sortBackupSize">备份大小</string>
     <string name="add_tag">新建标签</string>
     <string name="edit_note">编辑</string>
+    <string name="prefs_theme_dynamic">自适应主题（如果可用）</string>
 </resources>
