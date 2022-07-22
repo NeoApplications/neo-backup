@@ -174,15 +174,12 @@
     <string name="intro_permission_storage_location">Aplikasi ini membutuhkan lokasi cadangan untuk menyimpan cadangan. Aplikasi ini mungkin membutuhkan beberapa gigabyte penyimpanan untuk cadangan lengkap dan banyak mengkueri sistem file. Harap diingat ketika memilih lokasi penyimpanan berbasis jaringan.</string>
     <string name="intro_permission_usageaccess">Aplikasi ini memerlukan izin ini untuk dapat memeriksa statistik dan ukuran data dan cache aplikasi Anda.</string>
     <string name="intro_permission_storage">Aplikasi ini menggunakan izin baca/tulis penyimpanan untuk dapat mengakses penyimpanan eksternal dan memberikan kemungkinan untuk pencadangan data/obb eksternal aplikasi lain.</string>
-    <string name="intro_welcome_message">OAndBackupX adalah cabang dari OAndBackup yang terkenal dengan tujuan membawanya ke tahun 2020 dan selanjutnya. Untuk saat ini sebagian besar fungsionalitas dan UI aplikasi ditulis ulang dan beberapa ditambahkan.
-\n Aplikasi ini masih dalam tahap beta dan banyak rebasing yang sering dilakukan. Jadi, harap baca log perubahan dengan cermat pada setiap rilis baru.
-\n Semua jenis kontribusi diterima baik itu terjemahan, ide, pelaporan bug, atau pekerjaan kode.
-\n
-\n Sekarang tentang fungsionalitas Aplikasi kami:
-\n • Ini membutuhkan root dan memungkinkan Anda untuk mencadangkan aplikasi individu dan datanya.
-\n • Baik mencadangkan dan memulihkan program satu per satu dan mendukung pencadangan dan pemulihan banyak program.
-\n • Mengembalikan aplikasi sistem semestinya dapat dilakukan tanpa memerlukan reboot setelahnya, tetapi kami tetap tidak menyarankan untuk melakukannya.
-\n • Pencadangan dapat dijadwalkan tanpa batasan jumlah jadwal individu dan ada kemungkinan membuat daftar kustom yang unik.</string>
+    <string name="intro_welcome_message">Neo Backup (sebelumnya OAndBackupX) adalah cabang dari OAndBackup yang terkenal dengan tujuan untuk membawa OAndBackup ke 202X dan bagian dari rangkaian Neo Applications. Untuk saat ini aplikasi sudah sepenuhnya ditulis ulang, kedatangannya akan membuatnya kuat dan menambahkan beberapa fitur yang direncanakan secara panjang yang dapat memudahkan alur kerja pencadangan/pemulihan dengan perangkat apa pun. Oleh karena itu semua jenis kontribusi selalu diterima.
+\nSekarang tentang fungsionalitas Aplikasi kami:
+\n• Ini membutuhkan root dan memungkinkan Anda untuk membuat cadangan aplikasi individual dan datanya.
+\n• Pencadangan dan pemulihan program masing-masing secara individual dan pencadangan dan pemulihan dari beberapa program didukung.
+\n• Memulihkan aplikasi sistem dapat dilakukan tanpa memerlukan reboot setelahnya.
+\n• Pencadangan dapat dijadwalkan tanpa batasan jumlah jadwal individu dan memungkinkan untuk membuat daftar khusus dari daftar aplikasi yang diinstal.</string>
     <string name="welcome_to_oabx">Selamat datang di Neo Backup!</string>
     <string name="storage_access">Akses Penyimpanan</string>
     <string name="sort_and_filter">Urutkan &amp; Saring</string>
@@ -347,4 +344,5 @@
     <string name="batch">Kumpulan</string>
     <string name="sortAsc">naik</string>
     <string name="sortDesc">turun</string>
+    <string name="prefs_theme_dynamic">tema dinamis (jika tersedia)</string>
 </resources>
