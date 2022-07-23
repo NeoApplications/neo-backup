@@ -352,4 +352,6 @@
     <string name="prefs_sessionIinstaller_summary">Utiliser installateur de session plutôt que la version basique. Plus lent mais évite certains problèmes avec Android 13 et plus</string>
     <string name="prefs_sessionIinstaller">Utiliser l\'installateur de session</string>
     <string name="prefs_theme_dynamic">Thème dynamique (si disponible)</string>
+    <string name="prefs_dev_settings">Préférences développeur</string>
+    <string name="prefs_dev_settings_summary">Ne pas les changer sauf si un développeur vous le dit !</string>
 </resources>
