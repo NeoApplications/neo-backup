@@ -341,4 +341,7 @@
     <string name="sortBackupSize">백업 크기</string>
     <string name="add_tag">새 태그 추가</string>
     <string name="edit_note">노트 수정</string>
+    <string name="prefs_theme_dynamic">동적 테마 (가능한 경우)</string>
+    <string name="prefs_dev_settings">개발자 설정</string>
+    <string name="prefs_dev_settings_summary">개발자의 지시 없이 설정을 변경하지 마세요!</string>
 </resources>
