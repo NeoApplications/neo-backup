@@ -347,4 +347,6 @@
     <string name="add_tag">新建标签</string>
     <string name="edit_note">编辑</string>
     <string name="prefs_theme_dynamic">自适应主题（如果可用）</string>
+    <string name="prefs_dev_settings">开发者设置</string>
+    <string name="prefs_dev_settings_summary">除非你知道自己在做什么，否则不要改动这些设置！</string>
 </resources>
