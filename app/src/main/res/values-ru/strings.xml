@@ -356,4 +356,7 @@
     <string name="sortAppSize">Размер приложения</string>
     <string name="add_tag">Добавить новую метку</string>
     <string name="edit_note">Редактировать заметку</string>
+    <string name="prefs_theme_dynamic">Динамическая тема (если доступно)</string>
+    <string name="prefs_dev_settings_summary">Не изменяйте, если разработчик не скажет вам про это!</string>
+    <string name="prefs_dev_settings">Настройки разработчика</string>
 </resources>
