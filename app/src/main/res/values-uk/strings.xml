@@ -351,4 +351,7 @@
     <string name="prefs_sessionIinstaller_summary">Використовувати встановлювач сеансів замість основного. Буде повільніше, але дозволяє уникнути проблем на Android 13+</string>
     <string name="prefs_installerpackagename">Ім\'я пакета встановлювача:</string>
     <string name="see_faq">Перегляньте поширенні запитання!</string>
+    <string name="prefs_theme_dynamic">Динамічна тема (за наявності)</string>
+    <string name="prefs_dev_settings_summary">Не змінюйте, доки розробник не скаже вам про це!</string>
+    <string name="prefs_dev_settings">Налаштування розробника</string>
 </resources>
