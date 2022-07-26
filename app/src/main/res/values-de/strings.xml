@@ -134,7 +134,7 @@
     <string name="app_s_type_title">App Typ:</string>
     <string name="other_filters_options">Spezielle Filter:</string>
     <string name="deleted_backup">Die Sicherung ist gelöscht</string>
-    <string name="prefs_theme">Thema</string>
+    <string name="prefs_theme">Design</string>
     <string name="prefs_theme_light">Hell</string>
     <string name="prefs_theme_dark">Dunkel</string>
     <string name="prefs_theme_system">Systemvorgabe</string>
@@ -351,4 +351,7 @@
     <string name="edit_note">Notiz bearbeiten</string>
     <string name="sortAppSize">App-Größe</string>
     <string name="add_tag">Neuen Tag hinzufügen</string>
+    <string name="prefs_dev_settings">Entwicklereinstellungen</string>
+    <string name="prefs_dev_settings_summary">Ändern Sie nichts, es sei denn, ein Entwickler fordert Sie dazu auf!</string>
+    <string name="prefs_theme_dynamic">Dynamisches Design (falls verfügbar)</string>
 </resources>
