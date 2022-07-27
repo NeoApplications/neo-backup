@@ -2,13 +2,13 @@
 <resources>
     <string name="backup">Yedekle</string>
     <string name="restore">Geri Yükle</string>
-    <string name="backupConfirmation">Yedeklensin mi?</string>
+    <string name="backupConfirmation">Yedeklensin mi\?</string>
     <string name="restoreConfirmation">Geri yüklensin mi?</string>
     <string name="handleApk">APK</string>
     <string name="handleData">Veri</string>
     <string name="handleBoth">İkisi de</string>
     <string name="radio_all">Bütün uygulamalar</string>
-    <string name="radio_user">Kullanıcı Uygulamaları</string>
+    <string name="radio_user">User Apps</string>
     <string name="radio_system">Sistem Uygulamaları</string>
     <string name="radio_both">APK ve Veri</string>
     <string name="radio_apk">APK</string>
