@@ -354,4 +354,9 @@
     <string name="prefs_theme_dynamic">Tema dinamico (se disponibile)</string>
     <string name="prefs_dev_settings">Impostazioni sviluppatore</string>
     <string name="prefs_dev_settings_summary">Non cambiare a meno che non te lo dica uno sviluppatore!</string>
+    <string name="prefs_tools_short">Strumenti</string>
+    <string name="dialog_export_schedules">Esporta le mie pianificazioni</string>
+    <string name="prefs_user_short">Personale</string>
+    <string name="prefs_service_short">Servizio</string>
+    <string name="prefs_advanced_short">Avanzate</string>
 </resources>
