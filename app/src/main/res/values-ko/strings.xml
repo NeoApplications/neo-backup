@@ -345,4 +345,8 @@
     <string name="prefs_dev_settings">개발자 설정</string>
     <string name="prefs_dev_settings_summary">개발자의 지시 없이 설정을 변경하지 마세요!</string>
     <string name="dialog_export_schedules">내 스케줄 내보내기</string>
+    <string name="prefs_tools_short">도구</string>
+    <string name="prefs_user_short">개인</string>
+    <string name="prefs_advanced_short">고급</string>
+    <string name="prefs_service_short">서비스</string>
 </resources>
