@@ -360,4 +360,8 @@
     <string name="prefs_dev_settings">إعدادات المطور</string>
     <string name="prefs_dev_settings_summary">لا تقم بتغيرها ما لم يخبرك المطور بذلك!</string>
     <string name="dialog_export_schedules">تصدير جداولي</string>
+    <string name="prefs_user_short">شخصي</string>
+    <string name="prefs_advanced_short">متقدم</string>
+    <string name="prefs_tools_short">الأدوات</string>
+    <string name="prefs_service_short">خدمة</string>
 </resources>
