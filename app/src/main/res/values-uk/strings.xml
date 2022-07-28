@@ -354,4 +354,8 @@
     <string name="prefs_theme_dynamic">Динамічна тема (за наявності)</string>
     <string name="prefs_dev_settings_summary">Не змінюйте, доки розробник не скаже вам про це!</string>
     <string name="prefs_dev_settings">Налаштування розробника</string>
+    <string name="prefs_tools_short">Знаряддя</string>
+    <string name="prefs_advanced_short">Розширені</string>
+    <string name="prefs_user_short">Особисті</string>
+    <string name="prefs_service_short">Службові</string>
 </resources>
