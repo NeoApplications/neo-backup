@@ -15,24 +15,24 @@
     <string name="batchbackup">Sicherungsstapelverarbeitung</string>
     <string name="batchrestore">Wiederherstellungsstapelverarbeitung</string>
     <string name="search">Suchen</string>
-    <string name="searchHint">Nach Anwendungen suchen</string>
+    <string name="searchHint">Nach Apps suchen</string>
     <string name="deleteBackup">Sicherung löschen</string>
-    <string name="uninstall">Anwendung deinstallieren</string>
+    <string name="uninstall">App deinstallieren</string>
     <string name="uninstallProgress">Deinstalliere …</string>
-    <string name="radio_all">Alle Anwendungen</string>
-    <string name="showOnlySystem">Nur Systemanwendungen</string>
-    <string name="showOnlyUser">Nur Benutzeranwendungen</string>
-    <string name="showNotBackedup">Anwendungen ohne Sicherung</string>
-    <string name="showNotInstalled">Nicht installierte Anwendungen</string>
-    <string name="showNewAndUpdated">Neue und aktualisierte Anwendungen</string>
+    <string name="radio_all">Alle Apps</string>
+    <string name="showOnlySystem">Nur System-Apps</string>
+    <string name="showOnlyUser">Nur Benutzer-Apps</string>
+    <string name="showNotBackedup">Apps ohne Sicherung</string>
+    <string name="showNotInstalled">Nicht installierte Apps</string>
+    <string name="showNewAndUpdated">Neue und aktualisierte Apps</string>
     <string name="showOldBackups">Alte Sicherungen</string>
-    <string name="showOnlyApkBackedUp">Nur Anwendungen, bei denen nur die APK-Datei gesichert wurde</string>
-    <string name="showOnlyDataBackedUp">Nur Anwendungen, bei denen nur die Anwendungsdaten gesichert wurden</string>
+    <string name="showOnlyApkBackedUp">Nur Apps, bei denen nur die APK-Datei gesichert wurde</string>
+    <string name="showOnlyDataBackedUp">Nur Apps, bei denen nur die Daten gesichert wurden</string>
     <string name="radio_special">Spezielle Sicherungen</string>
     <string name="sortByLabel">Nach Bezeichnung sortieren</string>
     <string name="sortByPackageName">Nach Paketname sortieren</string>
     <string name="sort">Sortieren und Filtern</string>
-    <string name="uninstallDialogMessage">Diese Anwendung deinstallieren\?</string>
+    <string name="uninstallDialogMessage">Diese App deinstallieren\?</string>
     <string name="deleteBackupDialogMessage">Sicherungsdateien löschen?</string>
     <string name="dialogOK">OK</string>
     <string name="dialogCancel">Abbrechen</string>
@@ -60,7 +60,7 @@
     <string name="uninstallFailure">Fehler bei der Deinstallation</string>
     <string name="errorDialogTitle">Fehler sind aufgetreten</string>
     <string name="customListTitle">Eigene Liste</string>
-    <string name="notInstalledModeDataWarning">Anwendung kann aus einer Sicherung ohne APK nicht wiederhergestellt werden</string>
+    <string name="notInstalledModeDataWarning">App kann aus einer Sicherung ohne APK nicht wiederhergestellt werden</string>
     <string name="shareTitle">Teilen</string>
     <string name="prefs_tools">Hilfsmittel</string>
     <string name="prefs_batchdelete">Sicherungen löschen\?</string>
@@ -69,11 +69,11 @@
     <!--tools_backupsDeleted: shown in a notification followed by the number of backups deleted-->
     <string name="batchDeleteBackupsDeleted">Gelöschte Sicherungen:</string>
     <string name="batchDeleteNothingToDelete">Keine Sicherungen zum Löschen vorhanden</string>
-    <string name="enablePackage">Anwendung aktivieren</string>
+    <string name="enablePackage">App aktivieren</string>
     <!--enablePackageTitle: title for a list of checkable users-->
-    <string name="enablePackageTitle">Anwendung für Benutzer aktivieren</string>
-    <string name="disablePackage">Anwendung deaktivieren</string>
-    <string name="disablePackageTitle">Anwendung für Benutzer deaktivieren</string>
+    <string name="enablePackageTitle">App für Benutzer aktivieren</string>
+    <string name="disablePackage">App deaktivieren</string>
+    <string name="disablePackageTitle">App für Benutzer deaktivieren</string>
     <string name="prefs_title">Einstellungen</string>
     <string name="prefs_acquirewakelock">Standby verhindern</string>
     <string name="prefs_acquirewakelock_summary">Wakelock anfordern, um den Ruhemodus zu verhindern während die Stapelverarbeitung läuft. Beschleunigt Sicherungen und Wiederherstellungen erheblich, verbraucht aber mehr Energie.</string>
@@ -110,8 +110,8 @@
     <string name="sort_options">Sortieren nach:</string>
     <string name="sortPackageName">Paketname</string>
     <string name="sortLabel">Bezeichnung</string>
-    <string name="radio_user">Benutzeranwendungen</string>
-    <string name="radio_system">Systemanwendungen</string>
+    <string name="radio_user">Benutzer-Apps</string>
+    <string name="radio_system">System-Apps</string>
     <string name="app_s_icon">App-Icon</string>
     <string name="permission_not_granted">Die Erlaubnis zum Zugriff auf externen Speicher ist erforderlich</string>
     <string name="restart_dialog">App scheint neu gestartet werden zu müssen</string>
@@ -119,10 +119,10 @@
     <string name="error_creating_notification_channel">Benachrichtigungskanal kann nicht erstellt werden</string>
     <string name="bothBackedUp">APK und Daten</string>
     <string name="all">Alle</string>
-    <string name="prefs_service">Betriebseinstellungen</string>
+    <string name="prefs_service">Diensteinstellungen</string>
     <string name="prefs_user">Benutzerdefinierte Einstellungen</string>
     <string name="prefs_logviewer">Protokoll anzeigen</string>
-    <string name="prefs_batchdelete_summary">Löscht die Sicherungen von allen derzeit nicht installierten Anwendungen.</string>
+    <string name="prefs_batchdelete_summary">Löscht die Sicherungen von allen derzeit nicht installierten Apps.</string>
     <string name="apptype_system">System-App</string>
     <string name="apptype_user">Benutzer-App</string>
     <string name="resetFilter">Zurücksetzen</string>
@@ -131,7 +131,7 @@
     <string name="available_actions">Mögliche Aktionen:</string>
     <string name="applyFilter">Anwenden</string>
     <string name="last_backup_title">Letzte Sicherung:</string>
-    <string name="app_s_type_title">App Typ:</string>
+    <string name="app_s_type_title">App-Typ:</string>
     <string name="other_filters_options">Spezielle Filter:</string>
     <string name="deleted_backup">Die Sicherung ist gelöscht</string>
     <string name="prefs_theme">Design</string>
@@ -145,7 +145,7 @@
     <string name="ignore_battery_optimization_message">Es kann passieren, dass der Sicherungsprozess im Hintergrund plötzlich abbricht. In solchen Fällen hilft das Ausschalten der Akku-Optimierung</string>
     <string name="ignore_battery_optimization_not_supported">Dieses Gerät unterstützt das Ausschalten der Akku-Optimierung leider nicht!</string>
     <string name="prefs_excludecache">App-Cache ausschließen</string>
-    <string name="prefs_excludecache_summary">Den Cache der Anwendung von der Datensicherung ausschließen</string>
+    <string name="prefs_excludecache_summary">Den Cache der App von der Datensicherung ausschließen</string>
     <string name="prefs_encryption">Verschlüsselung</string>
     <string name="prefs_password">Verschlüsselungspasswort</string>
     <string name="prefs_password_summary">Leer lassen, um die Verschlüsselung zu deaktivieren</string>
@@ -172,7 +172,7 @@
     <string name="sort_and_filter">Sortieren und filtern</string>
     <string name="sortDataSize">Datengröße</string>
     <string name="prefs_biometriclock">Biometrische Sperre</string>
-    <string name="prefs_biometriclock_summary">Die Anwendung mit der biometrischen Sperre des Geräts sichern (z. B. Fingerabdruck, Gesichtsentsperrung)</string>
+    <string name="prefs_biometriclock_summary">Die App mit der biometrischen Sperre des Geräts sichern (z. B. Fingerabdruck, Gesichtsentsperrung)</string>
     <string name="prefs_password_match_true">Die Passwörter stimmen überein</string>
     <string name="prefs_password_match_false">Die Passwörter stimmen nicht überein</string>
     <string name="prefs_passwordconfirmation">Verschlüsselungspasswortbestätigung</string>
@@ -181,28 +181,28 @@
     <string name="dialog_start">Los!</string>
     <string name="storage_access">Speicherzugriff</string>
     <string name="welcome_to_oabx">Willkommen zu Neo Backup!</string>
-    <string name="intro_welcome_message">Neo Backup (ehemals OAndBackupX) ist ein Fork des berühmten OAndBackup mit dem Ziel es auf einen 202X Stand zu bringen. Es ist Teil der Neo Applications Suite. Im Moment ist die App bereits komplett neu geschrieben, in Zukunft soll sie noch robuster werden und einige lang geplante Features hinzufügen, die den Backup/Restore-Workflow mit jedem Gerät erleichtern könnten.
+    <string name="intro_welcome_message">Neo Backup (ehemals OAndBackupX) ist ein Fork des berühmten OAndBackup mit dem Ziel es auf einen 202X Stand zu bringen. Es ist Teil der Neo Applications Suite. Im Moment ist die App bereits komplett neu geschrieben, in Zukunft soll sie noch robuster werden und einige lang geplante Features hinzufügen, die den Sicherungs-/Wiederherstellungsprozess mit jedem Gerät erleichtern könnten.
 \n Daher sind alle Arten von Beiträgen immer willkommen.
 \n
 \n Nun zur Funktionalität unserer App:
 \n* Sie benötigt Root und erlaubt es, einzelne Apps und deren Daten zu sichern.
 \n* Es wird sowohl die Sicherung und Wiederherstellung einzelner Programme als auch die Batch-Sicherung und -Wiederherstellung mehrerer Programme unterstützt.
-\n* Die Wiederherstellung von Systemanwendungen sollte möglich sein, ohne dass anschließend ein Neustart erforderlich ist.
-\n* Backups können zeitlich geplant werden, wobei die Anzahl der einzelnen Zeitpläne nicht begrenzt ist, und es besteht die Möglichkeit, benutzerdefinierte Listen aus der Liste der installierten Anwendungen zu erstellen.</string>
-    <string name="intro_permission_storage">Die Anwendung verwendet die Lese-/Schreibberechtigung des Speichers, um auf den externen Speicher zugreifen zu können und die Möglichkeit für die Sicherung externer Daten/OBB anderer Anwendungen zu bieten.</string>
-    <string name="intro_permission_usageaccess">Die Anwendung benötigt diese Berechtigung, um die Statistiken und Größen der Daten und des Caches Ihrer Anwendungen lesen zu können.</string>
-    <string name="intro_permission_batteryoptimization">Die Anwendung kann bei geplanten Datensicherungen auf einigen ROMs, die aggressive Batterieoptimierungen haben, wie z.B. MIUI, auf Probleme stoßen, aber selbst auch auf Vanilla-AOSP kann ein solches Problem auftreten.</string>
+\n* Die Wiederherstellung von System-Apps sollte möglich sein, ohne dass anschließend ein Neustart erforderlich ist.
+\n* Backups können zeitlich geplant werden, wobei die Anzahl der einzelnen Zeitpläne nicht begrenzt ist, und es besteht die Möglichkeit, benutzerdefinierte Listen aus der Liste der installierten Apps zu erstellen.</string>
+    <string name="intro_permission_storage">Die App verwendet die Lese-/Schreibberechtigung des Speichers, um auf den externen Speicher zugreifen zu können und die Möglichkeit für die Sicherung externer Daten/OBB anderer Apps zu bieten.</string>
+    <string name="intro_permission_usageaccess">Die App benötigt diese Berechtigung, um die Statistiken und Größen der Daten und des Caches deiner Apps lesen zu können.</string>
+    <string name="intro_permission_batteryoptimization">Die App kann bei geplanten Datensicherungen auf einigen ROMs, die aggressive Batterieoptimierungen haben, wie z.B. MIUI, auf Probleme stoßen, aber selbst auch auf Vanilla-AOSP kann ein solches Problem auftreten.</string>
     <string name="help_legend">Die Legende:</string>
     <string name="radio_updated">Aktualisiert</string>
-    <string name="help_appTypeHint">* Das Symbol des Anwendungstyps wäre grau, wenn die Anwendung deinstalliert ist, und dunkelgrau, wenn die Anwendung deaktiviert ist.</string>
-    <string name="intro_permission_storage_location">Die Anwendung benötigt ein Verzeichnis Speichern der Datensicherungen. Die App benötigt möglicherweise einige Gigabyte Speicherplatz für eine vollständige Datensicherung und fragt das Dateisystem häufig ab. Bitte bedenken Sie dies bei der Auswahl netzwerkbasierter Speicherorte.</string>
+    <string name="help_appTypeHint">* Das Symbol des App-Typs wäre grau, wenn die App deinstalliert ist, und dunkelgrau, wenn die App deaktiviert ist.</string>
+    <string name="intro_permission_storage_location">Die App benötigt ein Speicherort für die Datensicherungen. Die App benötigt möglicherweise einige Gigabyte Speicherplatz für eine vollständige Datensicherung und fragt das Dateisystem häufig ab. Bitte bedenke dies bei der Auswahl netzwerkbasierter Speicherorte.</string>
     <string name="prefs_unset">Nicht aktiviert</string>
-    <string name="msg_appkill_warning">Die ausgewählte(n) App(s) erhält (erhalten) das Signal zum Anhalten und wird (werden) nach Erledigung der Aufgabe fortgesetzt. Bitte stellen Sie sicher, dass Sie diese Apps nach Abschluss der Aufgabe überprüfen (und vermeiden Sie es, sie zu starten, während der Prozess noch läuft).</string>
+    <string name="msg_appkill_warning">Die ausgewählte(n) App(s) erhält (erhalten) das Signal zum Anhalten und wird (werden) nach Erledigung der Aufgabe fortgesetzt. Bitte stelle sicher, dass Sie diese Apps nach Abschluss der Aufgabe überprüfst (und vermeide, sie zu starten, während der Prozess noch läuft).</string>
     <string name="prefs_numBackupRevisions_summary">Die älteste Sicherung wird bei der Erstellung einer neuen gelöscht, wenn die Anzahl überschritten wird. Setzen Sie sie auf Null, um alle Sicherungen zu behalten.</string>
     <string name="prefs_numBackupRevisions">Anzahl der Sicherungen, die aufbewahrt werden</string>
-    <string name="prefs_stopcont_summary">Nur für Fortgeschrittene: Das Aktivieren dieser Option kann helfen, wenn die Anwendung Dateien während des Sicherung ändert und die Sicherung fehlschlägt.</string>
-    <string name="prefs_stopcont">Beenden der App Prozesse vor der Sicherung/Wiederherstellung erzwingen</string>
-    <string name="prefs_advanced">Einstellungen für Fortgeschrittene</string>
+    <string name="prefs_stopcont_summary">Nur für Fortgeschrittene: Das Aktivieren dieser Option kann helfen, wenn die App Dateien während des Sicherung ändert und die Sicherung fehlschlägt.</string>
+    <string name="prefs_stopcont">Beenden der App-Prozesse vor der Sicherung/Wiederherstellung erzwingen</string>
+    <string name="prefs_advanced">Erweiterte Einstellungen</string>
     <string name="prefs_housekeepingmoment_summary">Legt fest, ob die älteste Revision vor oder nach der Erstellung einer neuen Sicherung gelöscht wird, um den von der Sicherung belegten Speicherplatz freizugeben.</string>
     <string name="prefs_housekeepingmoment">Zeitpunkt des Löschens alter Revisionen</string>
     <string name="prefs_housekeepingmoment_before">Vor der Sicherung</string>
@@ -212,22 +212,22 @@
     <string name="radio_externaldata">Externe Daten</string>
     <string name="logs_text_empty">Es gibt nichts zu zeigen!</string>
     <string name="delete_all_backups">Alle Sicherungen löschen</string>
-    <string name="fetching_action_list">Anwendungsliste für %1$s abrufen …</string>
+    <string name="fetching_action_list">App-Liste für %1$s abrufen …</string>
     <string name="prefs_disableverification_summary">Deaktiviert diese Entwickleroption beim Wiederherstellen von APKs und aktiviert sie danach wieder. Behebt den Fehler: INSTALL_FAILED_VERIFICATION_FAILURE.</string>
-    <string name="prefs_disableverification">Anwendungsüberprüfung via USB deaktivieren</string>
+    <string name="prefs_disableverification">App-Überprüfung via USB deaktivieren</string>
     <plurals name="days_left">
         <item quantity="one">%d Tag,</item>
         <item quantity="other">%d Tage,</item>
     </plurals>
     <string name="help_issues">Bekannte Probleme</string>
-    <string name="stats_apps">Anwendungen</string>
+    <string name="stats_apps">Apps</string>
     <string name="stats_backups">Sicherungen</string>
     <string name="stats_updated">Aktualisiert</string>
     <string name="radio_launchable">Startbare Apps</string>
-    <string name="prefs_obbdata_summary">Sichert und stellt die obb-Dateien der Anwendung wieder her, die sich auf dem externen Speicher befindet (z.B. /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_obbdata_summary">Sichert und stellt die obb-Dateien der App wieder her, die sich auf dem externen Speicher befindet (z.B. /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_obbdata">obb Dateien sichern</string>
     <string name="prefs_allowdowngrade">Installation von Vorgängerversionen erlauben</string>
-    <string name="prefs_allowdowngrade_summary">Das Wiederherstellen einer älteren Version einer installieren Anwendung erlauben.</string>
+    <string name="prefs_allowdowngrade_summary">Das Wiederherstellen einer älteren Version einer installieren App erlauben.</string>
     <string name="prefs_restoreallpermissions">Mit allen Berechtigungen wiederherstellen</string>
     <string name="prefs_restoreallpermissions_summary">Der wiederhergestellten App alle Berechtigungen geben, nach denen sie fragt.</string>
     <string name="help_faq">Häufig gestellte Fragen</string>
@@ -238,11 +238,11 @@
         <item quantity="one">%d aktualisierte App</item>
         <item quantity="other">%d aktualisierte Apps</item>
     </plurals>
-    <string name="app_info">Anwendungsinfos</string>
+    <string name="app_info">App-Infos</string>
     <string name="launch_app">App starten</string>
     <string name="exodus_report">Exodus Report</string>
     <string name="clear_cache">Cache löschen</string>
-    <string name="forceKillMessage">Sind Sie sicher, dass Sie das Beenden dieser Anwendung erzwingen wollen\?</string>
+    <string name="forceKillMessage">Bist du sicher, dass du das Beenden dieser App erzwingen willst\?</string>
     <string name="sched_name">Name:</string>
     <string name="prefs_devicelock_summary">App mit den Geräteanmeldeinformationen absichern</string>
     <string name="filtered_list">Gefilterte Liste</string>
@@ -251,12 +251,12 @@
     <string name="prefs_saveappslist_summary">Schreibt die Liste der Apps in eine txt-Datei im Sicherungsverzeichnis des Benutzers</string>
     <string name="prefs_saveappslist">Liste der Apps speichern</string>
     <string name="prefs_devicelock">Gerätesperre</string>
-    <string name="wait_noappslist">Die Liste der Anwendungen wird immer noch nicht abgerufen. Warte…</string>
+    <string name="wait_noappslist">Die Liste der Apps wird immer noch nicht abgerufen. Warte…</string>
     <string name="prefs_enablespecial_summary">Muss noch intensiv getestet werden, da die Gefahr besteht, dass es zu Bootschleifen kommen kann. Feedback ist immer willkommen.</string>
     <string name="help_group_telegram">Unsere Gruppe auf Telegram</string>
     <string name="help_group_matrix">Unsere Gruppe auf Matrix</string>
     <string name="write_apps_list_all">Liste aller Apps wurde erstellt</string>
-    <string name="write_apps_list_filtered">Gefilterte App Liste wurde erstellt</string>
+    <string name="write_apps_list_filtered">Gefilterte App-Liste wurde erstellt</string>
     <string name="intro_permission_storage_location_warning">Wählen Sie nicht das Hauptspeicherverzeichnis oder den Downloads-Ordner, sondern erstellen Sie einen Ordner nur für Ihre Backups. Mehr dazu in den FAQ</string>
     <plurals name="sched_interval_formal">
         <item quantity="one">jeden Tag</item>
@@ -268,7 +268,7 @@
     <string name="logs_share_failed">Protokolldatei nicht gefunden</string>
     <string name="sched_imported">Geplante Backups wurden erfolgreich importiert</string>
     <string name="sched_exported">Geplante Backups wurden erfolgreich exportiert</string>
-    <string name="error_datachanged">Die Daten der App wurden während des Backups aktiv geändert. Versuchen Sie, den(/die) Prozess(e) der App zu beenden, bevor Sie das Backup durchführen</string>
+    <string name="error_datachanged">Die Daten der App wurden während der Sicherung aktiv geändert. Versuche, den(/die) Prozess(e) der App zu beenden, bevor du die Sicherung durchführst</string>
     <string name="dialog_import">Import</string>
     <string name="dialog_export">Export</string>
     <string name="schedule_failed">Geplante Backup Ausführung fehlgeschlagen</string>
@@ -277,7 +277,7 @@
     <string name="no_file_manager_title">Kein SAF Dateimanager</string>
     <string name="prefs_schedulesexportimport_summary">Export oder import einer Liste der zeitgesteuerten Backups, die du angelegt hast.</string>
     <string name="prefs_schedulesexportimport">Export/Import zeitgesteuerter Backups</string>
-    <string name="backup_all_updated">Alle aktualisieren</string>
+    <string name="backup_all_updated">Alle aktualisierten Apps sichern</string>
     <string name="error_encryptionpassword">Das Verschlüsselungspasswort ist entweder nicht gesetzt oder falsch!</string>
     <string name="prefs_secondary_color">Sekundäre Farbe</string>
     <string name="prefs_accent_color">Akzentfarbe</string>
@@ -305,7 +305,7 @@
     <string name="radio_mediadata">Mediendaten</string>
     <string name="prefs_compression_level">Kompressionslevel</string>
     <string name="prefs_compression_level_summary">Ein niedriger Wert komprimiert schneller aber erzeugt größere Dateien. Ein hoher Wert komprimiert stärker aber benötigt mehr Zeit.</string>
-    <string name="error_pmDataIncompleteException_dataRestoreFailed">Es wurden keine Anwendungsdaten wiederhergestellt.</string>
+    <string name="error_pmDataIncompleteException_dataRestoreFailed">App-Daten wurden nicht wiederhergestellt.</string>
     <string name="home">Startseite</string>
     <string name="prefs_secondary_8">Mint</string>
     <string name="prefs_accent_8">Kürbis Perano</string>
@@ -333,18 +333,18 @@
     <string name="dialogCancelAll">Alles abbrechen</string>
     <string name="prefs_restorepermissions">Berechtigungen wiederherstellen</string>
     <string name="dismiss">Ablehnen</string>
-    <string name="root_is_mandatory">Da die Anwendungen voneinander isoliert sind, ist ein Superbenutzer-Zugang erforderlich, um ihre Daten sichern und wiederherstellen zu können.</string>
+    <string name="root_is_mandatory">Da die Apps voneinander isoliert sind, ist ein Superbenutzer-Zugang erforderlich, um deine Daten sichern und wiederherstellen zu können.</string>
     <string name="enabled">Aktiviert</string>
     <string name="sortAsc">Aufsteigend</string>
     <string name="sortDesc">Absteigend</string>
     <string name="see_faq">Siehe FAQ!</string>
     <string name="root_missing">ROOT fehlt!</string>
     <string name="prefs_loadingtoasts">Lade Popup</string>
-    <string name="prefs_loadingtoasts_summary">Zeige Popups während die App-Liste geladen wird</string>
+    <string name="prefs_loadingtoasts_summary">Zeige Popups, während die App-Liste geladen wird</string>
     <string name="prefs_sessionIinstaller">das Session Installationsprogramm verwenden</string>
     <string name="prefs_sessionIinstaller_summary">das Session Installationsprogramm anstelle des Basis Installationsprogramm verwenden. Langsamer, aber vermeidet Probleme mit Android 13+</string>
     <string name="prefs_installerpackagename">Packetname des Installationsprogramms:</string>
-    <string name="prefs_restorepermissions_summary">Wiederherstellung der Berechtigungen, die der Anwendung zum Zeitpunkt der Sicherung gewährt waren. Beachten Sie, dass einige Berechtigungen nicht programmatisch gewährt werden können und daher die Wiederherstellung des Pakets insgesamt fehlschlägt, was Neo Backup dann für die Wiederherstellung des Pakets ohne Berechtigungen übernimmt.</string>
+    <string name="prefs_restorepermissions_summary">Wiederherstellung der Berechtigungen, die der App zum Zeitpunkt der Sicherung gewährt waren. Beachte, dass einige Berechtigungen nicht programmatisch gewährt werden können und daher die Wiederherstellung des Pakets insgesamt fehlschlägt, was Neo Backup dann für die Wiederherstellung des Pakets ohne Berechtigungen übernimmt.</string>
     <string name="supended_apps_cleanup">Bereinigung aller übrig gebliebenen angehaltenen Apps</string>
     <string name="sortAppDataSize">App-Datengröße</string>
     <string name="sortBackupSize">Sicherungsgröße</string>
@@ -354,4 +354,9 @@
     <string name="prefs_dev_settings">Entwicklereinstellungen</string>
     <string name="prefs_dev_settings_summary">Ändern Sie nichts, es sei denn, ein Entwickler fordert Sie dazu auf!</string>
     <string name="prefs_theme_dynamic">Dynamisches Design (falls verfügbar)</string>
+    <string name="prefs_advanced_short">Erweitert</string>
+    <string name="prefs_service_short">Dienst</string>
+    <string name="prefs_tools_short">Hilfsmittel</string>
+    <string name="dialog_export_schedules">Meine geplanten Sicherungen exportieren</string>
+    <string name="prefs_user_short">Persönlich</string>
 </resources>
