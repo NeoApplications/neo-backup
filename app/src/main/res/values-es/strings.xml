@@ -338,4 +338,9 @@
     <string name="prefs_installerpackagename">Nombre del paquete del instalador:</string>
     <string name="prefs_dev_settings">Opciones de desarrollador</string>
     <string name="prefs_dev_settings_summary">¡No lo cambies a menos que un desarrollador te lo diga!</string>
+    <string name="prefs_tools_short">Herramientas</string>
+    <string name="prefs_advanced_short">Avanzado</string>
+    <string name="prefs_service_short">Servicio</string>
+    <string name="prefs_restorepermissions_summary">Restaurar permisos que fueron otorgados a la aplicación al momento del respaldo. Tenga en cuenta que algunos permisos no pueden ser otorgados programáticamente y causar que la restauración del paquete falle completamente, en cuyo caso Neo Backup realiza la restauración del paquete sin otorgar permisos.</string>
+    <string name="prefs_restorepermissions">Restaurar permisos</string>
 </resources>
