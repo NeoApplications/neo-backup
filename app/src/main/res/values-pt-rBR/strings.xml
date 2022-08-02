@@ -322,4 +322,15 @@
     <string name="loading_list">Carregando lista de apps…</string>
     <string name="delete">Excluir</string>
     <string name="finished">finalizado</string>
+    <string name="prefs_loadingtoasts_summary">Exibir notificações enquanto a lista carrega</string>
+    <string name="prefs_loadingtoasts">Carregando notificações</string>
+    <string name="prefs_tools_short">Ferramentas</string>
+    <string name="prefs_user_short">Pessoal</string>
+    <string name="prefs_service_short">Serviço</string>
+    <string name="prefs_advanced_short">Avançado</string>
+    <string name="prefs_restorepermissions">Restaurar permissões</string>
+    <string name="prefs_sessionIinstaller">Usar instalador de sessão</string>
+    <string name="prefs_sessionIinstaller_summary">Usar o instalador de sessão ao invés do instalador básico. É mais lento, mas evita problemas com o Android 13+</string>
+    <string name="prefs_installerpackagename">Nome do instalador de pacote:</string>
+    <string name="prefs_theme_dynamic">Tema dinâmico (se disponível)</string>
 </resources>
