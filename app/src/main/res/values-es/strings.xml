@@ -103,7 +103,7 @@
     <string name="prefs_deviceprotecteddata">Repalda datos protegidos del dispositivo</string>
     <string name="prefs_deviceprotecteddata_summary">Repalda y restaura datos situados en data/user_de</string>
     <string name="prefs_copyselfapk">Respaldar APK de esta app</string>
-    <string name="prefs_copyselfapk_summary">Sitúa copia de OAndBackupX en el lugar más alto de la carpeta de respaldos</string>
+    <string name="prefs_copyselfapk_summary">Coloca una copia de Neo Backup en el nivel superior de la carpeta de copia de seguridad</string>
     <string name="prefs_acquirewakelock">Prevenir suspensión</string>
     <string name="prefs_acquirewakelock_summary">Adquiere un wakelock mientras se ejecutan las operaciones en lote para prevenir la suspensión. Acelera la creación de respaldos y las restauraciones, pero incrementa el consumo de memoria.</string>
     <string name="prefs_enablespecial">Activar respaldos especiales</string>
@@ -183,7 +183,7 @@
     <string name="enable_encryption_message">No es seguro guardar las copias de datos sin cifrar. Por su seguridad, activa el cifrado de datos e indica una contraseña.</string>
     <string name="sort_and_filter">Ordenar y filtrar</string>
     <string name="storage_access">Acceso al almacenamiento</string>
-    <string name="welcome_to_oabx">¡Bienvenido a OABX!</string>
+    <string name="welcome_to_oabx">¡Bienvenido a Neo Backup!</string>
     <string name="intro_welcome_message">OAndBackupX es un fork del infame OAndBackup con el objetivo de traerlo al 2020 y más allá. Por ahora, la mayor parte de las funcionalidades y la interfaz de usuario han sido reescritos y algunas han sido añadidas.
 \n La aplicación aún se encuentra en fase beta y se realizan muchas modificaciones frecuentemente. Por lo tanto, lea atentamente el historial de cambios con cada nuevo lanzamiento.
 \n Todo tipo de ayuda es bienvenida, ya sea traducción, ideas, reportes de errores o programación.
@@ -331,4 +331,11 @@
     <string name="loading_list">Cargando lista…</string>
     <string name="prefs_sessionIinstaller">Usar el instalador de sesiones</string>
     <string name="prefs_sessionIinstaller_summary">Utilice el instalador de sesiones en lugar del instalador básico. Más lento pero evita problemas con Android 13+</string>
+    <string name="sortAppSize">Tamaño de la aplicación</string>
+    <string name="prefs_user_short">Personal</string>
+    <string name="dialogCancelAll">Cancelar todo</string>
+    <string name="sortBackupSize">Tamaño de la copia de seguridad</string>
+    <string name="prefs_installerpackagename">Nombre del paquete del instalador:</string>
+    <string name="prefs_dev_settings">Opciones de desarrollador</string>
+    <string name="prefs_dev_settings_summary">¡No lo cambies a menos que un desarrollador te lo diga!</string>
 </resources>
