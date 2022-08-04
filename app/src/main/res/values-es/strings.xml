@@ -343,4 +343,9 @@
     <string name="prefs_service_short">Servicio</string>
     <string name="prefs_restorepermissions_summary">Restaurar permisos que fueron otorgados a la aplicación al momento del respaldo. Tenga en cuenta que algunos permisos no pueden ser otorgados programáticamente y causar que la restauración del paquete falle completamente, en cuyo caso Neo Backup realiza la restauración del paquete sin otorgar permisos.</string>
     <string name="prefs_restorepermissions">Restaurar permisos</string>
+    <string name="sortAsc">Ascendente</string>
+    <string name="sortDesc">Descendente</string>
+    <string name="prefs_loadingtoasts_summary">Mostrar notificaciones toast mientras la lista está cargando</string>
+    <string name="dismiss">Descartar</string>
+    <string name="supended_apps_cleanup">Limpiar residuos de aplicaciones suspendidas</string>
 </resources>
