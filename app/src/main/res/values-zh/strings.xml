@@ -349,4 +349,9 @@
     <string name="prefs_theme_dynamic">自适应主题（如果可用）</string>
     <string name="prefs_dev_settings">开发者设置</string>
     <string name="prefs_dev_settings_summary">除非你知道自己在做什么，否则不要改动这些设置！</string>
+    <string name="prefs_user_short">个人</string>
+    <string name="prefs_service_short">服务</string>
+    <string name="prefs_advanced_short">高级</string>
+    <string name="dialog_export_schedules">导出我的计划</string>
+    <string name="prefs_tools_short">工具</string>
 </resources>
