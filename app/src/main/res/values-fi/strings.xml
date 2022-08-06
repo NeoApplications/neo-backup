@@ -336,4 +336,17 @@
 \n • Tukee myös useamman sovelluksen massavarmuuskopiointia ja -palautusta.
 \n • Järjestelmäsovellusten palauttaminen pitäisi olla mahdollista ilman uudelleenkäynnistystä.
 \n • Varmuuskopiot voidaan ajastaa rajoittamattomin ajastuksin ja mukautettavien varmuuskopiointilistoin.</string>
+    <string name="sortAppSize">Sovelluksen koko</string>
+    <string name="sortAppDataSize">Sovelluksen ja datan koko</string>
+    <string name="sortBackupSize">Varmuuskopion koko</string>
+    <string name="prefs_user_short">Käyttäjä</string>
+    <string name="prefs_service_short">Palvelu</string>
+    <string name="prefs_advanced_short">Lisäasetukset</string>
+    <string name="prefs_tools_short">Työkalut</string>
+    <string name="prefs_dev_settings">Kehittäjäasetukset</string>
+    <string name="prefs_dev_settings_summary">Älä muuta muuten kuin sovelluksen kehittäjän kehotuksesta!</string>
+    <string name="dialog_export_schedules">Vie ajastukset</string>
+    <string name="edit_note">Muokkaa muistiinpanoa</string>
+    <string name="add_tag">Lisää avainsana</string>
+    <string name="prefs_theme_dynamic">Dynaaminen teema (jos käytettävissä)</string>
 </resources>
