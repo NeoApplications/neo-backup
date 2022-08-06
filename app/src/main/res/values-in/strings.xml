@@ -345,4 +345,11 @@
     <string name="sortAsc">naik</string>
     <string name="sortDesc">turun</string>
     <string name="prefs_theme_dynamic">tema dinamis (jika tersedia)</string>
+    <string name="prefs_user_short">Pribadi</string>
+    <string name="prefs_service_short">Layanan</string>
+    <string name="prefs_advanced_short">Lanjutan</string>
+    <string name="prefs_tools_short">Peralatan</string>
+    <string name="dialog_export_schedules">Ekspor jadwal Saya</string>
+    <string name="prefs_dev_settings">Pengaturan Pengembang</string>
+    <string name="prefs_dev_settings_summary">Jangan diubah kecuali jika pengembang menyuruh Anda melakukannya!</string>
 </resources>
