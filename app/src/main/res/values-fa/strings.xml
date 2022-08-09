@@ -102,4 +102,22 @@
     <string name="prefs_password_match_false">گذرواژه مطابق نیست</string>
     <string name="prefs_service">تنظیمات سرویس</string>
     <string name="prefs_loadingtoasts">در حال بارگذاری توست</string>
+    <string name="prefs_installerpackagename">نام پکیج نصب‌کننده:</string>
+    <string name="prefs_restorepermissions">بازگردانی مجوزها</string>
+    <string name="prefs_deviceprotecteddata">پشتیبان‌گیری داده‌های محافظت شده دستگاه</string>
+    <string name="prefs_deviceprotecteddata_summary">پشتیبان‌گیری و بازگردانی داده‌های قرارداده شده در data/user_de</string>
+    <string name="prefs_numBackupRevisions">تعداد نسخه‌های پشتیبان</string>
+    <string name="prefs_compression_level">سطح فشرده‌سازی</string>
+    <string name="prefs_acquirewakelock">جلوگیری از به خواب رفتن دستگاه</string>
+    <string name="prefs_disableverification">غیرفعال کردن وارسی برنامه‌ها از طریق USB</string>
+    <string name="prefs_obbdata">پشتیبان‌گیری از فایل‌های obb</string>
+    <string name="prefs_mediadata">پشتیبان‌گیری فایل‌های مدیا</string>
+    <string name="prefs_restoreallpermissions_summary">صدور همه مجوز درخواست شده توسط برنامه بازیابی شده</string>
+    <string name="prefs_restoreallpermissions">بازگردانی با تمام مجوزها</string>
+    <string name="prefs_allowdowngrade_summary">اجازه به بازگردانی نسخه‌ای قدیمی تر از نسخه نصب‌شده کنونی برنامه</string>
+    <string name="prefs_allowdowngrade">اجازه به تنزیل نسخه</string>
+    <string name="prefs_batchdelete">نسخه‌های پشتیبان حذف شود؟</string>
+    <string name="prefs_batchdelete_summary">حذف نسخه‌های پشتیبان همه برنامه‌هایی که در حال حاضر نصب نیستند.</string>
+    <string name="prefs_copyselfapk">رونوشت از خود برنامه پشتیبان‌گیر</string>
+    <string name="prefs_saveappslist">ذخیره لیست برنامه‌ها</string>
 </resources>
