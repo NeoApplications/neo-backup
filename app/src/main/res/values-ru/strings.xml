@@ -16,16 +16,16 @@
     <string name="batchrestore">Пакетное восстановление</string>
     <string name="search">Поиск</string>
     <string name="searchHint">Поиск приложений</string>
-    <string name="deleteBackup">Удалить р.к.</string>
+    <string name="deleteBackup">Удаление резервной копии</string>
     <string name="uninstall">Удалить приложение</string>
     <string name="uninstallProgress">Деинсталляция…</string>
     <string name="radio_all">Показать все приложения</string>
     <string name="showOnlySystem">Показать только системные приложения</string>
     <string name="showOnlyUser">Показать только пользовательские приложения</string>
-    <string name="showNotBackedup">Показать приложения без р.к.</string>
+    <string name="showNotBackedup">Приложения без резервной копии</string>
     <string name="showNotInstalled">Показать не установленные приложения</string>
     <string name="showNewAndUpdated">Показать новые и обновленные приложения</string>
-    <string name="showOldBackups">Показать старые р.к.</string>
+    <string name="showOldBackups">Старые резервные копии</string>
     <string name="showOnlyApkBackedUp">Показать приложения только с р.к. APK</string>
     <string name="showOnlyDataBackedUp">Показать приложения только с р.к. данных</string>
     <string name="radio_special">Специальные резервные копии</string>
@@ -64,7 +64,7 @@
     <string name="prefs_tools">Инструменты</string>
     <string name="prefs_batchdelete">Удалить р.к.\?</string>
     <string name="batchDeleteMessage">Удаление р.к. …</string>
-    <string name="batchDeleteNotificationTitle">Удалить р.к.</string>
+    <string name="batchDeleteNotificationTitle">Удалить резервные копии</string>
     <!-- tools_backupsDeleted: shown in a notification followed by the number of backups deleted -->
     <string name="batchDeleteBackupsDeleted">Р.к. удалена:</string>
     <string name="batchDeleteNothingToDelete">Нет р.к. для удаления</string>
@@ -76,7 +76,7 @@
     <string name="prefs_title">Настройки</string>
     <string name="prefs_acquirewakelock">Предотвратить сон</string>
     <string name="prefs_acquirewakelock_summary">Использовать wakelock во время пакетных операций для предотвращения сна. Значительно ускоряет резервирование и восстановление, но потребляет больше энергии.</string>
-    <string name="prefs_pathbackupfolder">Папка для р.к.</string>
+    <string name="prefs_pathbackupfolder">Папка для резервного копирования</string>
     <string name="prefs_oldbackups">Отфильтровать р.к. по возрасту</string>
     <!-- prefs_summaryOldBackups: the quoted filter title is @string/showOldBackups -->
     <string name="prefs_oldbackups_summary">Отфильтровать р.к. старше, чем это значение в днях. используется с фильтром \"показать старые р.к.\".</string>
@@ -86,7 +86,7 @@
     <string name="prefs_language_system">Системный</string>
     <string name="prefs_rememberfiltering">Запомнить сортировку и фильтр</string>
     <string name="prefs_rememberfiltering_summary">Сохраняет выбранные методы сортировки и фильтрования. учитываются только отмеченные флажком.</string>
-    <string name="prefs_enablespecial">Включить специальные р.к.</string>
+    <string name="prefs_enablespecial">Включить специальное резервное копирование</string>
     <string name="sched_title">Планирование</string>
     <string name="sched_notificationMessage">Запланированное резервирование</string>
     <string name="sched_interval">Интервал в днях:</string>
@@ -359,4 +359,9 @@
     <string name="prefs_theme_dynamic">Динамическая тема (если доступно)</string>
     <string name="prefs_dev_settings_summary">Не изменяйте, если разработчик не скажет вам про это!</string>
     <string name="prefs_dev_settings">Настройки разработчика</string>
+    <string name="prefs_user_short">Личный</string>
+    <string name="prefs_service_short">Сервис</string>
+    <string name="prefs_advanced_short">Расширенный</string>
+    <string name="prefs_tools_short">Инструменты</string>
+    <string name="dialog_export_schedules">Экспорт моих расписаний</string>
 </resources>
