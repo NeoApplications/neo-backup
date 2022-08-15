@@ -348,4 +348,6 @@
     <string name="prefs_loadingtoasts_summary">Mostrar notificaciones toast mientras la lista está cargando</string>
     <string name="dismiss">Descartar</string>
     <string name="supended_apps_cleanup">Limpiar residuos de aplicaciones suspendidas</string>
+    <string name="prefs_loadingtoasts">Cargando toasts</string>
+    <string name="prefs_theme_dynamic">Tema dinámico (si está disponible)</string>
 </resources>
