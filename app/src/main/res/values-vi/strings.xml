@@ -341,4 +341,12 @@
     <string name="prefs_sessionIinstaller">Sử dụng trình cài đặt phiên</string>
     <string name="prefs_sessionIinstaller_summary">Sử dụng trình cài đặt phiên thay vì trình cài đặt cơ bản. Chậm hơn nhưng tránh được vấn đề với Android 13+</string>
     <string name="prefs_installerpackagename">Tên gói của trình cài đặt:</string>
+    <string name="prefs_user_short">Cá nhân</string>
+    <string name="prefs_service_short">Dịch vụ</string>
+    <string name="prefs_tools_short">Công cụ</string>
+    <string name="dialog_export_schedules">Xuất lịch trình của tôi</string>
+    <string name="prefs_theme_dynamic">Chủ đề động (nếu có)</string>
+    <string name="prefs_advanced_short">Nâng cao</string>
+    <string name="prefs_dev_settings">Cài đặt nhà phát triển</string>
+    <string name="prefs_dev_settings_summary">Đừng thay đổi trừ khi nhà phát triển bảo thế!</string>
 </resources>
