@@ -174,4 +174,13 @@
     <string name="prefs_mediadata">Säkerhetskopiera media-filer</string>
     <string name="prefs_mediadata_summary">Säkerhetskopierar och återställer appens media-filer som är placerade i den externa lagringsplatsen (t.ex /storage/emulated/0/Android/media/)</string>
     <string name="radio_user">Användar-appar</string>
+    <string name="prefs_user_short">Personlig</string>
+    <string name="prefs_service_short">Tjänst</string>
+    <string name="prefs_advanced_short">Avancerat</string>
+    <string name="prefs_tools_short">Verktyg</string>
+    <string name="prefs_restorepermissions">Återställ rättigheter</string>
+    <string name="prefs_user">Egenskaper för användare</string>
+    <string name="prefs_compression_level">Kompressionsnivå</string>
+    <string name="prefs_sessionIinstaller">Använd sessionsinstallerare</string>
+    <string name="prefs_theme_dynamic">Dynamiskt tema (om tillgängligt)</string>
 </resources>
