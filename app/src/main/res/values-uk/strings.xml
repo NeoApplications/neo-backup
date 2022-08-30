@@ -358,4 +358,5 @@
     <string name="prefs_advanced_short">Розширені</string>
     <string name="prefs_user_short">Особисті</string>
     <string name="prefs_service_short">Службові</string>
+    <string name="dialog_export_schedules">Експорт моїх розкладів</string>
 </resources>
