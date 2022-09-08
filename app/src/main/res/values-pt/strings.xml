@@ -183,7 +183,14 @@
     <string name="prefs_deviceprotecteddata">Fazer backup dos dados protegidos no dispositivo</string>
     <string name="restart_dialog">Parece que necessita reiniciar a aplicação</string>
     <string name="empty_filtered_list">A lista de filtros está vazia.</string>
-    <string name="intro_welcome_message"></string>
+    <string name="intro_welcome_message">Neo Backup (anteriormente OAndBackupX) é um fork do famoso OAndBackup com o objetivo de trazer OAndBackup para 202X e parte do pacote Neo Applications. Por enquanto, o aplicativo já está totalmente reescrito, o que o torna robusto e incrementa alguns recursos bastante planejados que poderiam facilitar o fluxo de trabalho de backup/restauração com qualquer dispositivo.
+\n Portanto, todos os tipos de contribuição são sempre bem-vindos.
+\n
+\n Agora sobre as funcionalidades do nosso App:
+\n • Requer root e permite fazer backup de aplicativos individuais e seus dados.
+\n • Há suporte para backup e restauração de programas individuais um por vez e backup e restauração em lote de vários programas.
+\n • A restauração de aplicativos do sistema deve ser possível sem a necessidade de reinicialização posterior.
+\n • Os backups podem ser agendados sem limite no número de agendamentos individuais e existe a possibilidade de criar listas personalizadas a partir da lista de aplicativos instalados.</string>
     <string name="msg_appkill_warning">As aplicações selecionadas irão receber um sinal para serem fechadas e serão reiniciadas após a conclusão da tarefa. Verifique as aplicações que forem paradas (e evite reiniciar se o processo estiver em curso).</string>
     <string name="intro_permission_storage_location">A aplicação precisa de um local para armazenar os backup. A aplicações pode necessitar de uns poucos gigabytes de armazenamento para um backup completo e consulta o sistema de ficheiros. Deve ter isto em conta caso pretenda escolher uma localização de rede.</string>
     <string name="help_appTypeHint">* Ícone do tipo de aplicação seria cinza se a aplicação estiver desinstalada e cinza escuro se a aplicação está desativada.</string>
@@ -335,4 +342,20 @@
     <string name="enabled">Ativa</string>
     <string name="sortAsc">Ascendente</string>
     <string name="sortDesc">Descendente</string>
+    <string name="prefs_user_short">Pessoal</string>
+    <string name="prefs_service_short">Serviço</string>
+    <string name="prefs_advanced_short">Avançado</string>
+    <string name="prefs_tools_short">Ferramentas</string>
+    <string name="prefs_dev_settings">Configurações de desenvolvedor</string>
+    <string name="prefs_dev_settings_summary">Não altere a não ser que um desenvolvedor diga para você usar!</string>
+    <string name="dialog_export_schedules">Exportar meus agendamentos</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="add_tag">Adicionar nova tag</string>
+    <string name="prefs_sessionIinstaller">Usar instalador de sessão</string>
+    <string name="prefs_sessionIinstaller_summary">Usar instalador de sessão invés do instalador padrão. Lento porém evita problemas com Android 13+</string>
+    <string name="prefs_installerpackagename">O nome do instalador de pacotes:</string>
+    <string name="prefs_theme_dynamic">Tema dinâmico (se disponível)</string>
+    <string name="sortAppDataSize">Tamanho dos dados do app</string>
+    <string name="sortAppSize">Tamanho do App</string>
+    <string name="sortBackupSize">Tamanho do backup</string>
 </resources>
