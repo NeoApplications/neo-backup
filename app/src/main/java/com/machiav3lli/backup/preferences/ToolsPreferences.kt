@@ -261,14 +261,14 @@ private fun Context.onClickSaveAppsList(
             .setPositiveButton(R.string.radio_all) { _: DialogInterface, _: Int ->
                 writeAppsListFile(packageList
                     .filter { it.isSystem }
-                    .map { "${it.packageLabel}: ${it.packageName}" },
+                    .map { "${it.packageLabel}: ${it.packageName} @ ${it.versionName}" },
                     false  //TODO hg42 name first because of ":", better for scripts
                 )
             }
             .setNeutralButton(R.string.filtered_list) { _: DialogInterface, _: Int ->
                 writeAppsListFile(
                     packageList.applyFilter(sortFilterModel, this)
-                        .map { "${it.packageLabel}: ${it.packageName}" },
+                        .map { "${it.packageLabel}: ${it.packageName} @ ${it.versionName}" },
                     true
                 )
             }
