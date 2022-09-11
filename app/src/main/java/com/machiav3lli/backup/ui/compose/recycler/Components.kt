@@ -176,10 +176,8 @@ fun SelectableChipGroup(
                 label = {
                     Text(
                         text = stringResource(id = it.textId),
-                        color = colors.labelColor(
-                            enabled = true,
-                            selected = it.flag == selectedFlag
-                        ).value,
+                        color = if (it.flag == selectedFlag) MaterialTheme.colorScheme.primary
+                        else MaterialTheme.colorScheme.onSurface,
                         style = MaterialTheme.typography.bodyMedium
                     )
                 }
@@ -232,10 +230,8 @@ fun MultiSelectableChipGroup(
                 label = {
                     Text(
                         text = stringResource(id = it.textId),
-                        color = colors.labelColor(
-                            enabled = true,
-                            selected = it.flag and selectedFlags != 0
-                        ).value,
+                        color = if (it.flag and selectedFlags != 0) MaterialTheme.colorScheme.primary
+                        else MaterialTheme.colorScheme.onSurface,
                         style = MaterialTheme.typography.bodyMedium
                     )
                 }

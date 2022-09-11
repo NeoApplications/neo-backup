@@ -25,15 +25,15 @@ plugins {
 }
 val vKotlin = "1.7.0"
 val vComposeCompiler = "1.2.0"
-val vCompose = "1.2.0"
-val vRoom = "2.5.0-alpha02"
+val vCompose = "1.2.1"
+val vRoom = "2.5.0-alpha03"
 val vNavigation = "2.5.1"
 val vAccompanist = "0.25.0"
 val vLibsu = "3.2.1"
 
 android {
     namespace = "com.machiav3lli.backup"
-    compileSdk = 32
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.machiav3lli.backup"
@@ -124,8 +124,8 @@ dependencies {
     implementation("androidx.room:room-runtime:$vRoom")
     implementation("androidx.room:room-ktx:$vRoom")
     kapt("androidx.room:room-compiler:$vRoom")
-    implementation("androidx.work:work-runtime-ktx:2.8.0-alpha02")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
+    implementation("androidx.work:work-runtime-ktx:2.8.0-alpha03")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")
     implementation("androidx.security:security-crypto-ktx:1.1.0-alpha03")
     implementation("androidx.biometric:biometric:1.2.0-alpha04")
@@ -139,12 +139,12 @@ dependencies {
     //implementation("com.github.tony19:named-regexp:0.2.6") // regex named groups
 
     // UI
-    implementation("androidx.fragment:fragment-ktx:1.5.1")
-    implementation("com.google.android.material:material:1.7.0-alpha03")
+    implementation("androidx.fragment:fragment-ktx:1.5.2")
+    implementation("com.google.android.material:material:1.8.0-alpha01")
     implementation("androidx.preference:preference-ktx:1.2.0")
     implementation("androidx.navigation:navigation-fragment-ktx:$vNavigation")
     implementation("androidx.navigation:navigation-ui-ktx:$vNavigation")
-    implementation("io.coil-kt:coil-compose:2.1.0")
+    implementation("io.coil-kt:coil-compose:2.2.1")
 
     // Compose
     implementation("androidx.compose.runtime:runtime:$vCompose")
@@ -153,8 +153,8 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:$vCompose")
     implementation("androidx.compose.runtime:runtime-livedata:$vCompose")
     implementation("androidx.navigation:navigation-compose:$vNavigation")
-    implementation("com.google.android.material:compose-theme-adapter-3:1.0.15")
-    implementation("androidx.compose.material3:material3:1.0.0-alpha15")
+    implementation("com.google.android.material:compose-theme-adapter-3:1.0.17")
+    implementation("androidx.compose.material3:material3:1.0.0-beta01")
     implementation("com.google.accompanist:accompanist-flowlayout:$vAccompanist")
     implementation("com.google.accompanist:accompanist-systemuicontroller:$vAccompanist")
     implementation("com.google.accompanist:accompanist-navigation-animation:$vAccompanist")

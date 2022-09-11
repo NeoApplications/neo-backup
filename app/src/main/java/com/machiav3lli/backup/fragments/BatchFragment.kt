@@ -64,9 +64,9 @@ import com.machiav3lli.backup.ui.compose.item.ExpandableSearchAction
 import com.machiav3lli.backup.ui.compose.item.StateChip
 import com.machiav3lli.backup.ui.compose.item.TopBar
 import com.machiav3lli.backup.ui.compose.recycler.BatchPackageRecycler
-import com.machiav3lli.backup.ui.compose.theme.APK
 import com.machiav3lli.backup.ui.compose.theme.AppTheme
-import com.machiav3lli.backup.ui.compose.theme.Data
+import com.machiav3lli.backup.ui.compose.theme.ColorAPK
+import com.machiav3lli.backup.ui.compose.theme.ColorData
 import com.machiav3lli.backup.utils.FileUtils
 import com.machiav3lli.backup.utils.StorageLocationNotConfiguredException
 import com.machiav3lli.backup.utils.applyFilter
@@ -324,7 +324,7 @@ open class BatchFragment(private val backupBoolean: Boolean) : NavigationFragmen
                             icon = painterResource(id = R.drawable.ic_apk),
                             text = stringResource(id = R.string.all_apk),
                             checked = allApkChecked,
-                            color = APK
+                            color = ColorAPK
                         ) {
                             val checkBoolean = !allApkChecked
                             allApkChecked = checkBoolean
@@ -341,7 +341,7 @@ open class BatchFragment(private val backupBoolean: Boolean) : NavigationFragmen
                             icon = painterResource(id = R.drawable.ic_data),
                             text = stringResource(id = R.string.all_data),
                             checked = allDataChecked,
-                            color = Data
+                            color = ColorData
                         ) {
                             val checkBoolean = !allDataChecked
                             allDataChecked = checkBoolean

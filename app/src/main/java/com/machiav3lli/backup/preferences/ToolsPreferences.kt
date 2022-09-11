@@ -36,9 +36,9 @@ import com.machiav3lli.backup.items.Package
 import com.machiav3lli.backup.ui.compose.item.LaunchPreference
 import com.machiav3lli.backup.ui.compose.navigation.NavItem
 import com.machiav3lli.backup.ui.compose.theme.AppTheme
-import com.machiav3lli.backup.ui.compose.theme.DeData
-import com.machiav3lli.backup.ui.compose.theme.Exodus
-import com.machiav3lli.backup.ui.compose.theme.ExtDATA
+import com.machiav3lli.backup.ui.compose.theme.ColorDeData
+import com.machiav3lli.backup.ui.compose.theme.ColorExodus
+import com.machiav3lli.backup.ui.compose.theme.ColorExtDATA
 import com.machiav3lli.backup.ui.item.Pref
 import com.machiav3lli.backup.utils.FileUtils.invalidateBackupLocation
 import com.machiav3lli.backup.utils.applyFilter
@@ -238,7 +238,7 @@ val ExportImportSchedulesPref = Pref.LinkPref(
     titleId = R.string.prefs_schedulesexportimport,
     summaryId = R.string.prefs_schedulesexportimport_summary,
     iconId = R.drawable.ic_scheduler,
-    iconTint = ExtDATA
+    iconTint = ColorExtDATA
 )
 
 val SaveAppsListPref = Pref.LinkPref(
@@ -246,7 +246,7 @@ val SaveAppsListPref = Pref.LinkPref(
     titleId = R.string.prefs_saveappslist,
     summaryId = R.string.prefs_saveappslist_summary,
     iconId = R.drawable.ic_list_ordered,
-    iconTint = Exodus
+    iconTint = ColorExodus
 )
 
 
@@ -306,5 +306,5 @@ val LogViewerPref = Pref.LinkPref(
     key = PREFS_LOGVIEWER,
     titleId = R.string.prefs_logviewer,
     iconId = R.drawable.ic_log,
-    iconTint = DeData
+    iconTint = ColorDeData
 )

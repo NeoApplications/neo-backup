@@ -1,18 +1,22 @@
 package com.machiav3lli.backup.ui.compose.theme
 
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
-val System = Color(0xFF4590FE)
-val User = Color(0xFFFE9045)
-val Special = Color(0xFF9045FE)
-val APK = Color(0xFF3AEA85)
-val Data = Color(0xFFF445B0)
-val DeData = Color(0xFFFADB18)
-val ExtDATA = Color(0xFFB3CDFF)
-val OBB = Color(0xFFCAFB68)
-val Media = Color(0xFFFF8098)
-val Updated = Color(0xFFFF0000)
-val Exodus = Color(0xFFAB47BC)
+val ColorNotInstalled @Composable get() = MaterialTheme.colorScheme.onSurfaceVariant
+val ColorDisabled = Color(0xFF888888)
+val ColorSystem = Color(0xFF4590FE)
+val ColorUser = Color(0xFFFE9045)
+val ColorSpecial = Color(0xFF9045FE)
+val ColorAPK = Color(0xFF3AEA85)
+val ColorData = Color(0xFFF445B0)
+val ColorDeData = Color(0xFFFADB18)
+val ColorExtDATA = Color(0xFFB3CDFF)
+val ColorOBB = Color(0xFFCAFB68)
+val ColorMedia = Color(0xFFFF8098)
+val ColorUpdated = Color(0xFFFF0000)
+val ColorExodus = Color(0xFFAB47BC)
 
 // Light Theme
 val LightPrimary = Color(0xFFE0163D)

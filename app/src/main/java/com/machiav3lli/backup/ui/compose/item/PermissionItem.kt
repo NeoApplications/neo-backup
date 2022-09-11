@@ -21,7 +21,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.machiav3lli.backup.ui.compose.theme.LocalShapes
-import com.machiav3lli.backup.ui.compose.theme.Updated
+import com.machiav3lli.backup.ui.compose.theme.ColorUpdated
 import com.machiav3lli.backup.ui.item.Permission
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -67,7 +67,7 @@ fun PermissionItem(
                 text = stringResource(id = item.warningTextId),
                 style = MaterialTheme.typography.bodyMedium,
                 fontWeight = FontWeight.Bold,
-                color = Updated,
+                color = ColorUpdated,
                 modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)
             )
         }
