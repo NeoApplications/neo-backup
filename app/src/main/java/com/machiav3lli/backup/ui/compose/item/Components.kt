@@ -52,7 +52,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Color.Companion.Gray
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -79,18 +78,19 @@ import com.machiav3lli.backup.SPECIAL_FILTER_OLD
 import com.machiav3lli.backup.dbs.entity.Backup
 import com.machiav3lli.backup.dbs.entity.Schedule
 import com.machiav3lli.backup.items.Package
-import com.machiav3lli.backup.ui.compose.theme.APK
-import com.machiav3lli.backup.ui.compose.theme.Data
-import com.machiav3lli.backup.ui.compose.theme.DeData
-import com.machiav3lli.backup.ui.compose.theme.Exodus
-import com.machiav3lli.backup.ui.compose.theme.ExtDATA
+import com.machiav3lli.backup.ui.compose.theme.ColorAPK
+import com.machiav3lli.backup.ui.compose.theme.ColorData
+import com.machiav3lli.backup.ui.compose.theme.ColorDeData
+import com.machiav3lli.backup.ui.compose.theme.ColorDisabled
+import com.machiav3lli.backup.ui.compose.theme.ColorExodus
+import com.machiav3lli.backup.ui.compose.theme.ColorExtDATA
 import com.machiav3lli.backup.ui.compose.theme.LocalShapes
-import com.machiav3lli.backup.ui.compose.theme.Media
-import com.machiav3lli.backup.ui.compose.theme.OBB
-import com.machiav3lli.backup.ui.compose.theme.Special
-import com.machiav3lli.backup.ui.compose.theme.System
-import com.machiav3lli.backup.ui.compose.theme.Updated
-import com.machiav3lli.backup.ui.compose.theme.User
+import com.machiav3lli.backup.ui.compose.theme.ColorMedia
+import com.machiav3lli.backup.ui.compose.theme.ColorOBB
+import com.machiav3lli.backup.ui.compose.theme.ColorSpecial
+import com.machiav3lli.backup.ui.compose.theme.ColorSystem
+import com.machiav3lli.backup.ui.compose.theme.ColorUpdated
+import com.machiav3lli.backup.ui.compose.theme.ColorUser
 import com.machiav3lli.backup.utils.brighter
 
 @Composable
@@ -480,6 +480,7 @@ fun SelectableRow(
             selected = selectedState.value,
             onClick = {
                 selectedState.value = true
+                onClick()
             },
             modifier = Modifier.padding(horizontal = 8.dp),
             colors = RadioButtonDefaults.colors(
@@ -581,43 +582,43 @@ fun PackageLabels(
     AnimatedVisibility(visible = item.isUpdated) {
         ButtonIcon(
             R.drawable.ic_updated, R.string.radio_updated,
-            tint = Updated
+            tint = ColorUpdated
         )
     }
     AnimatedVisibility(visible = item.hasMediaData) {
         ButtonIcon(
             R.drawable.ic_media_data, R.string.radio_mediadata,
-            tint = Media
+            tint = ColorMedia
         )
     }
     AnimatedVisibility(visible = item.hasObbData) {
         ButtonIcon(
             R.drawable.ic_obb_data, R.string.radio_obbdata,
-            tint = OBB
+            tint = ColorOBB
         )
     }
     AnimatedVisibility(visible = item.hasExternalData) {
         ButtonIcon(
             R.drawable.ic_external_data, R.string.radio_externaldata,
-            tint = ExtDATA
+            tint = ColorExtDATA
         )
     }
     AnimatedVisibility(visible = item.hasDevicesProtectedData) {
         ButtonIcon(
             R.drawable.ic_de_data, R.string.radio_deviceprotecteddata,
-            tint = DeData
+            tint = ColorDeData
         )
     }
     AnimatedVisibility(visible = item.hasAppData) {
         ButtonIcon(
             R.drawable.ic_data, R.string.radio_data,
-            tint = Data
+            tint = ColorData
         )
     }
     AnimatedVisibility(visible = item.hasApk) {
         ButtonIcon(
             R.drawable.ic_apk, R.string.radio_apk,
-            tint = APK
+            tint = ColorAPK
         )
     }
     ButtonIcon(
@@ -628,10 +629,10 @@ fun PackageLabels(
         },
         R.string.app_s_type_title,
         tint = when {
-            item.isDisabled -> Gray
-            item.isSpecial -> Special
-            item.isSystem -> System
-            else -> User
+            item.isDisabled -> ColorDisabled
+            item.isSpecial -> ColorSpecial
+            item.isSystem -> ColorSystem
+            else -> ColorUser
         }
     )
 }
@@ -643,37 +644,37 @@ fun BackupLabels(
     AnimatedVisibility(visible = item.hasMediaData) {
         ButtonIcon(
             R.drawable.ic_media_data, R.string.radio_mediadata,
-            tint = Media
+            tint = ColorMedia
         )
     }
     AnimatedVisibility(visible = item.hasObbData) {
         ButtonIcon(
             R.drawable.ic_obb_data, R.string.radio_obbdata,
-            tint = OBB
+            tint = ColorOBB
         )
     }
     AnimatedVisibility(visible = item.hasExternalData) {
         ButtonIcon(
             R.drawable.ic_external_data, R.string.radio_externaldata,
-            tint = ExtDATA
+            tint = ColorExtDATA
         )
     }
     AnimatedVisibility(visible = item.hasDevicesProtectedData) {
         ButtonIcon(
             R.drawable.ic_de_data, R.string.radio_deviceprotecteddata,
-            tint = DeData
+            tint = ColorDeData
         )
     }
     AnimatedVisibility(visible = item.hasAppData) {
         ButtonIcon(
             R.drawable.ic_data, R.string.radio_data,
-            tint = Data
+            tint = ColorData
         )
     }
     AnimatedVisibility(visible = item.hasApk) {
         ButtonIcon(
             R.drawable.ic_apk, R.string.radio_apk,
-            tint = APK
+            tint = ColorAPK
         )
     }
 }
@@ -684,37 +685,37 @@ fun ScheduleTypes(item: Schedule) {
     AnimatedVisibility(visible = item.mode and MODE_DATA_MEDIA == MODE_DATA_MEDIA) {
         ButtonIcon(
             R.drawable.ic_media_data, R.string.radio_mediadata,
-            tint = Media
+            tint = ColorMedia
         )
     }
     AnimatedVisibility(visible = item.mode and MODE_DATA_OBB == MODE_DATA_OBB) {
         ButtonIcon(
             R.drawable.ic_obb_data, R.string.radio_obbdata,
-            tint = OBB
+            tint = ColorOBB
         )
     }
     AnimatedVisibility(visible = item.mode and MODE_DATA_EXT == MODE_DATA_EXT) {
         ButtonIcon(
             R.drawable.ic_external_data, R.string.radio_externaldata,
-            tint = ExtDATA
+            tint = ColorExtDATA
         )
     }
     AnimatedVisibility(visible = item.mode and MODE_DATA_DE == MODE_DATA_DE) {
         ButtonIcon(
             R.drawable.ic_de_data, R.string.radio_deviceprotecteddata,
-            tint = DeData
+            tint = ColorDeData
         )
     }
     AnimatedVisibility(visible = item.mode and MODE_DATA == MODE_DATA) {
         ButtonIcon(
             R.drawable.ic_data, R.string.radio_data,
-            tint = Data
+            tint = ColorData
         )
     }
     AnimatedVisibility(visible = item.mode and MODE_APK == MODE_APK) {
         ButtonIcon(
             R.drawable.ic_apk, R.string.radio_apk,
-            tint = APK
+            tint = ColorAPK
         )
     }
 }
@@ -727,19 +728,19 @@ fun ScheduleFilters(
     AnimatedVisibility(visible = item.filter and MAIN_FILTER_SYSTEM == MAIN_FILTER_SYSTEM) {
         ButtonIcon(
             R.drawable.ic_system, R.string.radio_system,
-            tint = System
+            tint = ColorSystem
         )
     }
     AnimatedVisibility(visible = item.filter and MAIN_FILTER_USER == MAIN_FILTER_USER) {
         ButtonIcon(
             R.drawable.ic_user, R.string.radio_user,
-            tint = User
+            tint = ColorUser
         )
     }
     AnimatedVisibility(visible = item.filter and MAIN_FILTER_SPECIAL == MAIN_FILTER_SPECIAL) {
         ButtonIcon(
             R.drawable.ic_special, R.string.radio_special,
-            tint = Special
+            tint = ColorSpecial
         )
     }
     AnimatedVisibility(visible = item.specialFilter != SPECIAL_FILTER_ALL) {
@@ -752,10 +753,10 @@ fun ScheduleFilters(
             },
             R.string.app_s_type_title,
             tint = when (item.specialFilter) {
-                SPECIAL_FILTER_DISABLED -> DeData
-                SPECIAL_FILTER_LAUNCHABLE -> OBB
-                SPECIAL_FILTER_OLD -> Exodus
-                else -> Updated
+                SPECIAL_FILTER_DISABLED -> ColorDeData
+                SPECIAL_FILTER_LAUNCHABLE -> ColorOBB
+                SPECIAL_FILTER_OLD -> ColorExodus
+                else -> ColorUpdated
             }
         )
     }

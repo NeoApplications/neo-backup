@@ -38,15 +38,15 @@ import com.machiav3lli.backup.ui.compose.item.EnumPreference
 import com.machiav3lli.backup.ui.compose.item.LaunchPreference
 import com.machiav3lli.backup.ui.compose.item.SeekBarPreference
 import com.machiav3lli.backup.ui.compose.item.SwitchPreference
-import com.machiav3lli.backup.ui.compose.theme.APK
+import com.machiav3lli.backup.ui.compose.theme.ColorAPK
 import com.machiav3lli.backup.ui.compose.theme.AppTheme
-import com.machiav3lli.backup.ui.compose.theme.DeData
-import com.machiav3lli.backup.ui.compose.theme.Exodus
-import com.machiav3lli.backup.ui.compose.theme.ExtDATA
-import com.machiav3lli.backup.ui.compose.theme.Media
-import com.machiav3lli.backup.ui.compose.theme.OBB
-import com.machiav3lli.backup.ui.compose.theme.Special
-import com.machiav3lli.backup.ui.compose.theme.Updated
+import com.machiav3lli.backup.ui.compose.theme.ColorDeData
+import com.machiav3lli.backup.ui.compose.theme.ColorExodus
+import com.machiav3lli.backup.ui.compose.theme.ColorExtDATA
+import com.machiav3lli.backup.ui.compose.theme.ColorMedia
+import com.machiav3lli.backup.ui.compose.theme.ColorOBB
+import com.machiav3lli.backup.ui.compose.theme.ColorSpecial
+import com.machiav3lli.backup.ui.compose.theme.ColorUpdated
 import com.machiav3lli.backup.ui.item.Pref
 
 @Composable
@@ -122,7 +122,7 @@ val EncryptionPref = Pref.BooleanPref(
     titleId = R.string.prefs_encryption,
     summaryId = R.string.prefs_encryption_summary,
     iconId = R.drawable.ic_encryption,
-    iconTint = Updated,
+    iconTint = ColorUpdated,
     defaultValue = false
 )
 
@@ -131,7 +131,7 @@ val EncryptionPasswordPref = Pref.StringPref(
     titleId = R.string.prefs_password,
     summaryId = R.string.prefs_password_summary,
     iconId = R.drawable.ic_password,
-    iconTint = Updated,
+    iconTint = ColorUpdated,
     defaultValue = ""
 )
 
@@ -147,7 +147,7 @@ val DeDataPref = Pref.BooleanPref(
     titleId = R.string.prefs_deviceprotecteddata,
     summaryId = R.string.prefs_deviceprotecteddata_summary,
     iconId = R.drawable.ic_de_data,
-    iconTint = DeData,
+    iconTint = ColorDeData,
     defaultValue = true
 )
 
@@ -156,7 +156,7 @@ val ExtDataPref = Pref.BooleanPref(
     titleId = R.string.prefs_externaldata,
     summaryId = R.string.prefs_externaldata_summary,
     iconId = R.drawable.ic_external_data,
-    iconTint = ExtDATA,
+    iconTint = ColorExtDATA,
     defaultValue = true
 )
 
@@ -165,7 +165,7 @@ val ObbPref = Pref.BooleanPref(
     titleId = R.string.prefs_obbdata,
     summaryId = R.string.prefs_obbdata_summary,
     iconId = R.drawable.ic_obb_data,
-    iconTint = OBB,
+    iconTint = ColorOBB,
     defaultValue = true
 )
 
@@ -174,7 +174,7 @@ val MediaPref = Pref.BooleanPref(
     titleId = R.string.prefs_mediadata,
     summaryId = R.string.prefs_mediadata_summary,
     iconId = R.drawable.ic_media_data,
-    iconTint = Media,
+    iconTint = ColorMedia,
     defaultValue = true
 )
 
@@ -183,7 +183,7 @@ val RestorePermissionsPref = Pref.BooleanPref(
     titleId = R.string.prefs_restorepermissions,
     summaryId = R.string.prefs_restorepermissions_summary,
     iconId = R.drawable.ic_sizes,
-    iconTint = APK,
+    iconTint = ColorAPK,
     defaultValue = true
 )
 
@@ -192,8 +192,8 @@ val NumBackupsPref = Pref.IntPref(
     titleId = R.string.prefs_numBackupRevisions,
     summaryId = R.string.prefs_numBackupRevisions_summary,
     iconId = R.drawable.ic_revisions,
-    iconTint = Special,
-    entries = ((0..19) + (20..200 step 10)).toList(),
+    iconTint = ColorSpecial,
+    entries = ((0..9) + (10..20 step 2) + (50..200 step 50)).toList(),
     defaultValue = 2
 )
 
@@ -202,7 +202,7 @@ val CompressionLevelPref = Pref.IntPref(
     titleId = R.string.prefs_compression_level,
     summaryId = R.string.prefs_compression_level_summary,
     iconId = R.drawable.ic_compression_level,
-    iconTint = Exodus,
+    iconTint = ColorExodus,
     entries = (0..9).toList(),
     defaultValue = 2
 )
@@ -219,7 +219,7 @@ val InstallerPackagePref = Pref.StringPref(
     key = PREFS_INSTALLER_PACKAGENAME,
     titleId = R.string.prefs_installerpackagename,
     iconId = R.drawable.ic_launchable,
-    iconTint = OBB,
+    iconTint = ColorOBB,
     defaultValue = BuildConfig.APPLICATION_ID
 )
 

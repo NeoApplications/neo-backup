@@ -25,7 +25,7 @@ import android.icu.util.Calendar
 import android.os.Build
 import com.machiav3lli.backup.OABX
 import com.machiav3lli.backup.PREFS_USEALARMCLOCK
-import com.machiav3lli.backup.PREFS_USEEXACTRALARM
+import com.machiav3lli.backup.PREFS_USEEXACTALARM
 import com.machiav3lli.backup.dbs.ODatabase
 import com.machiav3lli.backup.dbs.entity.Schedule
 import com.machiav3lli.backup.services.AlarmReceiver
@@ -75,7 +75,7 @@ fun scheduleAlarm(context: Context, scheduleId: Long, rescheduleBoolean: Boolean
                         pendingIntent
                     )
                 } else {
-                    if (hasPermission && OABX.prefFlag(PREFS_USEEXACTRALARM, true))
+                    if (hasPermission && OABX.prefFlag(PREFS_USEEXACTALARM, true))
                         alarmManager.setExactAndAllowWhileIdle(
                             AlarmManager.RTC_WAKEUP,
                             schedule.timeToRun,

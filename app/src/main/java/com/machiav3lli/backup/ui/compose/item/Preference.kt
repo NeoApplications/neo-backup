@@ -16,7 +16,6 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Divider
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Switch
@@ -101,7 +100,6 @@ fun BasePreference(
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PreferencesGroupHeader(
     modifier: Modifier = Modifier,
@@ -271,7 +269,6 @@ fun SwitchPreference(
     )
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CheckboxPreference(
     modifier: Modifier = Modifier,

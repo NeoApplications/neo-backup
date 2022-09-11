@@ -99,8 +99,13 @@ import com.machiav3lli.backup.ui.compose.item.RoundButton
 import com.machiav3lli.backup.ui.compose.item.TagsBlock
 import com.machiav3lli.backup.ui.compose.item.TitleText
 import com.machiav3lli.backup.ui.compose.theme.AppTheme
+import com.machiav3lli.backup.ui.compose.theme.ColorDisabled
 import com.machiav3lli.backup.ui.compose.theme.LocalShapes
-import com.machiav3lli.backup.ui.compose.theme.Updated
+import com.machiav3lli.backup.ui.compose.theme.ColorNotInstalled
+import com.machiav3lli.backup.ui.compose.theme.ColorSpecial
+import com.machiav3lli.backup.ui.compose.theme.ColorSystem
+import com.machiav3lli.backup.ui.compose.theme.ColorUpdated
+import com.machiav3lli.backup.ui.compose.theme.ColorUser
 import com.machiav3lli.backup.utils.show
 import com.machiav3lli.backup.utils.showError
 import com.machiav3lli.backup.viewmodels.AppSheetViewModel
@@ -389,11 +394,11 @@ class AppSheet(val appInfo: Package) : BaseSheet(), ActionListener {
                                             textAlign = TextAlign.End,
                                             text = stringResource(id = if (packageInfo.isSpecial) R.string.apptype_special else if (packageInfo.isSystem) R.string.apptype_system else R.string.apptype_user),
                                             color = when {
-                                                !packageInfo.isInstalled -> MaterialTheme.colorScheme.onSurfaceVariant
-                                                packageInfo.isDisabled -> MaterialTheme.colorScheme.surfaceVariant
-                                                packageInfo.isSpecial -> colorResource(R.color.ic_special)
-                                                packageInfo.isSystem -> colorResource(R.color.ic_system)
-                                                else -> colorResource(R.color.ic_user)
+                                                !packageInfo.isInstalled -> ColorNotInstalled
+                                                packageInfo.isDisabled -> ColorDisabled
+                                                packageInfo.isSpecial -> ColorSpecial
+                                                packageInfo.isSystem -> ColorSystem
+                                                else -> ColorUser
                                             }
                                         )
                                     }
@@ -404,7 +409,7 @@ class AppSheet(val appInfo: Package) : BaseSheet(), ActionListener {
                                             textAlign = TextAlign.End,
                                             text = if (packageInfo.isUpdated) "${packageInfo.latestBackup?.versionName.orEmpty()} (${packageInfo.versionName})"
                                             else packageInfo.versionName.orEmpty(),
-                                            color = if (packageInfo.isUpdated) Updated else MaterialTheme.colorScheme.onBackground
+                                            color = if (packageInfo.isUpdated) ColorUpdated else MaterialTheme.colorScheme.onBackground
                                         )
                                     }
                                     AnimatedVisibility(

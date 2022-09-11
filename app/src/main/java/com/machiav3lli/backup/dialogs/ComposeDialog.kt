@@ -65,7 +65,6 @@ fun BaseDialog(
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ActionsDialogUI(
     mainText: String,
@@ -113,7 +112,6 @@ fun ActionsDialogUI(
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun EnumDialogUI(
     pref: Pref.EnumPref,
@@ -172,7 +170,6 @@ fun EnumDialogUI(
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ListDialogUI(
     pref: Pref.ListPref,
@@ -277,6 +274,7 @@ fun StringDialogUI(
                     focusedIndicatorColor = Color.Transparent,
                     unfocusedIndicatorColor = Color.Transparent,
                 ),
+                shape = MaterialTheme.shapes.medium,
                 singleLine = true,
                 onValueChange = { savedValue = it },
                 visualTransformation = if (isPrivate) PasswordVisualTransformation() else VisualTransformation.None,

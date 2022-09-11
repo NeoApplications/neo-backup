@@ -1,5 +1,6 @@
 package com.machiav3lli.backup.ui.compose.navigation
 
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -8,6 +9,7 @@ import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
@@ -49,23 +51,25 @@ fun BottomNavBar(page: Int = NAV_MAIN, navController: NavController) {
             NavigationBarItem(
                 icon = {
                     Icon(
-                        painterResource(id = item.icon),
+                        painter = painterResource(id = item.icon),
                         contentDescription = stringResource(id = item.title),
+                        modifier = Modifier.size(if (selected) 36.dp else 28.dp),
                     )
                 },
                 label = {
-                    Text(
-                        text = stringResource(id = item.title),
-                        style = MaterialTheme.typography.bodyMedium,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                    )
+                    if (!selected)
+                        Text(
+                            text = stringResource(id = item.title),
+                            style = MaterialTheme.typography.bodyMedium,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                        )
                 },
                 colors = NavigationBarItemDefaults.colors(
                     indicatorColor = MaterialTheme.colorScheme.primary,
                     selectedIconColor = MaterialTheme.colorScheme.onPrimary
                 ),
-                alwaysShowLabel = false,
+                alwaysShowLabel = true,
                 selected = selected,
                 onClick = {
                     navController.navigate(item.destination) {

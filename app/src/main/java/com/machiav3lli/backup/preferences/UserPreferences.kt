@@ -43,12 +43,12 @@ import com.machiav3lli.backup.ui.compose.item.ListPreference
 import com.machiav3lli.backup.ui.compose.item.SeekBarPreference
 import com.machiav3lli.backup.ui.compose.item.SwitchPreference
 import com.machiav3lli.backup.ui.compose.theme.AppTheme
-import com.machiav3lli.backup.ui.compose.theme.DeData
-import com.machiav3lli.backup.ui.compose.theme.Exodus
-import com.machiav3lli.backup.ui.compose.theme.ExtDATA
-import com.machiav3lli.backup.ui.compose.theme.OBB
-import com.machiav3lli.backup.ui.compose.theme.Special
-import com.machiav3lli.backup.ui.compose.theme.Updated
+import com.machiav3lli.backup.ui.compose.theme.ColorDeData
+import com.machiav3lli.backup.ui.compose.theme.ColorExodus
+import com.machiav3lli.backup.ui.compose.theme.ColorExtDATA
+import com.machiav3lli.backup.ui.compose.theme.ColorOBB
+import com.machiav3lli.backup.ui.compose.theme.ColorSpecial
+import com.machiav3lli.backup.ui.compose.theme.ColorUpdated
 import com.machiav3lli.backup.ui.item.Pref
 import com.machiav3lli.backup.utils.StorageLocationNotConfiguredException
 import com.machiav3lli.backup.utils.backupDirConfigured
@@ -160,14 +160,12 @@ fun UserPrefsPage() {
     }
 }
 
-// TODO add language pref
-
 val Context.LanguagePref: Pref.ListPref
     get() = Pref.ListPref(
         key = PREFS_LANGUAGES,
         titleId = R.string.prefs_languages,
         iconId = R.drawable.ic_languages,
-        iconTint = OBB,
+        iconTint = ColorOBB,
         entries = getLanguageList(),
         defaultValue = "system"
     )
@@ -176,7 +174,7 @@ val ThemePref = Pref.EnumPref(
     key = PREFS_THEME_X,
     titleId = R.string.prefs_theme,
     iconId = R.drawable.ic_theme,
-    iconTint = Special,
+    iconTint = ColorSpecial,
     entries = themeItems,
     defaultValue = 0
 )
@@ -203,7 +201,7 @@ val BackupFolderPref = Pref.StringPref(
     key = PREFS_PATH_BACKUP_DIRECTORY,
     titleId = R.string.prefs_pathbackupfolder,
     iconId = R.drawable.ic_folder,
-    iconTint = ExtDATA,
+    iconTint = ColorExtDATA,
     defaultValue = ""
 )
 
@@ -220,7 +218,7 @@ val DeviceLockPref = Pref.BooleanPref(
     titleId = R.string.prefs_devicelock,
     summaryId = R.string.prefs_devicelock_summary,
     iconId = R.drawable.ic_encryption,
-    iconTint = Updated,
+    iconTint = ColorUpdated,
     defaultValue = false
 )
 
@@ -229,7 +227,7 @@ val BiometricLockPref = Pref.BooleanPref(
     titleId = R.string.prefs_biometriclock,
     summaryId = R.string.prefs_biometriclock_summary,
     iconId = R.drawable.ic_biometric,
-    iconTint = DeData,
+    iconTint = ColorDeData,
     defaultValue = false
 )
 
@@ -238,7 +236,7 @@ val DaysOldPref = Pref.IntPref(
     titleId = R.string.prefs_oldbackups,
     summaryId = R.string.prefs_oldbackups_summary,
     iconId = R.drawable.ic_old,
-    iconTint = Exodus,
+    iconTint = ColorExodus,
     entries = (1..30).toList(),
     defaultValue = 2
 )

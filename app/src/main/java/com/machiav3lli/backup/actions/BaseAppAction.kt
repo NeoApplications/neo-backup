@@ -56,7 +56,7 @@ abstract class BaseAppAction protected constructor(
         protected constructor(message: String?, cause: Throwable?) : super(message, cause)
     }
 
-    private fun prepostOptions(): String = if (OABX.prefFlag(PREFS_PMSUSPEND, true))
+    private fun prepostOptions(): String = if (OABX.prefFlag(PREFS_PMSUSPEND, false))
         "--suspend"
     else
         ""
