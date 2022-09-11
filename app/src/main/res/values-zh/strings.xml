@@ -76,7 +76,7 @@
     <string name="disablePackage">停用应用</string>
     <string name="disablePackageTitle">为选定的用户停用此应用</string>
     <string name="prefs_title">首选项</string>
-    <string name="prefs_service">服务首选项</string>
+    <string name="prefs_service">偏好选项</string>
     <string name="prefs_user">用户首选项</string>
     <string name="prefs_theme">主题</string>
     <string name="prefs_acquirewakelock">阻止睡眠</string>
@@ -88,7 +88,7 @@
     <string name="prefs_language_system">系统默认</string>
     <string name="prefs_rememberfiltering">记住排序和筛选方式</string>
     <string name="prefs_enablespecial">启用特殊备份</string>
-    <string name="prefs_excludecache">清除应用缓存</string>
+    <string name="prefs_excludecache">排除应用的缓存</string>
     <string name="prefs_encryption">加密</string>
     <string name="prefs_password">加密密码</string>
     <string name="prefs_externaldata">备份外部数据</string>
@@ -166,14 +166,13 @@
     <string name="intro_permission_batteryoptimization">定时备份任务可能会遇到一些问题，它是由一些采用激进电池优化的 ROM(例如 MIUI) 导致的。当然即使在 vanilla AOSP 上也有可能出现这种问题。</string>
     <string name="intro_permission_usageaccess">该应用需要此权限才能获得统计信息，从而获得应用的缓存及数据大小。</string>
     <string name="intro_permission_storage">本应用程序使用存储的读/写权限来访问外部存储，从而获得备份其他应用的外部数据的权限。</string>
-    <string name="intro_welcome_message">"Neo Backup（原名OAndBackupX）是著名的备份程序OAndBackup的fork分叉，其目的是使OAndBackup能在202X年使用，并成为Neo应用套件的一部分。目前，该应用程序已经完全重写，接下来将会使它变得更强大，并添加一些已长期计划的功能。它可以适用于任何设备的备份/还原数据。
+    <string name="intro_welcome_message">Neo Backup（原名OAndBackupX）是著名的备份程序OAndBackup的fork分叉，其目的是使OAndBackup能在202X年使用，并成为Neo应用套件的一部分。目前，该应用程序已经完全重写，接下来将会使它变得更强大，并添加一些已长期计划的功能。它可以适用于任何设备的备份/还原数据。
 \n因此，我们随时欢迎所有类型的对本项目的贡献。
-\n
 \n现在谈谈我们的应用程序的功能：
-\n  • 它需要root权限，用于备份应用程序本体和它们的数据。
-\n  • 支持单个程序的备份和还原，也支持批量备份和还原。
-\n  • 可以实时还原系统程序，而不需要重新启动系统。
-\n  • 备份可以定时执行，对计划任务的数量没有限制，并且可以从已安装应用程序列表中选定并创建所需的自定义备份列表。"</string>
+\n• 它需要root权限，用于备份应用程序本体和它们的数据。
+\n• 支持单个程序的备份和还原，也支持批量备份和还原。
+\n• 可以实时还原系统程序，而不需要重新启动系统。
+\n• 备份可以定时执行，对计划任务的数量没有限制，并且可以从已安装应用程序列表中选定并创建所需的自定义备份列表。</string>
     <string name="welcome_to_oabx">欢迎使用 Neo Backup！</string>
     <string name="storage_access">访问存储空间</string>
     <string name="sort_and_filter">排序&amp;筛选</string>
@@ -349,8 +348,8 @@
     <string name="prefs_theme_dynamic">自适应主题（如果可用）</string>
     <string name="prefs_dev_settings">开发者设置</string>
     <string name="prefs_dev_settings_summary">除非你知道自己在做什么，否则不要改动这些设置！</string>
-    <string name="prefs_user_short">个人</string>
-    <string name="prefs_service_short">服务</string>
+    <string name="prefs_user_short">个性化</string>
+    <string name="prefs_service_short">偏好</string>
     <string name="prefs_advanced_short">高级</string>
     <string name="dialog_export_schedules">导出我的计划</string>
     <string name="prefs_tools_short">工具</string>
