@@ -307,7 +307,7 @@
     <string name="prefs_secondary_8">Menta</string>
     <string name="title_note">Nota:</string>
     <string name="title_tags">Tag:</string>
-    <string name="sortBackupDate">Data del backup</string>
+    <string name="sortBackupDate">Data backup</string>
     <string name="help_changelog">Registro modifiche</string>
     <string name="home">Pagina iniziale</string>
     <string name="all_data">Controlla tutti i dati</string>
