@@ -214,7 +214,6 @@
     <string name="prefs_useexpedited_summary" translatable="false">use work manager forground to overcome 10 minute job timeouts</string>
     <string name="prefs_fakebackupseconds" translatable="false">fakeBackupSeconds</string>
     <string name="prefs_fakebackupseconds_summary" translatable="false">[seconds] time for faked backups, 0 = do not fake</string>
-    >Exit code: 0 Time: 0.110
     <!-- dev settings end -->
     <string name="sched_name">Name:</string>
     <string name="sched_title">Scheduling</string>
