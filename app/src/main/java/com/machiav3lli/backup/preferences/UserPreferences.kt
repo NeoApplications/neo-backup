@@ -176,7 +176,7 @@ val ThemePref = Pref.EnumPref(
     iconId = R.drawable.ic_theme,
     iconTint = ColorSpecial,
     entries = themeItems,
-    defaultValue = 0
+    defaultValue = 2
 )
 
 val AccentColorPref = Pref.EnumPref(
