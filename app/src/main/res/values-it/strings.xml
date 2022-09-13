@@ -279,7 +279,7 @@
     <string name="help_group_telegram">Il nostro gruppo su Telegram</string>
     <string name="error_encryptionpassword">La password di crittografia non è impostata o è errata!</string>
     <string name="prefs_secondary_color">Colore secondario</string>
-    <string name="prefs_accent_color">Colore d\'accento</string>
+    <string name="prefs_accent_color">Colore dettagli</string>
     <string name="prefs_secondary_7">Blu azzurro</string>
     <string name="prefs_secondary_6">Ardesia</string>
     <string name="prefs_secondary_5">Rosa fenicottero</string>
