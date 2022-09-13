@@ -184,15 +184,14 @@
     <string name="sort_and_filter">Ordenar y filtrar</string>
     <string name="storage_access">Acceso al almacenamiento</string>
     <string name="welcome_to_oabx">¡Bienvenido a Neo Backup!</string>
-    <string name="intro_welcome_message">OAndBackupX es un fork del infame OAndBackup con el objetivo de traerlo al 2020 y más allá. Por ahora, la mayor parte de las funcionalidades y la interfaz de usuario han sido reescritos y algunas han sido añadidas.
-\n La aplicación aún se encuentra en fase beta y se realizan muchas modificaciones frecuentemente. Por lo tanto, lea atentamente el historial de cambios con cada nuevo lanzamiento.
-\n Todo tipo de ayuda es bienvenida, ya sea traducción, ideas, reportes de errores o programación.
+    <string name="intro_welcome_message">Neo Backup (anteriormente OAndBackupX) es un fork del famoso OAndBackup con el objetivo de llevar OAndBackup a 202X y parte de la suite de aplicaciones Neo. Por ahora la aplicación ya está completamente reescrita, lo que viene es hacerla robusta y añadir algunas características largamente planeadas que podrían facilitar el flujo de trabajo de backup/restauración con cualquier dispositivo.
+\n Por lo tanto, todos los tipos de contribución son siempre bienvenidos.
 \n
-\n Funcionalidades actuales de nuestra aplicacion:
-\n • Requiere root y le permite realizar copias de seguridad de aplicaciones individuales y sus datos.
-\n • Permite realizar copias de seguridad (respaldos) y restaurarlas tanto de aplicaciones individuales como en lote.
-\n • La restauración de aplicaciones del sistema deberían ser posible sin necesidad de reiniciar el dispositivo al acabar, aunque no recomendamos hacerlo.
-\n • La creación de respaldos se pueden programar sin límite de programaciones, y existe la posibilidad de crear listas personalizadas únicas.</string>
+\n Ahora sobre la funcionalidad de nuestra aplicación:
+\n - Requiere root y permite hacer copias de seguridad de aplicaciones individuales y sus datos.
+\n - Tanto la copia de seguridad y restauración de los programas individuales de uno en uno y la copia de seguridad por lotes y la restauración de múltiples programas son compatibles.
+\n - La restauración de las aplicaciones del sistema debería ser posible sin requerir un reinicio posterior.
+\n - Las copias de seguridad se pueden programar sin límite en el número de programaciones individuales y existe la posibilidad de crear listas personalizadas a partir de la lista de aplicaciones instaladas.</string>
     <string name="intro_permission_storage">La aplicación usa permisos de lectura/escritura del almacenamiento para poder acceder al almacenamiento externo y ofrecer la posibilidad de realizar copias de seguridad de datos externos/OBB de otras aplicaciones.</string>
     <string name="intro_permission_storage_location">La aplicación necesita una ubicación para almacenar los respaldos. La aplicación podría necesitar algunos gigabytes de almacenamiento para una copia de seguridad completa y es muy intensiva en el uso del sistema de archivos. Por favor, tenga esto en cuenta al elegir una ubicación de almacenamiento situada en la red.</string>
     <string name="intro_permission_usageaccess">La aplicación necesita este permiso para poder verificar las estadísticas y tamaños de los datos y la caché de sus aplicaciones.</string>
@@ -345,9 +344,18 @@
     <string name="prefs_restorepermissions">Restaurar permisos</string>
     <string name="sortAsc">Ascendente</string>
     <string name="sortDesc">Descendente</string>
-    <string name="prefs_loadingtoasts_summary">Mostrar notificaciones toast mientras la lista está cargando</string>
+    <string name="prefs_loadingtoasts_summary">Mostrando las notificaciones del sistema mientras se carga la lista</string>
     <string name="dismiss">Descartar</string>
     <string name="supended_apps_cleanup">Limpiar residuos de aplicaciones suspendidas</string>
-    <string name="prefs_loadingtoasts">Cargando toasts</string>
+    <string name="prefs_loadingtoasts">Cargando las notificaciones del sistema</string>
     <string name="prefs_theme_dynamic">Tema dinámico (si está disponible)</string>
+    <string name="add_tag">Agregar nueva etiqueta</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="root_is_mandatory">Debido a que las aplicaciones están aisladas entre sí, el acceso de superusuario es obligatorio para poder realizar copias de seguridad y restaurar sus datos.</string>
+    <string name="enabled">Habilitado</string>
+    <string name="see_faq">¡Ver la Lista de Preguntas Frecuentes!</string>
+    <string name="sortAppDataSize">Tamaño de los datos de la aplicación</string>
+    <string name="dialog_export_schedules">Exportar mis horarios</string>
+    <string name="delete">Borrar</string>
+    <string name="root_missing">¡Falta ROOT!</string>
 </resources>
