@@ -9,7 +9,7 @@
 
 Neo Backup (formerly OAndBackupX) is a fork of the famous OAndBackup with the aim to bring OAndBackup to 202X and part of Neo Applications suite. For now the app is already fully rewritten, coming up would be making it robust and adding some lengthily planned features which could ease the backup/restore workflow with any device. Therefore all types of contribution are always welcome.
 
-![Neo Applications Banner](neo_banner.png)
+[![Neo Applications Banner](neo_banner.png)](https://github.com/NeoApplications)
 
 Now on functionality of our App:
 
