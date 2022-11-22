@@ -349,4 +349,6 @@
     <string name="prefs_advanced_short">高级</string>
     <string name="dialog_export_schedules">导出我的计划</string>
     <string name="prefs_tools_short">工具</string>
+    <string name="prefs_multilineinfochips_summary">允许应用表中的信息片跨越多行。</string>
+    <string name="prefs_multilineinfochips">多线信息芯片</string>
 </resources>
