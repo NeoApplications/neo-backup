@@ -346,15 +346,15 @@
     <string name="prefs_loadingtoasts_summary">Mostrando las notificaciones del sistema mientras se carga la lista</string>
     <string name="dismiss">Descartar</string>
     <string name="supended_apps_cleanup">limpiar las aplicaciones suspendidas sobrantes</string>
-    <string name="prefs_loadingtoasts">Cargando toasts</string>
+    <string name="prefs_loadingtoasts">Barras de carga</string>
     <string name="prefs_theme_dynamic">Tema dinámico (si está disponible)</string>
     <string name="add_tag">Agregar nueva etiqueta</string>
     <string name="edit_note">Editar nota</string>
-    <string name="root_is_mandatory">Dado que las aplicaciones están aisladas unas de otras, el acceso de superusuario es obligatorio para poder hacer copias de seguridad y restaurar sus datos.</string>
+    <string name="root_is_mandatory">Dado que las aplicaciones están aisladas entre sí, se requiere acceso de superusuario para realizar copias de seguridad y restaurar sus datos.</string>
     <string name="enabled">Activado</string>
     <string name="see_faq">¡Consulte las preguntas frecuentes!</string>
     <string name="sortAppDataSize">Tamaño de los datos de la aplicación</string>
-    <string name="dialog_export_schedules">Exportar mis horarios</string>
+    <string name="dialog_export_schedules">Exportar mis planes</string>
     <string name="delete">Eliminar</string>
     <string name="root_missing">¡Falta ROOT!</string>
     <string name="prefs_multilineinfochips_summary">Permitir que las fichas de información en la hoja de aplicación se extiendan por varias líneas.</string>
@@ -363,4 +363,5 @@
     <string name="prefs_multilineinfochips">Las fichas con información ocupan varias lineas</string>
     <string name="prefs_nobackupdata">Copia de seguridad sin archivos</string>
     <string name="prefs_nobackupdata_summary">Hacer una copia de seguridad de los archivos en los datos que están etiquetados para no ser respaldados</string>
+    <string name="prefs_tools_terminal">Terminal</string>
 </resources>
