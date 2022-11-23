@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="backup">Зарезервировать</string>
+    <string name="backup"></string>
     <string name="restore">Восстановить</string>
     <string name="backupConfirmation">Зарезервировать\?</string>
     <string name="restoreConfirmation">Восстановить\?</string>
