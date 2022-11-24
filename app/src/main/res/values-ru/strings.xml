@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="backup"></string>
+    <string name="backup">Бекап</string>
     <string name="restore">Восстановить</string>
     <string name="backupConfirmation">Зарезервировать\?</string>
     <string name="restoreConfirmation">Восстановить\?</string>
@@ -364,4 +364,7 @@
     <string name="prefs_multilineinfochips_summary">Разрешить информационным фишкам в листе приложений занимать несколько строк.</string>
     <string name="prefs_squeezenavtext">Сжать текст элемента навигации</string>
     <string name="prefs_squeezenavtext_summary">Позволить менять размер текста под элементами панели навигации, чтобы заполнить доступную ширину.</string>
+    <string name="prefs_nobackupdata">Бэкап файлов no_backup</string>
+    <string name="prefs_tools_terminal">Терминал</string>
+    <string name="prefs_nobackupdata_summary">Бэкап файлов в данных, которые помечены как не подлежащие бэкапу</string>
 </resources>
