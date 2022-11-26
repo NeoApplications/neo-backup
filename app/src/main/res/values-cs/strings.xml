@@ -354,4 +354,18 @@
     <string name="prefs_nobackupdata">Zálohovat soubory se značkou no_backup</string>
     <string name="prefs_nobackupdata_summary">Zálohovat soubory v datech, které jsou označeny štítkem nezálohovat</string>
     <string name="prefs_tools_terminal">Terminál</string>
+    <string name="prefs_deviceprotecteddata_rst">Obnovit data chráněná zařízením</string>
+    <string name="prefs_externaldata_rst">Obnovit externí data</string>
+    <string name="prefs_obbdata_rst">Obnovte soubory obb</string>
+    <string name="prefs_obbdata_rst_summary">Obnoví soubory obb aplikace umístěné v externím úložišti (např. /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_mediadata_rst">Obnovit mediální soubory</string>
+    <string name="prefs_nobackupdata_rst">Obnovit soubory no_backup</string>
+    <string name="prefs_nobackupdata_rst_summary">Obnoví soubory v datech, která jsou označena jako nezálohovaná</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">Obnoví data umístěná v data/user_de</string>
+    <string name="prefs_externaldata_rst_summary">Obnoví data umístěná na externím úložišti (např. /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_mediadata_rst_summary">Obnoví mediální soubory aplikace, které jsou umístěny v externím úložišti (např. /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_externaldata_summary">Zálohuje data umístěná na externím úložišti (např. /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_mediadata_summary">Zálohuje mediální soubory aplikace, které jsou umístěny v externím úložišti (např. /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_obbdata_summary">Zálohuje soubory obb aplikace umístěné v externím úložišti (např. /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_deviceprotecteddata_summary">Zálohuje data, která jsou umístěna v data/user_de</string>
 </resources>
