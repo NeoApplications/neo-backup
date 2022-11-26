@@ -144,7 +144,7 @@
     <string name="radio_system">Системные приложения</string>
     <string name="radio_user">Пользовательские приложения</string>
     <string name="radio_updated">Обновлено</string>
-    <string name="apptype_special">Специальная р.к.</string>
+    <string name="apptype_special">Специальная резервная копия</string>
     <string name="intro_permission_batteryoptimization">У приложения могут возникнуть проблемы при создании запланированных р.к. на некоторых прошивках из-за агрессивной оптимизации батареи, например, MIUI, но даже на чистой AOSP может возникнуть такая проблема.</string>
     <string name="intro_permission_usageaccess">Приложению необходимо это разрешение для проверки статистики и размера данных и кэша ваших программ.</string>
     <string name="intro_permission_storage_location">Приложению необходимо расположение для хранения резервных копий. Приложение может понадобиться несколько гигабайт свободного места для полной резервной копии и сильно нагружает файловую систему. Пожалуйста, учтите это, выбирая сетевое хранилище данных.</string>
@@ -158,7 +158,7 @@
     <string name="ignore_battery_optimization_not_supported">К сожалению, это устройство не может игнорировать оптимизацию батареи!</string>
     <string name="ignore_battery_optimization_message">Создание р.к. может иногда останавливаться. Для предотвращения этого, Вам следует выключить оптимизацию батареи</string>
     <string name="empty_filtered_list">Отфильтрованный список пуст.</string>
-    <string name="deleted_backup">Удалить р.к.</string>
+    <string name="deleted_backup">Резервная копия удалена</string>
     <string name="apptype_user">Пользовательское приложение</string>
     <string name="apptype_system">Системное приложение</string>
     <string name="bothBackedUp">APK и данные</string>
@@ -239,7 +239,7 @@
     <string name="fetching_action_list">Загрузка спика приложений для %1$s…</string>
     <string name="help_faq">Часто задаваемые вопросы</string>
     <string name="sched_name">Имя:</string>
-    <string name="prefs_saveappslist_summary">Выводит список приложений в текстовый файл в папке с р.к.</string>
+    <string name="prefs_saveappslist_summary">Записывает список приложений в текстовый файл в каталоге резервного копирования пользователя</string>
     <string name="prefs_saveappslist">Сохранить список приложений</string>
     <string name="prefs_allowdowngrade">Разрешить даунгрейд</string>
     <string name="prefs_allowdowngrade_summary">Позволить восстановление более старой версии приложения (применимо только к версиям для отладки).</string>
