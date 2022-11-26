@@ -363,4 +363,18 @@
     <string name="prefs_nobackupdata">Бэкап файлов no_backup</string>
     <string name="prefs_tools_terminal">Терминал</string>
     <string name="prefs_nobackupdata_summary">Бэкап файлов в данных, которые помечены как не подлежащие бэкапу</string>
+    <string name="prefs_deviceprotecteddata_rst">Восстановление данных, защищенных устройством</string>
+    <string name="prefs_obbdata_rst">Восстановление файлов obb</string>
+    <string name="prefs_obbdata_rst_summary">Восстанавливает obb-файлы приложения, размещенные на внешнем хранилище (например, /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_mediadata_rst">Восстановление медиафайлов</string>
+    <string name="prefs_mediadata_rst_summary">Восстанавливает медиафайлы приложения, размещенные на внешнем хранилище (например, /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_externaldata_summary">Резервное копирование данных, размещенных на внешнем накопителе (например, /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">Восстанавливает данные, помещенные в data/user_de</string>
+    <string name="prefs_externaldata_rst">Восстановление внешних данных</string>
+    <string name="prefs_nobackupdata_rst">Восстановление файлов no_backup</string>
+    <string name="prefs_nobackupdata_rst_summary">Восстановление файлов в данных, которые помечены как не подлежащие резервному копированию</string>
+    <string name="prefs_externaldata_rst_summary">Восстанавливает данные, размещенные на внешнем хранилище (например, /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_deviceprotecteddata_summary">Резервное копирование данных, размещенных в data/user_de</string>
+    <string name="prefs_mediadata_summary">Резервное копирование медиафайлов приложения, размещенных на внешнем хранилище (например, /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_obbdata_summary">Резервное копирование obb-файлов приложения, размещенных на внешнем хранилище (например, /storage/emulated/0/Android/obb/)</string>
 </resources>
