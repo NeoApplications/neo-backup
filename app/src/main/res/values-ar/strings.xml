@@ -363,4 +363,18 @@
     <string name="prefs_nobackupdata">النسخ الاحتياطي no_backup الملفات</string>
     <string name="prefs_nobackupdata_summary">النسخ الاحتياطي للملفات في البيانات التي تم تصنيفها على أنها لايمكن نسخها</string>
     <string name="prefs_tools_terminal">الطرفية</string>
+    <string name="prefs_deviceprotecteddata_rst">استعادة البيانات المحمية بواسطة الجهاز</string>
+    <string name="prefs_externaldata_rst">استعادة البيانات الخارجية</string>
+    <string name="prefs_externaldata_rst_summary">نسخ البيانات التي يتم وضعها على وحدة التخزين الخارجية احتياطيا (على سبيل المثال /storage/emlyed/0/Android/data/)</string>
+    <string name="prefs_obbdata_rst">استعادة ملفات obb</string>
+    <string name="prefs_mediadata_rst">استعادة ملفات الوسائط</string>
+    <string name="prefs_nobackupdata_rst">استعادة الملفات no_backup</string>
+    <string name="prefs_nobackupdata_rst_summary">استعادة الملفات الموجودة في البيانات التي تم تصنيفها على أنها غير احتياطية</string>
+    <string name="prefs_deviceprotecteddata_summary">النسخ الاحتياطي واستعادة البيانات التي يتم وضعها في data / user_de</string>
+    <string name="prefs_mediadata_summary">نسخ ملفات وسائط التطبيق التي يتم وضعها على وحدة التخزين الخارجية احتياطيا (على سبيل المثال /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_externaldata_summary">نسخ البيانات التي يتم وضعها على وحدة التخزين الخارجية احتياطيا (على سبيل المثال /storage/emlyed/0/Android/data/)</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">النسخ الاحتياطي واستعادة البيانات التي يتم وضعها في data / user_de</string>
+    <string name="prefs_obbdata_rst_summary">يستعيد ملفات obb الخاصة بالتطبيق والتي يتم وضعها على وحدة التخزين الخارجية (على سبيل المثال /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_mediadata_rst_summary">يستعيد ملفات وسائط التطبيق التي يتم وضعها على وحدة التخزين الخارجية (على سبيل المثال /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_obbdata_summary">نسخ ملفات الوسائط الخاصة بالتطبيق التي يتم وضعها في التخزين الخارجي واستعادتها (على سبيل المثال /storage/emulated/0/Android/media / )</string>
 </resources>
