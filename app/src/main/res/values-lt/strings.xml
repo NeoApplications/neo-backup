@@ -356,4 +356,18 @@
     <string name="prefs_nobackupdata">Kurti atsargines no_backup failų kopijas</string>
     <string name="prefs_nobackupdata_summary">Kuria atsargines failų kopijas duomenims, kuriems pažymėta nekurti atsarginių kopijų</string>
     <string name="prefs_tools_terminal">Terminalas</string>
+    <string name="prefs_deviceprotecteddata_summary">Kuria atsarginę kopiją ir atkuria duomenis, įrašytus į data/user_de</string>
+    <string name="prefs_externaldata_summary">Atkuria atsargines kopijas ir atkuria duomenis, kurie yra išorinėje saugykloje (pvz., /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_mediadata_summary">Kuria atsargines kopijas ir atkuria programėlės medijos failus, esančius išorinėje saugykloje (pvz., /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_deviceprotecteddata_rst">Atkurti įrenginio apsaugotus duomenis</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">Atkuria duomenis, esančius data/user_de</string>
+    <string name="prefs_externaldata_rst">Atkurti išorinius duomenis</string>
+    <string name="prefs_obbdata_rst">Atkurti obb failus</string>
+    <string name="prefs_obbdata_rst_summary">Atkuria išorinėje saugykloje (pvz., /storage/emulated/0/Android/obb/) esančius programos obb failus</string>
+    <string name="prefs_mediadata_rst">Atkurti medijos failus</string>
+    <string name="prefs_nobackupdata_rst">Atkurti no_backup failus</string>
+    <string name="prefs_obbdata_summary">Kuria atsargines kopijas ir atstato išorinėje saugykloje (pvz., /storage/emulated/0/Android/obb/) esančius programėlės obb failus</string>
+    <string name="prefs_externaldata_rst_summary">Atkuria duomenis, kurie yra išorinėje saugykloje (pvz., /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_mediadata_rst_summary">Atkuria išorinėje saugykloje (pvz., /storage/emulated/0/Android/media/) esančius programos medijos failus</string>
+    <string name="prefs_nobackupdata_rst_summary">Atkuria failus duomenyse, kurių atsarginės kopijos nepadarytos</string>
 </resources>
