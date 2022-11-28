@@ -353,4 +353,18 @@
     <string name="prefs_tools_terminal">终端命令</string>
     <string name="prefs_squeezenavtext_summary">允许调整导航栏的文本大小以满足宽度需要。</string>
     <string name="prefs_nobackupdata">备份 no_backup 文件</string>
+    <string name="prefs_deviceprotecteddata_summary">备份 /data/user_de 中的数据</string>
+    <string name="prefs_obbdata_summary">备份在外部存储中的应用程序的obb数据文件（例如 /storage/emulated/0/Android/obb/）</string>
+    <string name="prefs_deviceprotecteddata_rst">还原设备保护存储区的数据</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">还原在 data/user_de 的数据</string>
+    <string name="prefs_externaldata_rst">恢复外部数据</string>
+    <string name="prefs_externaldata_rst_summary">还原外部存储设备 (如 /storage/emulated/0/Android/data/)的数据</string>
+    <string name="prefs_obbdata_rst">还原obb文件</string>
+    <string name="prefs_nobackupdata_rst">还原 no_backup 文件</string>
+    <string name="prefs_nobackupdata_rst_summary">还原标记为无需备份的数据中的文件</string>
+    <string name="prefs_mediadata_summary">备份应用程序在外部存储设备上的媒体文件（例如 /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_obbdata_rst_summary">还原外部存储设备上的 (如 /storage/emulated/0/Android/obb/)应用程序obb文件</string>
+    <string name="prefs_mediadata_rst">还原媒体文件</string>
+    <string name="prefs_mediadata_rst_summary">还原外部存储设备上的 (如 /storage/emulated/0/Android/media/)应用程序媒体文件</string>
+    <string name="prefs_externaldata_summary">备份应用程序在外部存储（例如 /storage/emulated/0/Android/data/）上的数据</string>
 </resources>
