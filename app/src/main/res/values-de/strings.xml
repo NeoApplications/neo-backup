@@ -362,4 +362,5 @@
     <string name="prefs_deviceprotecteddata_rst">Wiederherstellung vom Gerät geschützter Daten</string>
     <string name="prefs_deviceprotecteddata_rst_summary">Stellt Daten wieder her, die in data/user_de abgelegt sind</string>
     <string name="prefs_externaldata_rst">Wiederherstellung externer Daten</string>
+    <string name="prefs_mediadata_rst">Mediendateien wiederherstellen</string>
 </resources>
