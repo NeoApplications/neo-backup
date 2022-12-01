@@ -356,4 +356,10 @@
     <string name="prefs_nobackupdata">Sichern von no_backup-Dateien</string>
     <string name="prefs_nobackupdata_summary">Sichern von Dateien in Daten, die als nicht zu sichern gekennzeichnet sind</string>
     <string name="prefs_tools_terminal">Terminal</string>
+    <string name="prefs_obbdata_summary">Sichert die OBB Dateien einer App, die auf dem externen Speicher liegen (z.B. /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_externaldata_summary">Sichert Daten, die auf dem externen Speicher liegen (z.B. /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_mediadata_summary">Sichert die Mediendateien einer App, die auf dem externen Speicher liegen (z.B. /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_deviceprotecteddata_rst">Wiederherstellung vom Gerät geschützter Daten</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">Stellt Daten wieder her, die in data/user_de abgelegt sind</string>
+    <string name="prefs_externaldata_rst">Wiederherstellung externer Daten</string>
 </resources>
