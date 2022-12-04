@@ -64,7 +64,7 @@
     <string name="app_size">Розмір додатка:</string>
     <string name="grant_usage_access_title">Надати доступ до використання</string>
     <string name="backup_filters">Резервні фільтри:</string>
-    <string name="split_apks">Розділені файли .apk:</string>
+    <string name="split_apks">Розділені файли apk</string>
     <string name="failed_unzipping">Помилка під час розпакування даних, перевірте пароль шифрування!</string>
     <string name="ignore_battery_optimization_not_supported">На жаль, цей пристрій не підтримує ігнорування оптимізації батареї!</string>
     <string name="ignore_battery_optimization_message">Резервні копії іноді можуть припинятися. Щоб цього не сталося, слід вимкнути оптимізацію акумулятора</string>
@@ -357,4 +357,18 @@
     <string name="prefs_nobackupdata">Резервне копіювання файлів no_backup</string>
     <string name="prefs_nobackupdata_summary">Резервне копіювання файлів у даних, які позначені як такі, що не підлягають резервному копіюванню</string>
     <string name="prefs_tools_terminal">Термінал</string>
+    <string name="prefs_mediadata_summary">Резервне копіювання медіа-файлів застосунку, розміщених на зовнішньому носії (наприклад, /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_externaldata_summary">Резервна копія даних, розміщених на зовнішньому носії (наприклад, /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_obbdata_summary">Створення резервної копії файлів OBB застосунку, розміщених на зовнішньому носії (наприклад, /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_externaldata_rst">Відновлення зовнішніх даних</string>
+    <string name="prefs_obbdata_rst">Відновлення obb файлів</string>
+    <string name="prefs_externaldata_rst_summary">Відновлює дані, розміщені на зовнішньому носії (наприклад, /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_mediadata_rst">Відновлення медіа файлів</string>
+    <string name="prefs_mediadata_rst_summary">Відновлює медіа-файли застосунку, розміщені на зовнішньому носії (наприклад, /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_nobackupdata_rst">Відновлення no_backup файлів</string>
+    <string name="prefs_nobackupdata_rst_summary">Відновлює файли в даних, позначених як не резервні копії</string>
+    <string name="prefs_deviceprotecteddata_summary">Резервне копіювання даних, які розміщуються в data/user_de</string>
+    <string name="prefs_deviceprotecteddata_rst">Відновлення, захищених від пристрою, даних</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">Відновлює дані, які розміщуються в data/user_de</string>
+    <string name="prefs_obbdata_rst_summary">Відновлює файли obb застосунку, розміщених на зовнішньому носії (наприклад, /storage/emulated/0/Android/obb/)</string>
 </resources>
