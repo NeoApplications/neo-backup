@@ -254,7 +254,7 @@
         <item quantity="other">ogni %d giorni</item>
     </plurals>
     <string name="intro_permission_storage_location_warning">Non selezionare la directory di archiviazione principale o la cartella Download, crea una cartella solo per i tuoi backup. Maggiori informazioni su questo nelle FAQ</string>
-    <string name="global_blocklist_add">Aggiungi alla lista globale dei bloccati</string>
+    <string name="global_blocklist_add">Aggiungi alla lista bloccati</string>
     <string name="forceKill">Forza arresto</string>
     <string name="sortAscDesc">Ascendente-Discendente</string>
     <string name="logs_share_failed">File di registro non trovato</string>
@@ -328,7 +328,7 @@
     <string name="prefs_restorepermissions_summary">Ripristina le autorizzazioni concesse all\'app al momento del backup. Nota che alcune autorizzazioni non possono essere concesse a livello di codice e quindi causano il fallimento del ripristino del pacchetto nel suo insieme, che Neo Backup copre quindi il ripristino del pacchetto senza autorizzazioni.</string>
     <string name="prefs_loadingtoasts_summary">Mostra toast durante il caricamento dell\'elenco</string>
     <string name="delete">Elimina</string>
-    <string name="loading_list">Lista di caricamento…</string>
+    <string name="loading_list">Caricamento lista…</string>
     <string name="dismiss">Ignora</string>
     <string name="enabled">Abilitato</string>
     <string name="sortAsc">Ascendente</string>
