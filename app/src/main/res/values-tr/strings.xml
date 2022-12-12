@@ -332,4 +332,6 @@
     <string name="prefs_sessionIinstaller">Oturum yükleyicisini kullan</string>
     <string name="prefs_sessionIinstaller_summary">Temel yükleyici yerine oturum yükleyicisini kullanın. Daha yavaştır ancak Android 13+ ile ilgili sorunları önler</string>
     <string name="supended_apps_cleanup">askıya alınan uygulamalardan geriye kalanları temizle</string>
+    <string name="edit_note">Not düzenle</string>
+    <string name="add_tag">Yeni etiket ekle</string>
 </resources>
