@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="forceKill">Форсуюче закриття</string>
-    <string name="intro_permission_storage">Додаток використовує дозвіл на читання/запис до сховища, щоб мати можливість отримати доступ до зовнішнього сховища та забезпечити можливість резервного копіювання зовнішніх даних/obb інших програм.</string>
-    <string name="grant_usage_access_message">Це важливо для отримання інформації про розміри файлів додатку</string>
+    <string name="intro_permission_storage">Застосунок використовує дозвіл на читання/запис до сховища, щоб мати можливість отримати доступ до зовнішнього сховища та забезпечити можливість резервного копіювання зовнішніх даних/obb інших застосунків.</string>
+    <string name="grant_usage_access_message">Це важливо для отримання інформації про розміри файлів застосунка</string>
     <string name="showSplitAPKs">Спліт-APK</string>
     <string name="no_file_manager_message">Немає файлового менеджера для управління SAF. Можливо, ви відключили вбудований менеджер файлів. Будь ласка, відновіть його або ввімкніть знову.</string>
-    <string name="intro_welcome_message">Neo Backup (раніше OAndBackupX) - це форк відомого OAndBackup з метою перенесення OAndBackup на 202X та частина пакету Neo Applications. На даний момент програма вже повністю переписана, на черзі - підвищення її надійності та додавання деяких давно запланованих функцій, які можуть полегшити процес резервного копіювання/відновлення з будь-якого пристрою.
+    <string name="intro_welcome_message">Neo Backup (раніше OAndBackupX) - це форк відомого OAndBackup з метою перенесення OAndBackup на 202X та частина пакету Neo Applications. На даний момент застосунок вже повністю переписана, на черзі - підвищення її надійності та додавання деяких давно запланованих функцій, які можуть полегшити процес резервного копіювання/відновлення з будь-якого пристрою.
 \n Тому всі види допомоги завжди вітаються.
 \n
 \n Тепер про функціональність нашого застосунку:
 \n - Він вимагає root і дозволяє створювати резервні копії окремих програм та їх даних.
 \n - Підтримується як резервне копіювання та відновлення окремих програм по одній, так і пакетне резервне копіювання та відновлення декількох програм.
-\n - Відновлення системних програм повинно бути можливим без необхідності перезавантаження після цього.
-\n - Резервне копіювання можна планувати за розкладом без обмеження кількості окремих розкладів, а також існує можливість створення користувацьких списків зі списку встановлених програм.</string>
+\n - Відновлення системних застосунків повинно бути можливим без необхідності перезавантаження після цього.
+\n - Резервне копіювання можна планувати за розкладом без обмеження кількості окремих розкладів, а також існує можливість створення користувацьких списків зі списку встановлених застосунків.</string>
     <string name="sched_exported">Графіки успішно експортовано</string>
     <string name="error_datachanged">Дані програми активно змінювались під час резервного копіювання. Спробуйте закрити процес, перш ніж робити резервну копію</string>
     <string name="dialog_import">Імпорт</string>
     <string name="dialog_export">Експорт</string>
     <string name="schedule_failed">Не вдалося виконання запланованого</string>
-    <string name="shell_initproblem">Не вдалося ініціювати обробник оболонки. Або відсутній додаток toybox/busybox, або вимкнений root-дозвіл для програми.</string>
+    <string name="shell_initproblem">Не вдалося ініціювати обробник оболонки. Або відсутній застосунок toybox/busybox, або вимкнений root-дозвіл для застосунка.</string>
     <string name="no_file_manager_title">Без SAF менеджера</string>
     <string name="prefs_schedulesexportimport_summary">Експортує або імпортує список створених графіків.</string>
     <string name="prefs_schedulesexportimport">Експорт/імпорт графіків</string>
@@ -28,26 +28,26 @@
     <string name="wait_noappslist">Список програм все ще не отримано. Зачекайте…</string>
     <string name="copyOwnApkFailed">Не вдалося скопіювати файл .apk програми в каталог резервних копій</string>
     <string name="copyOwnApkSuccess">Скопійовано файл .apk програми в каталог резервної копії</string>
-    <string name="forceKillMessage">Ви впевнені, що хочете примусово закрити додаток\?</string>
-    <string name="app_info">Інформація про додаток</string>
-    <string name="launch_app">Запустити додаток</string>
+    <string name="forceKillMessage">Ви впевнені, що хочете примусово закрити застосунок\?</string>
+    <string name="app_info">Інформація про застосунок</string>
+    <string name="launch_app">Запустити застосунок</string>
     <string name="exodus_report">Звіт про вихід</string>
     <string name="clear_cache">Очистити кеш</string>
     <string name="usage_notes_title">Примітки щодо використання</string>
     <string name="main">Головна</string>
     <string name="help">Допомога</string>
-    <string name="stats_apps">Додатки</string>
+    <string name="stats_apps">Застосунки</string>
     <string name="stats_backups">Резервні копії</string>
     <string name="stats_updated">Оновлено</string>
-    <string name="radio_launchable">Запуск додатків</string>
+    <string name="radio_launchable">Запуск Застосунків</string>
     <string name="help_issues">Відомі проблеми</string>
     <string name="fetching_action_list">Отримання списку програм для %1$s…</string>
     <string name="logs_text_empty">Показувати нічого!</string>
     <string name="delete_all_backups">Видалити всі резервні копії</string>
-    <string name="msg_appkill_warning">Вибраним додаткам буде подано сигнал зупинки та продовжуватимуться після завершення завдання. Потім перевірте свої оброблені програми (і уникайте їх запуску, поки процес ще триває).</string>
-    <string name="intro_permission_batteryoptimization">Додаток може зіткнутися з деякими проблемами при виконанні запланованих резервних копій на деяких ПЗУ, які приймають агресивну оптимізацію батареї, наприклад MIUI, але навіть на AOSP така проблема може статися.</string>
-    <string name="intro_permission_usageaccess">Додаток потребує цього дозволу, щоб мати можливість перевіряти статистику та розміри даних та кеш ваших додатків.</string>
-    <string name="intro_permission_storage_location">Додаток потребує резервного місця для зберігання резервних копій. Додатку може знадобитися кілька гігабайт пам’яті для повного резервного копіювання та багато запитує файлову систему. Будь ласка, майте це на увазі, вибираючи місця зберігання на основі мережі.</string>
+    <string name="msg_appkill_warning">Вибраним застосункам буде подано сигнал зупинки та продовжуватимуться після завершення завдання. Потім перевірте свої оброблені застосунки (і уникайте їх запуску, поки процес ще триває).</string>
+    <string name="intro_permission_batteryoptimization">Застосунокк може зіткнутися з деякими проблемами при виконанні запланованих резервних копій на деяких ПЗУ, які приймають агресивну оптимізацію батареї, наприклад MIUI, але навіть на AOSP така проблема може статися.</string>
+    <string name="intro_permission_usageaccess">Застосунок потребує цього дозволу, щоб мати можливість перевіряти статистику та розміри даних та кеш ваших застосунків.</string>
+    <string name="intro_permission_storage_location">Застосунок потребує резервного місця для зберігання резервних копій. Застосунку може знадобитися кілька гігабайт пам’яті для повного резервного копіювання та багато запитує файлову систему. Будь ласка, майте це на увазі, вибираючи місця зберігання на основі мережі.</string>
     <string name="welcome_to_oabx">Вас вітає Neo Backup!</string>
     <string name="storage_access">Доступ до сховища</string>
     <string name="sort_and_filter">Сортувати та фільтрувати</string>
@@ -61,7 +61,7 @@
     <string name="help_license">Ліцензія</string>
     <string name="cache_size">Розмір кешу:</string>
     <string name="data_size">Розмір даних:</string>
-    <string name="app_size">Розмір додатка:</string>
+    <string name="app_size">Розмір застосунка:</string>
     <string name="grant_usage_access_title">Надати доступ до використання</string>
     <string name="backup_filters">Резервні фільтри:</string>
     <string name="split_apks">Розділені файли apk</string>
@@ -73,7 +73,7 @@
     <string name="deleted_backup">Видалено резервну копію</string>
     <string name="other_filters_options">Спеціальні фільтри:</string>
     <string name="encrypted_data_title">Зашифровані дані:</string>
-    <string name="app_s_type_title">Тип додатка:</string>
+    <string name="app_s_type_title">Тип застосунка:</string>
     <string name="last_backup_title">Останнє резервне копіювання:</string>
     <string name="backup_mode_title">Режим резервного копіювання:</string>
     <string name="version_name_title">Назва версії:</string>
@@ -81,8 +81,8 @@
     <string name="applyFilter">Підтвердити</string>
     <string name="resetFilter">Скинути</string>
     <string name="apptype_special">Спеціальне резервне копіювання</string>
-    <string name="apptype_user">Додаток користувача</string>
-    <string name="apptype_system">Системний додаток</string>
+    <string name="apptype_user">Застосунок користувача</string>
+    <string name="apptype_system">Системний застосунок</string>
     <string name="all">Всі</string>
     <string name="bothBackedUp">APK та дані</string>
     <string name="app_s_icon">Піктограма програми</string>
@@ -100,7 +100,7 @@
     <string name="dialogYes">Так</string>
     <string name="dialogCancel">Скасувати</string>
     <string name="dialogOK">OK</string>
-    <string name="restart_dialog">Здається, додаток треба перезавантажити</string>
+    <string name="restart_dialog">Здається, застосунок треба перезавантажити</string>
     <string name="permission_not_granted">Потрібен дозвіл на доступ до зовнішнього сховища</string>
     <string name="error_updating_schedule_mode">Помилка оновлення %1$s у запланованому %2$d</string>
     <string name="error_creating_notification_channel">Не вдається створити канал сповіщень</string>
@@ -108,7 +108,7 @@
     <string name="spec_wallpaper">Шпалери</string>
     <string name="spec_data">Політика використання даних</string>
     <string name="spec_bluetooth">Bluetooth</string>
-    <string name="spec_appwidgets">Віджети додатка</string>
+    <string name="spec_appwidgets">Віджети застосунка</string>
     <string name="spec_accounts">Облікові записи</string>
     <string name="sched_blocklist">Блок-лист</string>
     <string name="sched_excludeSystemCheckBox">Виключити системні програми</string>
@@ -126,7 +126,7 @@
     <string name="prefs_unset">Скасовано</string>
     <string name="prefs_logviewer">Переглянути журнал</string>
     <string name="prefs_saveappslist_summary">Записує список програм у файл .txt у каталозі резервної копії користувача</string>
-    <string name="prefs_saveappslist">Зберегти список додатків</string>
+    <string name="prefs_saveappslist">Зберегти список застосунків</string>
     <string name="prefs_copyselfapk_summary">Помістити копію Neo Backup на верхній рівень теки резервної копії</string>
     <string name="prefs_copyselfapk">Копіювати власний APK</string>
     <string name="prefs_batchdelete_summary">Видалити резервні копії всіх програм, які зараз не встановлені.</string>
@@ -136,7 +136,7 @@
     <string name="prefs_allowdowngrade">Дозволити зниження рівня</string>
     <string name="prefs_allowdowngrade_summary">Дозволити відновлення старої версії встановленої програми (стосується тільки налагоджуваних версій).</string>
     <string name="prefs_restoreallpermissions">Відновити з усіма дозволами</string>
-    <string name="prefs_restoreallpermissions_summary">Надати всі дозволи додатку для відновлення, які були надані.</string>
+    <string name="prefs_restoreallpermissions_summary">Надати всі дозволи застосунку для відновлення, які були надані.</string>
     <string name="prefs_disableverification_summary">Вимикає цю опцію розробника під час відновлення файлів .apk, а потім знову вмикає її. Вирішує помилку: INSTALL_FAILED_VERIFICATION_FAILURE.</string>
     <string name="prefs_disableverification">Вимкніть перевірку програм через USB</string>
     <string name="prefs_acquirewakelock_summary">Під час пакетних операцій придбайте будильник для запобігання сну. Значно пришвидшує резервне копіювання та відновлення, але споживає більше енергії.</string>
@@ -176,16 +176,16 @@
     <string name="prefs_service">Налаштування служби</string>
     <string name="prefs_user">Налаштування користувача</string>
     <string name="prefs_title">Налаштування</string>
-    <string name="disablePackageTitle">Вимкнути додаток для користувачів</string>
-    <string name="disablePackage">Вимкнути додаток</string>
-    <string name="enablePackageTitle">Увімкнути додаток для користувачів</string>
-    <string name="enablePackage">Увімкнути додаток</string>
+    <string name="disablePackageTitle">Вимкнути застосунок для користувачів</string>
+    <string name="disablePackage">Вимкнути застосунок</string>
+    <string name="enablePackageTitle">Увімкнути застосунок для користувачів</string>
+    <string name="enablePackage">Увімкнути застосунок</string>
     <string name="batchDeleteNothingToDelete">Немає резервних копій для видалення</string>
     <string name="batchDeleteBackupsDeleted">Резервні копії видалено:</string>
     <string name="batchDeleteNotificationTitle">Видалити резервні копії</string>
     <string name="batchDeleteMessage">Видалення резервних копій…</string>
     <string name="shareTitle">Поширити</string>
-    <string name="notInstalledModeDataWarning">Додаток не можна відновити з резервної копії без файлу .apk</string>
+    <string name="notInstalledModeDataWarning">Застосунок не можна відновити з резервної копії без файлу .apk</string>
     <string name="customListTitle">Звичайний список</string>
     <string name="errorDialogTitle">Відбулись помилки</string>
     <string name="uninstallFailure">Помилка при видаленні</string>
@@ -207,12 +207,12 @@
     <string name="backupConfirmation">Створити резервну копію\?</string>
     <string name="restoreDataWithoutApkError">Не вдається відновити дані без відновлення файлу .apk, пакет не встановлено.</string>
     <string name="deleteBackupDialogMessage">Видалити резервні копії\?</string>
-    <string name="uninstallDialogMessage">Видалити цей додаток\?</string>
+    <string name="uninstallDialogMessage">Видалити цей застосунок\?</string>
     <string name="sort">Сортувати та фільтрувати</string>
     <string name="sortByPackageName">Сортувати за назвою пакета</string>
     <string name="sortByLabel">Сортувати за міткою</string>
     <string name="showOnlyDataBackedUp">Програми з лише створеними резервними копіями даних</string>
-    <string name="showOnlyApkBackedUp">Додатки, з лише створеними резервними копіями файлів .apk</string>
+    <string name="showOnlyApkBackedUp">Застосунки, з лише створеними резервними копіями файлів .apk</string>
     <string name="showOldBackups">Старі резервні копії</string>
     <string name="showNewAndUpdated">Нові й оновлені застосунки</string>
     <string name="showNotInstalled">Не встановленні застосунки</string>
@@ -258,10 +258,10 @@
     <string name="logs_share_failed">Файл журналу не знайдено</string>
     <string name="sched_imported">Розклад успішно імпортовано</string>
     <plurals name="updated_apps">
-        <item quantity="one">%d оновлений додаток</item>
-        <item quantity="few">%d оновлених додатки</item>
-        <item quantity="many">%d оновлених додатків</item>
-        <item quantity="other">%d оновлених додатків</item>
+        <item quantity="one">%d оновлений застосунок</item>
+        <item quantity="few">%d оновлених застосунків</item>
+        <item quantity="many">%d оновлених застосунків</item>
+        <item quantity="other">%d оновлених застосунків</item>
     </plurals>
     <plurals name="days_left">
         <item quantity="one">%d день,</item>
@@ -299,9 +299,9 @@
     <string name="prefs_compression_level_summary">Нижче значення стискає швидше, але файли тоді більші. Вище значення стискає краще, але повільніше.</string>
     <string name="home">Домівка</string>
     <string name="all_data">Перевірити всі дані</string>
-    <string name="error_pmDataIncompleteException_dataRestoreFailed">Не вдалося відновити дані додатку.</string>
+    <string name="error_pmDataIncompleteException_dataRestoreFailed">Не вдалося відновити дані застосунку.</string>
     <string name="all_apk">Перевірити всі APK</string>
-    <string name="showDisabled">Вимкнені додатки</string>
+    <string name="showDisabled">Вимкнені застосунки</string>
     <string name="prefs_accent_8">Перанський гарбуз</string>
     <string name="prefs_secondary_8">М\'ята</string>
     <string name="spec_fingerprint">Відбитки</string>
