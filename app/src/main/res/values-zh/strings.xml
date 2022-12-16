@@ -2,11 +2,11 @@
 <resources>
     <string name="backup">备份</string>
     <string name="restore">还原</string>
-    <string name="backupConfirmation">确认备份吗？</string>
-    <string name="restoreConfirmation">确认还原吗？</string>
+    <string name="backupConfirmation">确认备份以下应用吗？</string>
+    <string name="restoreConfirmation">确认还原以下应用吗？</string>
     <string name="handleApk">APK</string>
     <string name="handleData">数据</string>
-    <string name="handleBoth">两者</string>
+    <string name="handleBoth">APK+数据</string>
     <string name="radio_all">所有的应用</string>
     <string name="radio_user">用户应用</string>
     <string name="radio_system">系统应用</string>
@@ -36,7 +36,7 @@
     <string name="sortByPackageName">按包名排序</string>
     <string name="sort">排序和筛选</string>
     <string name="uninstallDialogMessage">卸载此应用？</string>
-    <string name="deleteBackupDialogMessage">删除备份文件？</string>
+    <string name="deleteBackupDialogMessage">确认删除备份文件？</string>
     <string name="dialogOK">确定</string>
     <string name="dialogCancel">取消</string>
     <string name="dialogYes">是</string>
@@ -80,7 +80,7 @@
     <string name="prefs_user">用户首选项</string>
     <string name="prefs_theme">主题</string>
     <string name="prefs_acquirewakelock">阻止睡眠</string>
-    <string name="prefs_batchdelete">删除不需要的备份\?</string>
+    <string name="prefs_batchdelete">删除不需要的备份</string>
     <string name="prefs_pathbackupfolder">备份文件夹</string>
     <string name="prefs_oldbackups">筛选过时备份的天数</string>
     <string name="prefs_copyselfapk">复制本应用自身 APK</string>
@@ -148,7 +148,7 @@
     <string name="prefs_theme_system">跟随系统</string>
     <string name="empty_filtered_list">列表为空。</string>
     <string name="dialog_refuse">放弃</string>
-    <string name="dialog_approve">好的!</string>
+    <string name="dialog_approve">好的</string>
     <string name="ignore_battery_optimization_title">电池优化</string>
     <string name="ignore_battery_optimization_message">备份有时会意外停止。为避免这种情况，请关闭电池优化</string>
     <string name="ignore_battery_optimization_not_supported">此设备不支持忽略电池优化！</string>
@@ -180,7 +180,7 @@
     <string name="apptype_special">特殊备份</string>
     <string name="sortDataSize">数据大小</string>
     <string name="dialog_unlock">解锁</string>
-    <string name="dialog_start">开始使用!</string>
+    <string name="dialog_start">开始使用</string>
     <string name="dialogSave">保存</string>
     <string name="sched_add">添加计划任务</string>
     <string name="prefs_password_match_false">密码不匹配</string>
@@ -191,7 +191,7 @@
     <string name="prefs_unset">取消</string>
     <string name="intro_permission_storage_location">该应用程序需要一个备份位置来存储备份。 该应用程序可能需要数GB的存储空间才能进行完整备份。 使用基于网络的存储位置时，请注意这一点。</string>
     <string name="help_appTypeHint">* 如果应用程序已卸载，则该应用程序的图标将为灰色；如果停用该应用程序，则该图标将为深灰色。</string>
-    <string name="radio_updated">已更新的</string>
+    <string name="radio_updated">已更新的应用</string>
     <string name="help_legend">图例:</string>
     <string name="msg_appkill_warning">所选的应用程序将收到停止运行的信号，它们在任务完成后将恢复运行。请在任务完成后检查已处理的应用程序(并避免在任务尚在进行时就启动它们)。</string>
     <string name="prefs_numBackupRevisions_summary">创建新备份时，如果已有的备份数量超过了允许的最大值，则将自动删除最老的备份。将其设置为0以保留所有备份。</string>
@@ -346,25 +346,25 @@
     <string name="prefs_advanced_short">高级</string>
     <string name="dialog_export_schedules">导出我的计划</string>
     <string name="prefs_tools_short">工具</string>
-    <string name="prefs_multilineinfochips_summary">允许应用表中的信息块跨越多行。</string>
+    <string name="prefs_multilineinfochips_summary">使应用详细信息中的属性以多行显示。</string>
     <string name="prefs_multilineinfochips">多行信息块</string>
     <string name="prefs_squeezenavtext">缩进显示导航项的文本</string>
     <string name="prefs_nobackupdata_summary">备份数据中标记为无需备份的文件</string>
     <string name="prefs_tools_terminal">终端命令</string>
-    <string name="prefs_squeezenavtext_summary">允许调整导航栏的文本大小以满足宽度需要。</string>
+    <string name="prefs_squeezenavtext_summary">允许调整导航栏的文本大小以适应宽度。</string>
     <string name="prefs_nobackupdata">备份 no_backup 文件</string>
     <string name="prefs_deviceprotecteddata_summary">备份 /data/user_de 中的数据</string>
     <string name="prefs_obbdata_summary">备份在外部存储中的应用程序的obb数据文件（例如 /storage/emulated/0/Android/obb/）</string>
     <string name="prefs_deviceprotecteddata_rst">还原设备保护存储区的数据</string>
-    <string name="prefs_deviceprotecteddata_rst_summary">还原在 data/user_de 的数据</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">还原在 /data/user_de 的数据</string>
     <string name="prefs_externaldata_rst">恢复外部数据</string>
-    <string name="prefs_externaldata_rst_summary">还原外部存储设备 (如 /storage/emulated/0/Android/data/)的数据</string>
-    <string name="prefs_obbdata_rst">还原obb文件</string>
+    <string name="prefs_externaldata_rst_summary">还原应用程序在外部存储（如 /storage/emulated/0/Android/data/）上的数据</string>
+    <string name="prefs_obbdata_rst">还原 obb 文件</string>
     <string name="prefs_nobackupdata_rst">还原 no_backup 文件</string>
     <string name="prefs_nobackupdata_rst_summary">还原标记为无需备份的数据中的文件</string>
-    <string name="prefs_mediadata_summary">备份应用程序在外部存储设备上的媒体文件（例如 /storage/emulated/0/Android/media/)</string>
-    <string name="prefs_obbdata_rst_summary">还原外部存储设备上的 (如 /storage/emulated/0/Android/obb/)应用程序obb文件</string>
+    <string name="prefs_mediadata_summary">备份应用程序在外部存储上的媒体文件（例如 /storage/emulated/0/Android/media/）</string>
+    <string name="prefs_obbdata_rst_summary">还原应用程序在外部存储上的obb文件（如 /storage/emulated/0/Android/obb/）</string>
     <string name="prefs_mediadata_rst">还原媒体文件</string>
-    <string name="prefs_mediadata_rst_summary">还原外部存储设备上的 (如 /storage/emulated/0/Android/media/)应用程序媒体文件</string>
+    <string name="prefs_mediadata_rst_summary">还原应用程序在外部存储上的媒体文件（如 /storage/emulated/0/Android/media/）</string>
     <string name="prefs_externaldata_summary">备份应用程序在外部存储（例如 /storage/emulated/0/Android/data/）上的数据</string>
 </resources>
