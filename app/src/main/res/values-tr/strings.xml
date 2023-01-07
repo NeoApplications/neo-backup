@@ -334,4 +334,19 @@
     <string name="supended_apps_cleanup">askıya alınan uygulamalardan geriye kalanları temizle</string>
     <string name="edit_note">Not düzenle</string>
     <string name="add_tag">Yeni etiket ekle</string>
+    <string name="prefs_loadingtoasts">Toast\'lar yükleniyor</string>
+    <string name="prefs_theme_dynamic">Dinak tema (kullanılabilirse)</string>
+    <string name="prefs_dev_settings">Geliştirici seçenekleri</string>
+    <string name="prefs_user_short">Kişisel</string>
+    <string name="prefs_tools_short">Araçlar</string>
+    <string name="prefs_deviceprotecteddata_rst">device-proteced verilerini gerj yükle</string>
+    <string name="prefs_obbdata_rst">obb dosyalarını geri yükle</string>
+    <string name="prefs_mediadata_rst">Media dosyalarını gerj yükle</string>
+    <string name="sortAppSize">Uyhulama büyüklüğü</string>
+    <string name="sortBackupSize">Yedek boyutu</string>
+    <string name="prefs_tools_terminal">Terminal</string>
+    <string name="prefs_service_short">Servis</string>
+    <string name="prefs_secondary_8">Mint</string>
+    <string name="prefs_advanced_short">Gelişmiş</string>
+    <string name="prefs_nobackupdata">no_backup dosyalarını yedekle</string>
 </resources>
