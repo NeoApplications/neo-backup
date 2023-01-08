@@ -27,7 +27,7 @@
     <string name="showOnlyUser">仅用户应用</string>
     <string name="showNotBackedup">未备份的应用</string>
     <string name="showNotInstalled">未安装的应用</string>
-    <string name="showNewAndUpdated">未备份和已更新的应用</string>
+    <string name="showNewAndUpdated">未备份和新版应用</string>
     <string name="showOldBackups">旧备份</string>
     <string name="showSplitAPKs">拆分的APKs</string>
     <string name="showOnlyApkBackedUp">仅备份了 APK 的应用</string>
@@ -120,7 +120,7 @@
     <string name="spec_wifiAccessPoints">无线接入点数据</string>
     <!-- filebrowser_createDirectoryError: an error occured while trying to create the directory. format: string + " " + directory name -->
     <string name="error_creating_notification_channel">无法创建通知</string>
-    <string name="error_updating_schedule_mode">更新定时任务 %2$d 的 %1$s 出错</string>
+    <string name="error_updating_schedule_mode">更新计划任务 %2$d 的 %1$s 出错</string>
     <string name="permission_not_granted">需要访问外部存储的权限</string>
     <string name="restart_dialog">这个应用似乎需要重启</string>
     <string name="filter_options">筛选条件：</string>
@@ -191,7 +191,7 @@
     <string name="prefs_unset">取消</string>
     <string name="intro_permission_storage_location">该应用程序需要一个备份位置来存储备份。 该应用程序可能需要数GB的存储空间才能进行完整备份。 使用基于网络的存储位置时，请注意这一点。</string>
     <string name="help_appTypeHint">* 如果应用程序已卸载，则该应用程序的图标将为灰色；如果停用该应用程序，则该图标将为深灰色。</string>
-    <string name="radio_updated">已更新的应用</string>
+    <string name="radio_updated">新版应用</string>
     <string name="help_legend">图例:</string>
     <string name="msg_appkill_warning">所选的应用程序将收到停止运行的信号，它们在任务完成后将恢复运行。请在任务完成后检查已处理的应用程序(并避免在任务尚在进行时就启动它们)。</string>
     <string name="prefs_numBackupRevisions_summary">创建新备份时，如果已有的备份数量超过了允许的最大值，则将自动删除最老的备份。将其设置为0以保留所有备份。</string>
@@ -244,7 +244,7 @@
     <string name="filtered_list">筛选的列表</string>
     <string name="dialog_import">导入</string>
     <string name="dialog_export">导出</string>
-    <string name="schedule_failed">运行定时任务失败</string>
+    <string name="schedule_failed">运行计划任务失败</string>
     <string name="shell_initproblem">无法启动外部shell程序。缺少 toybox/busybox 或禁用了此应用程序的 root 权限。</string>
     <string name="no_file_manager_message">没有文件管理器来管理 SAF。也许你已经禁用了内置的文件管理器。请恢复或重新启用它。</string>
     <string name="no_file_manager_title">无 SAF 管理器</string>
@@ -254,8 +254,8 @@
         <item quantity="other">每 %d 天</item>
     </plurals>
     <string name="logs_share_failed">日志文件未找到</string>
-    <string name="sched_imported">成功导入了任务</string>
-    <string name="sched_exported">成功导出了任务</string>
+    <string name="sched_imported">成功导入了计划任务</string>
+    <string name="sched_exported">成功导出了计划任务</string>
     <string name="error_datachanged">在尝试执行备份时，应用程序的数据已被更改。 请尝试在备份之前结束它的进程以防止更改</string>
     <string name="write_apps_list_all">已导出所有应用程序的列表文件</string>
     <string name="write_apps_list_filtered">已导出已筛选的应用程序列表文件</string>
@@ -305,7 +305,7 @@
     <string name="grant_calllogs_message">要能备份或还原你的通话记录，这是必要的权限。</string>
     <string name="contacts_permission_title">联系人权限</string>
     <string name="intro_permission_contacts">本应用需要这个权限才能将联系人与短信/彩信相匹配。</string>
-    <string name="schedule">计划</string>
+    <string name="schedule">计划任务</string>
     <string name="finished">已完成</string>
     <string name="batch">批量</string>
     <string name="smsmms_permission_title">短信/彩信权限</string>
@@ -344,12 +344,12 @@
     <string name="prefs_user_short">个性化</string>
     <string name="prefs_service_short">偏好</string>
     <string name="prefs_advanced_short">高级</string>
-    <string name="dialog_export_schedules">导出我的计划</string>
+    <string name="dialog_export_schedules">导出我的计划任务</string>
     <string name="prefs_tools_short">工具</string>
-    <string name="prefs_multilineinfochips_summary">使应用详细信息中的属性以多行显示。</string>
-    <string name="prefs_multilineinfochips">多行信息块</string>
+    <string name="prefs_multilineinfochips_summary">允许应用列表中的内容跨行显示。</string>
+    <string name="prefs_multilineinfochips">多行显示</string>
     <string name="prefs_squeezenavtext">缩进显示导航项的文本</string>
-    <string name="prefs_nobackupdata_summary">备份数据中标记为无需备份的文件</string>
+    <string name="prefs_nobackupdata_summary">备份标记为无需备份的文件</string>
     <string name="prefs_tools_terminal">终端命令</string>
     <string name="prefs_squeezenavtext_summary">允许调整导航栏的文本大小以适应宽度。</string>
     <string name="prefs_nobackupdata">备份 no_backup 文件</string>
@@ -361,7 +361,7 @@
     <string name="prefs_externaldata_rst_summary">还原应用程序在外部存储（如 /storage/emulated/0/Android/data/）上的数据</string>
     <string name="prefs_obbdata_rst">还原 obb 文件</string>
     <string name="prefs_nobackupdata_rst">还原 no_backup 文件</string>
-    <string name="prefs_nobackupdata_rst_summary">还原标记为无需备份的数据中的文件</string>
+    <string name="prefs_nobackupdata_rst_summary">还原标记为无需备份的文件</string>
     <string name="prefs_mediadata_summary">备份应用程序在外部存储上的媒体文件（例如 /storage/emulated/0/Android/media/）</string>
     <string name="prefs_obbdata_rst_summary">还原应用程序在外部存储上的obb文件（如 /storage/emulated/0/Android/obb/）</string>
     <string name="prefs_mediadata_rst">还原媒体文件</string>
