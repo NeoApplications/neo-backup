@@ -272,7 +272,7 @@
     <string name="wait_noappslist">Lista aplikacji jeszcze nie jest pobierana. Czekaj…</string>
     <string name="help_group_matrix">Nasza grupa na Matrix</string>
     <string name="help_group_telegram">Nasza grupa na Telegramie</string>
-    <string name="radio_deviceprotecteddata">Chronione dane urządzenia</string>
+    <string name="radio_deviceprotecteddata">Dane chronione przez urządzenie</string>
     <string name="calllogs_permission_title">Uprawnienia do dzienników połączeń</string>
     <string name="shell_initproblem">Nie można zainicjować obsługi powłoki. Brakuje toybox/busybox lub wyłączono uprawnienia roota dla aplikacji.</string>
     <string name="prefs_secondary_6">Łupkowy</string>
