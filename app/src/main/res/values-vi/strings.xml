@@ -345,4 +345,20 @@
     <string name="prefs_squeezenavtext">Bó gọn chữ ở mục điều hướng</string>
     <string name="prefs_multilineinfochips_summary">Cho phép chip trong nơi chứa thông tin ứng dụng hiển thị nhiều dòng.</string>
     <string name="prefs_squeezenavtext_summary">Cho phép chữ dưới mục thanh điều hướng được thay đổi kích thước để vừa với độ rộng có sẵn.</string>
+    <string name="prefs_deviceprotecteddata_rst">Khôi phục dữ liệu được thiết bị bảo vệ</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">Khôi phục dữ liệu được đặt ở data/user_de</string>
+    <string name="prefs_externaldata_rst">Khôi phục dữ liệu ngoài</string>
+    <string name="prefs_externaldata_rst_summary">Khôi phục dữ liệu được đặt ở bộ nhớ ngoài (vd: /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_obbdata_rst">Khôi phục tệp obb</string>
+    <string name="prefs_obbdata_rst_summary">Khôi phục tệp obb của ứng dụng được đặt ở bộ nhớ ngoài (vd: /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_mediadata_rst">Khôi phục tệp phương tiện</string>
+    <string name="prefs_mediadata_rst_summary">Khôi phục tệp phương tiện của ứng dụng được đặt trong bộ nhớ ngoài (vd: /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_nobackupdata_rst">Khôi phục tệp no_backup</string>
+    <string name="prefs_nobackupdata_rst_summary">Khôi phục tệp trong dữ liệu được gọi là không được sao lưu</string>
+    <string name="prefs_deviceprotecteddata_summary">Sao lưu dữ liệu được đặt trong data/user_de</string>
+    <string name="prefs_externaldata_summary">Sao lưu dữ liệu được đặt trong bộ nhớ ngoài (vd: /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_mediadata_summary">Sao lưu các tệp phương tiện của ứng dụng được đặt ở bộ nhớ ngoài (vd: /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_nobackupdata">Sao lưu các tệp no_backup</string>
+    <string name="prefs_nobackupdata_summary">Sao lưu các tệp trong dữ liệu được gọi là không được sao lưu</string>
+    <string name="prefs_obbdata_summary">Sao lưu các tệp obb của ứng dụng được đặt trong bộ nhớ ngoài (vd: /storage/emulated/0/Android/obb/)</string>
 </resources>
