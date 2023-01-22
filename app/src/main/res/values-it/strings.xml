@@ -375,4 +375,5 @@
     <string name="prefs_mediadata_rst">Ripristino file multimediali</string>
     <string name="prefs_mediadata_rst_summary">Ripristina i file multimediali dell\'app posizionati nella memoria esterna (ad es. /storage/emulated/0/Android/media/)</string>
     <string name="prefs_nobackupdata_rst">Ripristino file no_backup</string>
+    <string name="context_menu">Menu contestuale</string>
 </resources>
