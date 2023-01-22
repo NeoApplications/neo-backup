@@ -354,7 +354,7 @@
     <string name="prefs_squeezenavtext">Text des Navigationselements kürzen</string>
     <string name="prefs_squeezenavtext_summary">Größe des Textes unter den Elementen der Navigationsleiste kann an die verfügbare Breite angepasst werden.</string>
     <string name="prefs_nobackupdata">Sichern von no_backup-Dateien</string>
-    <string name="prefs_nobackupdata_summary">Sichern von Dateien in Daten, die als nicht zu sichern gekennzeichnet sind</string>
+    <string name="prefs_nobackupdata_summary">Sichert Dateien in Daten, die als nicht zu sichern gekennzeichnet sind</string>
     <string name="prefs_tools_terminal">Terminal</string>
     <string name="prefs_obbdata_summary">Sichert die OBB Dateien einer App, die auf dem externen Speicher liegen (z.B. /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_externaldata_summary">Sichert Daten, die auf dem externen Speicher liegen (z.B. /storage/emulated/0/Android/data/)</string>
