@@ -374,4 +374,5 @@
     <string name="prefs_obbdata_rst_summary">Restaura los archivos obb de la aplicación que se encuentra en el almacenamiento externo (por ejemplo, /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_mediadata_rst_summary">Restaura los archivos multimedia de la aplicación que se encuentra en el almacenamiento externo (por ejemplo, /storage/emulated/0/Android/media/)</string>
     <string name="prefs_externaldata_summary">Realiza una copia de seguridad de los datos que se encuentran en el almacenamiento externo (por ejemplo, /storage/emulated/0/Android/data/)</string>
+    <string name="context_menu">Menú contextual</string>
 </resources>
