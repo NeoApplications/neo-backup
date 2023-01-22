@@ -377,4 +377,5 @@
     <string name="prefs_obbdata_rst_summary">يستعيد ملفات obb الخاصة بالتطبيق والتي يتم وضعها على وحدة التخزين الخارجية (على سبيل المثال /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_mediadata_rst_summary">يستعيد ملفات وسائط التطبيق التي يتم وضعها على وحدة التخزين الخارجية (على سبيل المثال /storage/emulated/0/Android/media/)</string>
     <string name="prefs_obbdata_summary">نسخ ملفات الوسائط الخاصة بالتطبيق التي يتم وضعها في التخزين الخارجي واستعادتها (على سبيل المثال /storage/emulated/0/Android/media / )</string>
+    <string name="context_menu">قائمة السياق</string>
 </resources>
