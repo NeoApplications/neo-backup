@@ -377,4 +377,5 @@
     <string name="prefs_deviceprotecteddata_summary">Резервное копирование данных, размещенных в data/user_de</string>
     <string name="prefs_mediadata_summary">Резервное копирование медиафайлов приложения, размещенных на внешнем хранилище (например, /storage/emulated/0/Android/media/)</string>
     <string name="prefs_obbdata_summary">Резервное копирование obb-файлов приложения, размещенных на внешнем хранилище (например, /storage/emulated/0/Android/obb/)</string>
+    <string name="context_menu">Контекстное меню</string>
 </resources>
