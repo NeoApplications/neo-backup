@@ -2,7 +2,7 @@
 <resources>
     <string name="backup">Backup</string>
     <string name="restore">Ripristino</string>
-    <string name="backupConfirmation">Eseguo il backup\?</string>
+    <string name="backupConfirmation">Eseguire il backup\?</string>
     <string name="restoreConfirmation">Eseguo il ripristino\?</string>
     <string name="handleApk">APK</string>
     <string name="handleData">Dati</string>
