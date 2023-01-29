@@ -367,4 +367,5 @@
     <string name="prefs_mediadata_rst">还原媒体文件</string>
     <string name="prefs_mediadata_rst_summary">还原应用程序在外部存储上的媒体文件（如 /storage/emulated/0/Android/media/）</string>
     <string name="prefs_externaldata_summary">备份应用程序在外部存储（例如 /storage/emulated/0/Android/data/）上的数据</string>
+    <string name="context_menu">关联菜单</string>
 </resources>
