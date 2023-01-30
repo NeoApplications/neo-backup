@@ -378,4 +378,6 @@
     <string name="prefs_mediadata_rst_summary">يستعيد ملفات وسائط التطبيق التي يتم وضعها على وحدة التخزين الخارجية (على سبيل المثال /storage/emulated/0/Android/media/)</string>
     <string name="prefs_obbdata_summary">نسخ ملفات الوسائط الخاصة بالتطبيق التي يتم وضعها في التخزين الخارجي واستعادتها (على سبيل المثال /storage/emulated/0/Android/media / )</string>
     <string name="context_menu">قائمة السياق</string>
+    <string name="prefs_theme_black">نسق أسود</string>
+    <string name="prefs_theme_black_summary">يفرض خلفية سوداء عندما تكون على النسق الداكن</string>
 </resources>
