@@ -92,7 +92,7 @@
     <string name="prefs_encryption">加密</string>
     <string name="prefs_password">加密密码</string>
     <string name="prefs_externaldata">备份外部数据</string>
-    <string name="prefs_deviceprotecteddata">备份受设备保护的数据</string>
+    <string name="prefs_deviceprotecteddata">备份设备保护数据</string>
     <string name="prefs_password_summary">密码为空则不会加密</string>
     <string name="prefs_encryption_summary">启用以加密备份数据</string>
     <string name="prefs_excludecache_summary">数据备份时排除应用程序的缓存</string>
@@ -200,7 +200,7 @@
     <string name="prefs_stopcont">在备份或还原之前强制停止应用程序进程</string>
     <string name="prefs_advanced">高级设置</string>
     <string name="radio_obbdata">OBB 数据</string>
-    <string name="radio_deviceprotecteddata">受保护的设备数据</string>
+    <string name="radio_deviceprotecteddata">设备保护数据</string>
     <string name="radio_externaldata">外部数据</string>
     <string name="logs_text_empty">没什么可显示的！</string>
     <string name="delete_all_backups">删除全部备份</string>
@@ -334,7 +334,7 @@
     <string name="prefs_sessionIinstaller">使用会话安装器</string>
     <string name="prefs_sessionIinstaller_summary">使用会话安装器而不是基本安装器。安装速度更慢，但解决了 Android 13 的问题</string>
     <string name="sortAppSize">应用大小</string>
-    <string name="sortAppDataSize">数据大小</string>
+    <string name="sortAppDataSize">应用数据大小</string>
     <string name="sortBackupSize">备份大小</string>
     <string name="add_tag">新建标签</string>
     <string name="edit_note">编辑</string>
