@@ -369,4 +369,6 @@
     <string name="prefs_obbdata_summary">Zálohuje soubory obb aplikace umístěné v externím úložišti (např. /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_deviceprotecteddata_summary">Zálohuje data, která jsou umístěna v data/user_de</string>
     <string name="context_menu">Kontextová nabídka</string>
+    <string name="prefs_theme_black_summary">Vynutí černé pozadí při zapnutém tmavém motivu</string>
+    <string name="prefs_theme_black">Černý motiv</string>
 </resources>
