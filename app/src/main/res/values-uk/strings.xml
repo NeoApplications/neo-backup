@@ -372,4 +372,6 @@
     <string name="prefs_deviceprotecteddata_rst_summary">Відновлює дані, які розміщуються в data/user_de</string>
     <string name="prefs_obbdata_rst_summary">Відновлює файли obb застосунку, розміщених на зовнішньому носії (наприклад, /storage/emulated/0/Android/obb/)</string>
     <string name="context_menu">Контекстне меню</string>
+    <string name="prefs_theme_black">Чорна тема</string>
+    <string name="prefs_theme_black_summary">Застосовує чорний фон у темній темі</string>
 </resources>
