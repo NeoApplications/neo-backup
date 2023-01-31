@@ -375,4 +375,6 @@
     <string name="prefs_mediadata_rst_summary">Restaura los archivos multimedia de la aplicación que se encuentra en el almacenamiento externo (por ejemplo, /storage/emulated/0/Android/media/)</string>
     <string name="prefs_externaldata_summary">Realiza una copia de seguridad de los datos que se encuentran en el almacenamiento externo (por ejemplo, /storage/emulated/0/Android/data/)</string>
     <string name="context_menu">Menú contextual</string>
+    <string name="prefs_theme_black">Tema Oscuro</string>
+    <string name="prefs_theme_black_summary">Forzar el fondo negro al usar el tema oscuro</string>
 </resources>
