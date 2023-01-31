@@ -378,4 +378,6 @@
     <string name="prefs_mediadata_summary">Резервное копирование медиафайлов приложения, размещенных на внешнем хранилище (например, /storage/emulated/0/Android/media/)</string>
     <string name="prefs_obbdata_summary">Резервное копирование obb-файлов приложения, размещенных на внешнем хранилище (например, /storage/emulated/0/Android/obb/)</string>
     <string name="context_menu">Контекстное меню</string>
+    <string name="prefs_theme_black">Тёмная тема</string>
+    <string name="prefs_theme_black_summary">Принудительный тёмный фон при тёмной теме</string>
 </resources>
