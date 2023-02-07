@@ -177,4 +177,8 @@
     <string name="prefs_compression_level">Kompressionsnivå</string>
     <string name="prefs_sessionIinstaller">Använd sessionsinstallerare</string>
     <string name="prefs_theme_dynamic">Dynamiskt tema (om tillgängligt)</string>
+    <string name="prefs_theme_black">Svart tema</string>
+    <string name="prefs_theme_black_summary">Framtvingar svart bakgrund när temat är mörkt</string>
+    <string name="radio_deviceprotecteddata">Enhetsskyddad data</string>
+    <string name="radio_mediadata">Mediadata</string>
 </resources>
