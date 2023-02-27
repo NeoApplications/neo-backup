@@ -5,7 +5,7 @@
     <string name="enablePackageTitle">Ativar app para usuários</string>
     <plurals name="updated_apps">
         <item quantity="one">%d app atualizado</item>
-        <item quantity="many"></item>
+        <item quantity="many"/>
         <item quantity="other">%d apps atualizados</item>
     </plurals>
     <string name="global_blocklist_add">Adicionar a lista negra global</string>
@@ -219,12 +219,12 @@
     <string name="handleData">Dados</string>
     <plurals name="days_left">
         <item quantity="one">%d dia</item>
-        <item quantity="many"></item>
+        <item quantity="many"/>
         <item quantity="other">%d dias</item>
     </plurals>
     <plurals name="sched_interval_formal">
         <item quantity="one">cada dia</item>
-        <item quantity="many"></item>
+        <item quantity="many"/>
         <item quantity="other">cada %d dias</item>
     </plurals>
     <string name="backup_all_updated">Atualizar tudo</string>
@@ -255,7 +255,7 @@
     <string name="help_issues">Problemas conhecidos</string>
     <string name="fetching_action_list">Obtendo lista de apps para %1$s…</string>
     <string name="logs_text_empty">Não há nada a mostrar!</string>
-    <string name="welcome_to_oabx">Bem-vindo ao OABX!</string>
+    <string name="welcome_to_oabx">Bem-vindo ao Neo Backup!</string>
     <string name="storage_access">Acesso ao Armazenamento</string>
     <string name="help_faq">Perguntas frequentes</string>
     <string name="help_group_telegram">Nosso Grupo no Telegram</string>
@@ -314,7 +314,7 @@
     <string name="schedule">Agendar</string>
     <string name="batch">Lote</string>
     <string name="spec_fingerprint">Impressões digitais</string>
-    <string name="loading_list">Carregando lista de apps…</string>
+    <string name="loading_list">Carregando lista…</string>
     <string name="delete">Excluir</string>
     <string name="finished">finalizado</string>
     <string name="prefs_loadingtoasts_summary">Exibir notificações enquanto a lista carrega</string>
@@ -328,4 +328,21 @@
     <string name="prefs_sessionIinstaller_summary">Usar o instalador de sessão ao invés do instalador básico. É mais lento, mas evita problemas com o Android 13+</string>
     <string name="prefs_installerpackagename">Nome do instalador de pacote:</string>
     <string name="prefs_theme_dynamic">Tema dinâmico (se disponível)</string>
+    <string name="sortBackupSize">Tamanho do backup</string>
+    <string name="prefs_theme_black">Tema escuro</string>
+    <string name="prefs_theme_black_summary">Aplica fundo preto quando em tema escuro</string>
+    <string name="prefs_mediadata_rst">Restaurar arquivos de mídia</string>
+    <string name="prefs_dev_settings">Configurações de desenvolvedor</string>
+    <string name="spec_calllogsjson">Registo de chamadas em JSON</string>
+    <string name="dialogCancelAll">Cancelar tudo</string>
+    <string name="sortAppSize">Tamanho do app</string>
+    <string name="add_tag">Adicionar nova tag</string>
+    <string name="prefs_tools_terminal">Terminal</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="see_faq">Consulte as FAQ!</string>
+    <string name="prefs_externaldata_rst">Restaurar dados externos</string>
+    <string name="sortDesc">Decrescente</string>
+    <string name="sortAsc">Crescente</string>
+    <string name="enabled">Ativado</string>
+    <string name="context_menu">Menu de contexto</string>
 </resources>
