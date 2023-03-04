@@ -82,7 +82,7 @@
     <string name="prefs_batchdelete">Excluir backups\?</string>
     <string name="prefs_stopcont_summary">Usuários Avançados: Isto pode ajudar, se o app estiver alterando arquivos durante o backup e o backup falhar.</string>
     <string name="prefs_stopcont">STOP-CONT pré e pós-processamento de apps em backup/restauração</string>
-    <string name="prefs_allowdowngrade_summary">Permitir a restauração de uma versão mais antiga do app instalado.</string>
+    <string name="prefs_allowdowngrade_summary">Permitir a restauração de uma versão mais antiga do app instalado (aplicável apenas para versões debugáveis).</string>
     <string name="prefs_restoreallpermissions_summary">Conceder ao app restaurado todas as permissões solicitadas.</string>
     <string name="prefs_disableverification_summary">Desativa esta opção de desenvolvedor enquanto restaura APKs e a reativa depois. Resolve o erro: INSTALL_FAILED_VERIFICATION_FAILURE.</string>
     <string name="prefs_disableverification">Desativar Verificação de apps via USB</string>
@@ -345,4 +345,8 @@
     <string name="sortAsc">Crescente</string>
     <string name="enabled">Ativado</string>
     <string name="context_menu">Menu de contexto</string>
+    <string name="prefs_nobackupdata_rst">Restaurar arquivos no_backup</string>
+    <string name="dismiss">Rejeitar</string>
+    <string name="prefs_obbdata_rst">Restaurar arquivos obb</string>
+    <string name="prefs_dev_settings_summary">Não altere a não ser que um desenvolvedor diga para você usar!</string>
 </resources>
