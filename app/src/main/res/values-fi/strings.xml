@@ -152,7 +152,7 @@
     <string name="ignore_battery_optimization_title">Akun optimointi</string>
     <string name="ignore_battery_optimization_not_supported">Valitettavasti tämä laite ei salli akun optimoinnin ottamista pois käytöstä!</string>
     <string name="failed_unzipping">Virhe datan purkamisessa, tarkista salauksen salasana!</string>
-    <string name="split_apks">Split APK:t:</string>
+    <string name="split_apks">Split-APK:t</string>
     <string name="backup_filters">Varmuuskopiosuodattimet:</string>
     <string name="smsmms_permission_title">SMS/MMS-käyttöoikeudet</string>
     <string name="contacts_permission_title">Yhteystietojen käyttöoikeus</string>
@@ -341,4 +341,25 @@
     <string name="edit_note">Muokkaa muistiinpanoa</string>
     <string name="add_tag">Lisää avainsana</string>
     <string name="prefs_theme_dynamic">Dynaaminen teema (jos käytettävissä)</string>
+    <string name="prefs_theme_black_summary">Pakottaa mustan taustan tummalla teemalla</string>
+    <string name="context_menu">Valikko</string>
+    <string name="prefs_theme_black">Musta tausta</string>
+    <string name="prefs_obbdata_summary">Varmuuskopioi sovellusten ulkoiselle tallennustilalle tallentamat obb-tiedostot (esim. /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_multilineinfochips">Moniriviset tiedot</string>
+    <string name="prefs_nobackupdata">Varmuuskopioi no_backup-tiedostot</string>
+    <string name="prefs_nobackupdata_summary">Varmuuskopioi myös tiedostot, jotka on merkattu ei-varmuuskopioitavaksi</string>
+    <string name="prefs_multilineinfochips_summary">Salli sovellustietojen laajentua useammalle riville.</string>
+    <string name="prefs_externaldata_summary">Varmuuskopioi ulkoiselle tallennustilalle tallennetut tiedot (esim. /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">Palauttaa tiedot, jotka sijaitsevat kohteessa data/user_de</string>
+    <string name="prefs_externaldata_rst">Palauta ulkoiset tiedot</string>
+    <string name="prefs_externaldata_rst_summary">Palauttaa tiedot, jotka sijaitsevat ulkoisella tallennustilalla (esim. /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_obbdata_rst">Palauta obb-tiedostot</string>
+    <string name="prefs_mediadata_summary">Varmuuskopioi sovellusten ulkoiselle tallennustilalle tallentamat mediatiedostot (esim. /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_deviceprotecteddata_rst">Palauta laitesuojatut tiedot</string>
+    <string name="prefs_obbdata_rst_summary">Palauttaa sovelluksen obb-tiedostot, jotka sijaitsevat ulkoisella tallennustilalla (esim. /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_mediadata_rst">Palauta mediatiedostot</string>
+    <string name="prefs_nobackupdata_rst">Palauta no_backup-tiedostot</string>
+    <string name="prefs_nobackupdata_rst_summary">Palauttaa tiedostot, jotka on merkattu ei-varmuuskopioitaviksi</string>
+    <string name="prefs_mediadata_rst_summary">Palauttaa sovelluksen mediatiedostot, jotka sijaitsevat ulkoisella tallennustilalla (esim. /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_tools_terminal">Pääte</string>
 </resources>
