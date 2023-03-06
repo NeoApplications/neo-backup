@@ -1,21 +1,22 @@
 <html>
     <body>
-        <p><strong>Режими резервного копіювання</strong>: Із застосунку можна створити резервну копію лише її apk, лише її дані або обидва. Програму, не встановлену на цю мить, можна відновити лише за наявності файлу .apk. Три додаткові типи даних підтримуються додатково до основних даних: захищені пристроєм дані, зовнішні дані та дані obb.
+        <p><strong>Режими резервного копіювання</strong>:
+Із застосунку можна створити резервну копію лише її apk, лише її дані або обидва. Застосунок, не встановлено на цю мить, можна відновити лише за наявності файлу .apk. Три додаткові типи даних підтримуються додатково до основних даних:
+захищені пристроєм дані, зовнішні дані та дані obb.
         </p>
         <p><strong>Видалити резервну копію</strong>: Видаляє файли резервної копії для певного екземпляра резервної копії. "Видалити резервні копії" видалить усі резервні копії вибраного застосунка.
         </p>
-        <p><strong>Видалення</strong>:
-Дещо агресивніший, ніж звичайне видалення. На застосунок до звичайного видалення за допомогою команд Android, видалення з OAndBackupX видаляє файли, які застосунок могла залишити в /data/app-lib/.
+        <p><strong>Видалення</strong>: Дещо агресивніший, ніж звичайне видалення. На застосунок до звичайного видалення за допомогою команд Android, видалення з OAndBackupX видаляє файли, які застосунок могла залишити в /data/app-lib/.
         </p>
-        <p><strong>Видалити резервну копію</strong>: Видаляє файли резервної копії для певного екземпляра резервної копії. "Видалити резервні копії" видалить усі резервні копії вибраного додатка.
+        <p><strong>Enable / disable</strong>: Uses the Android `pm` script to enable or disable an app. Disabling an app removes it from the normal user interface without uninstalling it. This can be used for enabling or disabling an app for multiple users at a time (if the device has multiple users). Users are identified with an ID e.g. 0 is the first user (owner) 10 is usually the work profile.
         </p>
-        <p><strong>Видалення</strong>: Дещо агресивніший, ніж звичайне видалення. На додаток до звичайного видалення за допомогою команд Android, видалення з OAndBackupX видаляє файли, які програма могла залишити в /data/app-lib/.
-        </p>
-        <p><strong>Multiple users</strong>: Multi-user is still somewhat experimental but should work. When restoring in a multi-user scenario, `pm install -r $apk` gets called and subsequently the app is disabled for every user who has the app listed in /data/system/user/$user/package-restrictions.xml (unless the app is listed as enabled="1"). &lt;br /&gt; This can create problems for users installing the same app at some later point, but is necessary to prevent the app from being installed to all users at the same time. The context menu has an option to enable or disable apps which can be used if other users become unable to use a specific app due to disabling on restore. &lt;br /&gt; Enabling and disabling only works after an initial install (not necessarily from OAndBackupx) or restore of the app.
+        <p><strong>Multiple users</strong>: Multi-user is still somewhat experimental but should work. Enabling and disabling only works after an initial install (not necessarily from OAndBackupx) or restore of the app.
         </p>
         <p><strong>System-less apps</strong>: Backup and restore of system-less apps installed as Magisk modules is not supported and trying it could lead to system failure and forcing you to format and flash it anew.
         </p>
-        <p><strong> Навігація </strong>. На панелі навігації є "Налаштування", "Головна", "Пакетне резервне копіювання", "Пакетне відновлення" та "Графік резервних копій" (у такому порядку). Кількість програм, оновлених після останнього резервного копіювання, буде представлено як сповіщення на кнопці "Головна".
+        <p><strong>Navigation</strong>: The navigation bar has "Settings", "Home", "Batch backup", "Batch restore" and "Schedule backups" (in that order). The number of apps upgraded after their last backup will be presented as a notification on "Home" button.
+        </p>
+        <p><strong>Apps using Keystore</strong>: Android has an encrypted storage for sensitive data. Apps that make use of this to store login data or some keys for its function can't be restored successfully. Two examples of such apps are Signal and Element(Riot).
         </p>
     </body>
 </html>
