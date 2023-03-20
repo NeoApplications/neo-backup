@@ -349,4 +349,7 @@
     <string name="dismiss">Rejeitar</string>
     <string name="prefs_obbdata_rst">Restaurar arquivos obb</string>
     <string name="prefs_dev_settings_summary">Não altere a não ser que um desenvolvedor diga para você usar!</string>
+    <string name="spec_smsmmsjson">SMS/MMS no formato JSON</string>
+    <string name="root_missing">ROOT em falta!</string>
+    <string name="dialog_export_schedules">Exportar meus agendamentos</string>
 </resources>
