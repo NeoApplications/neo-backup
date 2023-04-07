@@ -371,4 +371,8 @@
     <string name="context_menu">Kontextová nabídka</string>
     <string name="prefs_theme_black_summary">Vynutí černé pozadí při zapnutém tmavém motivu</string>
     <string name="prefs_theme_black">Černý motiv</string>
+    <string name="prefs_singularbackuprestore">Obnovení singulární zálohy</string>
+    <string name="post_notifications_permission_title">Posílání oznámení</string>
+    <string name="prefs_singularbackuprestore_summary">Použít alternativní rozložení položek pro obnovení, které umožňuje vybrat konkrétní zálohy pro obnovu.</string>
+    <string name="post_notifications_permission_message">Od Androidu 13 vyžadují aplikace toto oprávnění, aby mohly odesílat oznámení.</string>
 </resources>
