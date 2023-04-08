@@ -377,4 +377,8 @@
     <string name="context_menu">Menú contextual</string>
     <string name="prefs_theme_black">Tema Oscuro</string>
     <string name="prefs_theme_black_summary">Forzar el fondo negro al usar el tema oscuro</string>
+    <string name="post_notifications_permission_title">Envío de notificaciones</string>
+    <string name="prefs_singularbackuprestore">Restaurar una copia de seguridad única</string>
+    <string name="prefs_singularbackuprestore_summary">Utiliza un diseño alternativo de elementos para la restauración que permite elegir copias de seguridad específicas para la restauración.</string>
+    <string name="post_notifications_permission_message">A partir de Android 13 las aplicaciones requieren este permiso para poder enviar notificaciones.</string>
 </resources>
