@@ -374,4 +374,8 @@
     <string name="context_menu">Контекстне меню</string>
     <string name="prefs_theme_black">Чорна тема</string>
     <string name="prefs_theme_black_summary">Застосовує чорний фон у темній темі</string>
+    <string name="prefs_singularbackuprestore">Відновлення одиничної резервної копії</string>
+    <string name="prefs_singularbackuprestore_summary">Використовуйте альтернативне розташування елементів відновлення, яке дозволяє вибрати конкретні резервні копії для відновлення.</string>
+    <string name="post_notifications_permission_message">Для запуску застосунків Android 13 потрібен цей дозвіл, щоб мати змогу публікувати сповіщення.</string>
+    <string name="post_notifications_permission_title">Повідомлення про публікації</string>
 </resources>
