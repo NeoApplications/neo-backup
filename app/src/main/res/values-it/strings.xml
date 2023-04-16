@@ -381,4 +381,5 @@
     <string name="prefs_singularbackuprestore_summary">Usa una disposizione alternativa dell\'elemento di ripristino che consenta di scegliere backup specifici per il ripristino.</string>
     <string name="post_notifications_permission_title">Invia notifiche</string>
     <string name="post_notifications_permission_message">A partire da Android 13 le applicazioni richiedono questa autorizzazione per poter inviare notifiche.</string>
+    <string name="prefs_password_summary">Utilizzato anche per la decrittazione al ripristino</string>
 </resources>
