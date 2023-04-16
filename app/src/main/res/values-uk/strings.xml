@@ -377,4 +377,5 @@
     <string name="prefs_singularbackuprestore_summary">Використовуйте альтернативне розташування елементів відновлення, яке дозволяє вибрати конкретні резервні копії для відновлення.</string>
     <string name="post_notifications_permission_message">Для запуску застосунків Android 13 потрібен цей дозвіл, щоб мати змогу публікувати сповіщення.</string>
     <string name="post_notifications_permission_title">Повідомлення про публікації</string>
+    <string name="prefs_password_summary">Також використовується для розшифровки під час відновлення</string>
 </resources>
