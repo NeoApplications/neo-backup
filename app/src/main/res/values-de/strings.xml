@@ -375,4 +375,8 @@
     <string name="prefs_multilineinfochips">Mehrzeilige Info-Chips</string>
     <string name="prefs_theme_black_summary">Dunkles Thema</string>
     <string name="prefs_multilineinfochips_summary">Info-Chips im App-Sheet dürfen sich über mehrere Zeilen erstrecken.</string>
+    <string name="prefs_singularbackuprestore">Einzelne Sicherung wiederherstellen</string>
+    <string name="prefs_singularbackuprestore_summary">Ein alternatives Wiederherstellungslayout verwenden, das die Auswahl bestimmter Sicherungen für die Wiederherstellung ermöglicht.</string>
+    <string name="post_notifications_permission_title">Benachrichtigungen veröffentlichen</string>
+    <string name="post_notifications_permission_message">Ab Android 13 benötigen Apps diese Berechtigung, um Benachrichtigungen zu versenden.</string>
 </resources>
