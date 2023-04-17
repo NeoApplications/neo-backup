@@ -383,4 +383,5 @@
     <string name="post_notifications_permission_message">Для запуска приложений на Android 13 необходимо это разрешение, чтобы иметь возможность публиковать уведомления.</string>
     <string name="prefs_singularbackuprestore">Однократное восстановление резервной копии</string>
     <string name="prefs_singularbackuprestore_summary">Используйте альтернативную схему элементов восстановления, которая позволяет выбрать конкретные резервные копии для восстановления.</string>
+    <string name="prefs_password_summary">Также используется для расшифровки при восстановлении</string>
 </resources>
