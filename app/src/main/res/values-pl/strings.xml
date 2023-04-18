@@ -368,4 +368,14 @@
     <string name="see_faq">Zobacz często zadawane pytania!</string>
     <string name="root_is_mandatory">Ponieważ aplikacje są od siebie odizolowane, dostęp superużytkownika jest obowiązkowy, aby móc tworzyć kopie zapasowe i przywracać ich dane.</string>
     <string name="prefs_accent_5">Charakterna Limonka</string>
+    <string name="prefs_theme_black">Czarny motyw</string>
+    <string name="prefs_theme_black_summary">Wymuszenie czarnego tła przy ciemnym motywie</string>
+    <string name="prefs_singularbackuprestore">Jednorazowe przywrócenie kopii zapasowej</string>
+    <string name="prefs_mediadata_rst_summary">Przywraca kopię zapasową plików multimedialnych aplikacji umieszczonych w pamięci zewnętrznej (np. /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_mediadata_rst">Przywracanie plików multimedialnych</string>
+    <string name="prefs_password_summary">Używany również do odszyfrowania przy przywracaniu</string>
+    <string name="context_menu">Menu kontekstowe</string>
+    <string name="batch">Seria</string>
+    <string name="prefs_singularbackuprestore_summary">Użyj alternatywnego układu elementów przywracania, który pozwala wybrać określone kopie zapasowe do przywrócenia.</string>
+    <string name="post_notifications_permission_message">Począwszy od Androida 13 aplikacja wymaga tego uprawnienia, aby móc wysyłać powiadomienia.</string>
 </resources>
