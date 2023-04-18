@@ -374,4 +374,5 @@
     <string name="post_notifications_permission_title">Posílání oznámení</string>
     <string name="prefs_singularbackuprestore_summary">Použít alternativní rozložení položek pro obnovení, které umožňuje vybrat konkrétní zálohy pro obnovu.</string>
     <string name="post_notifications_permission_message">Od Androidu 13 vyžadují aplikace toto oprávnění, aby mohly odesílat oznámení.</string>
+    <string name="prefs_password_summary">Také používáno pro dešifrování při obnovení</string>
 </resources>
