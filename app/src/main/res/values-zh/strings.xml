@@ -373,4 +373,5 @@
     <string name="prefs_singularbackuprestore_summary">使用允许选择要还原的特定备份的备用还原项布局。</string>
     <string name="post_notifications_permission_message">启动 Android 13 应用需要此权限才能发布通知。</string>
     <string name="post_notifications_permission_title">发布通知</string>
+    <string name="prefs_password_summary">也用于还原时的解密</string>
 </resources>
