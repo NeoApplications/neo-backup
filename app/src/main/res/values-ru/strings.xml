@@ -384,4 +384,5 @@
     <string name="prefs_singularbackuprestore">Однократное восстановление резервной копии</string>
     <string name="prefs_singularbackuprestore_summary">Используйте альтернативную схему элементов восстановления, которая позволяет выбрать конкретные резервные копии для восстановления.</string>
     <string name="prefs_password_summary">Также используется для расшифровки при восстановлении</string>
+    <string name="backup_revisions_limit">Лимит резервных копий: %d</string>
 </resources>
