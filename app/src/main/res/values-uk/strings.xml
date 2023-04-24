@@ -378,4 +378,5 @@
     <string name="post_notifications_permission_message">Для запуску застосунків Android 13 потрібен цей дозвіл, щоб мати змогу публікувати сповіщення.</string>
     <string name="post_notifications_permission_title">Повідомлення про публікації</string>
     <string name="prefs_password_summary">Також використовується для розшифровки під час відновлення</string>
+    <string name="backup_revisions_limit">Ліміт резервних копій: %d</string>
 </resources>
