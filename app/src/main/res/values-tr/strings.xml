@@ -8,7 +8,7 @@
     <string name="handleData">Veri</string>
     <string name="handleBoth">İkisi de</string>
     <string name="radio_all">Bütün uygulamalar</string>
-    <string name="radio_user">User Apps</string>
+    <string name="radio_user">Kullanıcı uygulamarı</string>
     <string name="radio_system">Sistem Uygulamaları</string>
     <string name="radio_both">APK ve Veri</string>
     <string name="radio_apk">APK</string>
@@ -189,7 +189,7 @@
     <string name="prefs_biometriclock_summary">Uygulamayı aygıtın biyometrik kilidiyle (örn. parmak izi, yüz tanıma kilidi) güvenli hale getirin</string>
     <string name="prefs_biometriclock">Biyometrik kilit</string>
     <string name="help_appTypeHint">* Uygulama türünün simgesi uygulama kaldırılırsa gri, devre dışı bırakılırsa koyu gri olur.</string>
-    <string name="radio_updated">Güncellenen</string>
+    <string name="radio_updated">Güncellendi</string>
     <string name="intro_permission_storage_location">Uygulama, yedeklemeleri depolamak için bir yedekleme konumuna ihtiyaç duymaktadır. Uygulama tam bir yedekleme için birkaç gigabayt depolamaya ihtiyaç duyabilir ve dosya sistemine çok fazla sorgulama yapar. Lütfen ağ tabanlı depolama konumlarını seçerken bunu aklınızda bulundurun.</string>
     <string name="help_legend">Açıklamalar:</string>
     <string name="prefs_unset">Ayarlanmadı</string>
@@ -334,7 +334,7 @@
     <string name="edit_note">Not düzenle</string>
     <string name="add_tag">Yeni etiket ekle</string>
     <string name="prefs_loadingtoasts">Toast\'lar yükleniyor</string>
-    <string name="prefs_theme_dynamic">Dinak tema (kullanılabilirse)</string>
+    <string name="prefs_theme_dynamic">Dinamik tema (uygunsa)</string>
     <string name="prefs_dev_settings">Geliştirici seçenekleri</string>
     <string name="prefs_user_short">Kişisel</string>
     <string name="prefs_tools_short">Araçlar</string>
@@ -348,4 +348,7 @@
     <string name="prefs_secondary_8">Mint</string>
     <string name="prefs_advanced_short">Gelişmiş</string>
     <string name="prefs_nobackupdata">no_backup dosyalarını yedekle</string>
+    <string name="prefs_theme_black_summary">Koyu temadayken arka planı siyah yapmaya zorla</string>
+    <string name="prefs_theme_black">Siyah tema</string>
+    <string name="prefs_loadingtoasts_summary">Liste Yüklenirken gösterileri göster</string>
 </resources>
