@@ -385,4 +385,5 @@
     <string name="post_notifications_permission_message">يتطلب بدء تشغيل تطبيقات Android 13 هذا الإذن لتتمكن من نشر الإشعارات.</string>
     <string name="prefs_password_summary">تستخدم أيضا لفك التشفير عند الاستعادة</string>
     <string name="backup_revisions_limit">حد النسخ الاحتياطية: %d</string>
+    <string name="clear_text">مسح النص</string>
 </resources>
