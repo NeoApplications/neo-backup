@@ -382,4 +382,5 @@
     <string name="post_notifications_permission_message">A partir de Android 13 las aplicaciones requieren este permiso para poder enviar notificaciones.</string>
     <string name="prefs_password_summary">También se utiliza para el descifrado en la restauración</string>
     <string name="backup_revisions_limit">Límite de las copias de seguridad: %d</string>
+    <string name="clear_text">Borrar texto</string>
 </resources>
