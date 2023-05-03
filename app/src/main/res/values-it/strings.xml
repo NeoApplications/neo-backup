@@ -236,7 +236,7 @@
     <string name="app_info">Info sull\'app</string>
     <string name="launch_app">Avvia app</string>
     <string name="exodus_report">Rapporto Exodus</string>
-    <string name="clear_cache">Svuota la cache</string>
+    <string name="clear_cache">Pulisci cache</string>
     <string name="sched_name">Nome:</string>
     <string name="wait_noappslist">L\'elenco delle app non è ancora stato recuperato. Attendi…</string>
     <string name="copyOwnApkFailed">Impossibile copiare l\'APK dell\'app nella cartella di backup</string>
@@ -383,4 +383,5 @@
     <string name="post_notifications_permission_message">A partire da Android 13 le applicazioni richiedono questa autorizzazione per poter inviare notifiche.</string>
     <string name="prefs_password_summary">Utilizzato anche per la decrittazione al ripristino</string>
     <string name="backup_revisions_limit">Limite backup: %d</string>
+    <string name="clear_text">Cancella testo</string>
 </resources>
