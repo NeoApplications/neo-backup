@@ -379,4 +379,5 @@
     <string name="post_notifications_permission_title">Повідомлення про публікації</string>
     <string name="prefs_password_summary">Також використовується для розшифровки під час відновлення</string>
     <string name="backup_revisions_limit">Ліміт резервних копій: %d</string>
+    <string name="clear_text">Очистити текст</string>
 </resources>
