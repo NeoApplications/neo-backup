@@ -361,7 +361,7 @@
     <string name="prefs_mediadata_summary">Sichert die Mediendateien einer App, die auf dem externen Speicher liegen (z.B. /storage/emulated/0/Android/media/)</string>
     <string name="prefs_deviceprotecteddata_rst">Wiederherstellung vom Gerät geschützter Daten</string>
     <string name="prefs_deviceprotecteddata_rst_summary">Stellt Daten wieder her, die in data/user_de abgelegt sind</string>
-    <string name="prefs_externaldata_rst">Externe Daten wiederherzustellen</string>
+    <string name="prefs_externaldata_rst">Externe Daten wiederherstellen</string>
     <string name="prefs_mediadata_rst">Mediendateien wiederherstellen</string>
     <string name="prefs_deviceprotecteddata_summary">Sichert Daten, die in data/user_de abgelegt sind</string>
     <string name="prefs_theme_black">Schwarzes Design</string>
