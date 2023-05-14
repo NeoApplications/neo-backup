@@ -364,7 +364,7 @@
     <string name="prefs_externaldata_rst">Externe Daten wiederherzustellen</string>
     <string name="prefs_mediadata_rst">Mediendateien wiederherstellen</string>
     <string name="prefs_deviceprotecteddata_summary">Sichert Daten, die in data/user_de abgelegt sind</string>
-    <string name="prefs_theme_black">Schwarzes Thema</string>
+    <string name="prefs_theme_black">Schwarzes Design</string>
     <string name="context_menu">Kontextmenü</string>
     <string name="prefs_externaldata_rst_summary">Stellt Daten wieder her, die auf dem externen Speicher abgelegt sind (z. B. /storage/emulated/0/Android/data/)</string>
     <string name="prefs_mediadata_rst_summary">Stellt die Mediendateien der App wieder her, die auf dem externen Speicher abgelegt sind (z. B. /storage/emulated/0/Android/media/)</string>
@@ -373,10 +373,12 @@
     <string name="prefs_obbdata_rst">Obb-Dateien wiederherstellen</string>
     <string name="prefs_obbdata_rst_summary">Stellt die Obb-Dateien der App wieder her, die auf dem externen Speicher abgelegt sind (z. B. /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_multilineinfochips">Mehrzeilige Info-Chips</string>
-    <string name="prefs_theme_black_summary">Dunkles Thema</string>
+    <string name="prefs_theme_black_summary">Erzwingt schwarzen Hintergrund bei dunklem Design</string>
     <string name="prefs_multilineinfochips_summary">Info-Chips im App-Sheet dürfen sich über mehrere Zeilen erstrecken.</string>
     <string name="prefs_singularbackuprestore">Einzelne Sicherung wiederherstellen</string>
     <string name="prefs_singularbackuprestore_summary">Ein alternatives Wiederherstellungslayout verwenden, das die Auswahl bestimmter Sicherungen für die Wiederherstellung ermöglicht.</string>
     <string name="post_notifications_permission_title">Benachrichtigungen veröffentlichen</string>
     <string name="post_notifications_permission_message">Ab Android 13 benötigen Apps diese Berechtigung, um Benachrichtigungen zu versenden.</string>
+    <string name="backup_revisions_limit">Begrenzung der Sicherungen: %d</string>
+    <string name="clear_text">Klartext</string>
 </resources>
