@@ -31,17 +31,17 @@
 
 ### What is Neo Backup?
 
-Neo Backup (short NB) is a fork of [OAndBackup](https://gitlab.com/jensstein/oandbackup) (which is inactive) with the aim to keep such a great and useful FOSS backup and recovery tool alive beyond 202x.
+Neo Backup (NB) is a fork of [OAndBackup](https://gitlab.com/jensstein/oandbackup) (which is inactive) with the aim to keep such a great and useful FOSS backup and recovery tool alive beyond 202X.
 
-Most of the functionality and UI of the app was rewritten and it already got more stable. It is also a goal to add features which could ease the backup/restore workflow with any device.
+Most of the functionality and UI of the app has been re-written and it has already gotten much more stable. It is also a goal to add features which could ease the backup/restore workflow with any device.
 
-NB requires root and allows you to backup individual apps and their data. Both backup and restore of individual programs one at a time, batch backup and restore of multiple programs, as well as scheduled backups are supported.
+NB **requires root** and allows you to backup individual apps with their data. Backup and restore of individual programs one at a time, batch backup and restore of multiple programs, as well as scheduled backups are supported.
 
-Neo-Backup is part of the NeoApplications: https://github.com/NeoApplications
+Neo-Backup is part of the NeoApplications Suite: https://github.com/NeoApplications
 
 ### What is OAndBackupX?
 
-OAndBackupX (short OABX) was the former name of the project. You may find some reference in here or in the in-app usage notes, we missed to change yet. The initial OABX release was in March 2020. The rename to NB took place more or less exactly at the second birthday of the project (between version 7 and 8), so stable version 7.0.0 still has the name OAndBackupX.
+OAndBackupX (OABX) was the former name of the project. You may find some reference in here or in the in-app usage notes, we have missed and are yet to change. The initial OABX release was in March 2020. The rename to NB took place more or less exactly at the second birthday of the project (between version 7 and 8), so stable version 7.0.0 still has the name OAndBackupX.
 
 ### Which Android Versions are supported?
 
@@ -52,7 +52,7 @@ See also - [Are you going to support older Android versions?](#are-you-going-to-
 
 ### How do I use NB?
 
-The first start will guide you through the most important preferences. It still make sense to shortly check the prefs, to see what else can bet set. E.g. you can define the amount of kept backup revisions or decide which [app parts](#what-are-all-these-backup-parts-icons--which-parts-does-a-backup-of-an-app-consist-of) should be included.
+The first start will guide you through the most important preferences. It is still quite useful to quickly check the preferences, to see what else can be set. E.g. you can define the amount of kept backup revisions or decide which [app parts](#what-are-all-these-backup-parts-icons--which-parts-does-a-backup-of-an-app-consist-of) should be included.
 
 There are 4 screens/tabs:<br/>
 (navigate between them using the icons of the menu-bar on the bottom of the screen)
@@ -62,7 +62,7 @@ There are 4 screens/tabs:<br/>
 3. Batch - Restore
 4. Scheduled backups
 
-The preferences can opened via button in the upper right corner (fifth and very right icon of the menu-bar until v8.2.0).
+The preferences menu can be opened via button in the upper right corner (fifth and very right icon of the menu-bar until v8.2.0).
 
 A safe way to start is to do some backup and restore tests of an uncritical app via AppSheet.
 Go forward and backup multiple apps via Batch and finally define schedules e.g. with Custom lists.
@@ -73,17 +73,18 @@ In case of any problems report it in [the Telegram or Matrix group](https://gith
 
 Each backup basically consists of the two different parts:
 
-1. the software itself (stored in a so called **APK** file / some bigger apps have multiple - so called split APK files) and
+1. the software itself is stored in an **APK** file (some bigger apps have multiple parts - called split APK files)
 
 2. its **data** (created while using an app, settings, etc.)
+
    The data can be split again into several data types:
 
-   2.1. ***"normal" data***
+   2.1. ***"normal"*** data
 
       <details><summary>Show details ...</summary>
 
-        - Stored usually in /data/data
-        - Default is set to include it in the backup
+        - Stored usually in `/data/data`
+        - Included in the backup by default
 
       </details>     
 
@@ -91,8 +92,8 @@ Each backup basically consists of the two different parts:
 
       <details><summary>Show details ...</summary>
 
-       - Stored usually in /Android/data/ in the external storage (internal storage in android current terminology)
-       - Default is set to not include it in the backup (possibility to enable in prefs)
+       - Stored usually in `/Android/data/` in the external storage (internal storage in android current terminology)
+       - Not included in the backup by default (can be enabled in preferences)
 
       </details>        
 
@@ -100,8 +101,8 @@ Each backup basically consists of the two different parts:
 
       <details><summary>Show details ...</summary>
 
-        - Stored usually in /Android/obb/ in the external storage (internal storage in android current terminology)
-        - Default is set to not include it in the backup (possibility to enable in prefs)
+        - Stored usually in `/Android/obb/` in the external storage (internal storage in android current terminology)
+        - Not included in the backup by default (can be enabled in preferences)
 
       </details>     
 
@@ -109,20 +110,20 @@ Each backup basically consists of the two different parts:
 
       <details><summary>Show details ...</summary>
 
-        - Stored usually in /data/user_de/
-        - introduced with Android version 7
+        - Stored usually in `/data/user_de/`
+        - introduced in Android version 7
         - It's usual data, but can be accessed before even unlocking your phone (authentication).
-          It's usually data that is needed for the pre-start phase of your device.
+        - It's usually data that is needed for the pre-start phase of your device.
           E.g. a preference which decides if your app should start on device boot or not.
         - It is also called Device Encrypted (user_*DE*) Data because it is encrypted by a key which is tied to the physical device
-        - there are a lot of articles our there which explains it more in detail and the difference to credential encrypted storage (CES)
+        - there are a lot of articles out there which explains it in more detail and  how it differs from credential encrypted storage (CES)
           e.g. this one: https://lampham.medium.com/device-encrypted-storage-and-direct-boot-mode-in-android-6e5e25d173f3
-        - if apps store importend data in this area depends on how the developer in charge has implemented it
-        - Default is set to include it in the backup
+        - if apps store important data in this area it depends on how the developer in charge has implemented it
+        - Included in the backup by default
 
       </details>     
 
-   2.5. ***media***
+   2.5. ***media*** files
 
       <details><summary>Show details ...</summary>   
 
@@ -130,42 +131,42 @@ Each backup basically consists of the two different parts:
           it is mandatory for all new apps since August 2020 and/or every app targeting Android 11 (SDK 30)
         - the main thing here is called "Scoped Storage"
         - Storage is then divided into Shared Storage and Private Storage
-        - as part of SAF this is Androids approach to secure the access to media files
+        - as part of SAF this is Android's approach to secure the access to media files
           and limit it to the ones of each app individually
         - e.g. chat apps have/had to move their media data into data directories, instead of generic folders
           (e.g. WhatsApp's well known WhatsApp folder)
-        - Android might wants to move all the data directories to /storage/emulated/0/Android.
-          Below this folder you could find folders for "data", "obb", "media"
+        - Android might wants to move all the data directories to `/storage/emulated/0/Android`
+          Below this folder you could find folders for `data`, `obb`, `media`
           ... an in them, a folder of each app's package name
-        - Default is set to not include it in the backup (possibility to enable in prefs)
+        - Not included in the backup by default (can be enabled in preferences)
 
       </details>     
 
-   2.5. cache
+   2.5. ***cache*** data
 
       <details><summary>Show details ...</summary>   
 
-        - Default is set to not include it in backups
+        - Included in the backup by default
 
       </details>     
 
 
-You can individually choose which parts you want to include in the backup --> as global setting in preferences, (beginning with version NB [OABX] 6.x) per schedule or even per App.
+You can individually choose which parts you want to include in the backup &rarr; as global setting in preferences, (beginning with version NB [OABX] 6.x) per schedule or even per App.
 
 ### What are Special Backups?
 
-Special backups describes system data that's bound to the user and not to certain apps. </br>***Enable special backups in advanced prefs to see them.***</br>
+Special backups describes system data that's bound to the user and not to certain apps. </br>***Enable special backups in advanced preferences to see them.***</br>
 
 Beginning with version 8 some of them are supported.
 * SMS/MMS
 * Call-logs
-* Wifi Access Points (user reported differently, but should work -> reboot after restore)
+* Wifi Access Points (user reported differently, but should work &rarr; after restore)
 * Bluetooth (also reported working by some user)
 
 Enable them in the preferences. NB will ask for the needed privileges for SMS and Call-Logs after a restart (of NB).<br/>
 See also [How can I backup SMS &amp; Call log?](#how-can-i-backup-sms--call-log)
 
-For all the others NB does not provide full support right now, try with your own responsibility.
+For all the others NB does not provide full support right now, try at your own discretion.
 
 ### Do I need a rooted phone?
 
@@ -173,29 +174,29 @@ Yes, Oui, Si, Si, Ja, Ja, Da, Ay...
 
 ### What is root access used for?
 
-In short words:
+In short:
 Accessing the APK+data of all apps (including system apps and special backups), so to access [all the necessary paths in the filesystem](#what-are-all-these-backup-parts-icons--which-parts-does-a-backup-of-an-app-consist-of).
 
 More Details?:<br/>
 You need access to the data directories of the apps. Android creates user accounts for each installed app and assigns the permissions to the data directory just to the user and some system user(s). If the ROM doesn't bring a feature or interface to do backups like the deprecated adb backup or Google Cloud Backup does, it's impossible due to the security model.
 
 Even more detailed?:<br/>
-It's differently...depending on the app and probably also for different ROMs.
+It's different...depending on the app and probably also for different ROMs.
 
 E.g. for one of the devs ROMs:
-/data/app/* all belong to system:system, while
-/data/data/* usually belong to appuser:appuser, but some system data belong to system users e.g. system or radio,
-(*appuser* is used as a wildcard name, usually something like *u0_595*)
-/system/app/* belong to root.
+`/data/app/*` all belong to `system:system`, while
+`/data/data/*` usually belong to `appuser:appuser`, but some system data belong to system users e.g. system or radio,
+(`appuser` is used as a wildcard name, usually something like `u0_595`)
+`/system/app/*` belong to root.
 
 Most probably "system" (which is not necessarily the user "system") starts an app as the appuser. It uses root access to become the appuser to start the app, which then runs as appuser.
 
 Naturally system apps and services run as several system users.
 
 On a A10 ROM a user (in the terminal) cannot access /data/app and /data/data itself. Reading an app's apk directory is possible (normal read access for others via r attribute) if you know the name, e.g. You can do
-ls -l /data/app/<app_package_name>-VP8zj7n2sqzHID5Oqfh88w== but I have no chance to find out the name because of the random code that changes on each installation (which also invalidates links to inside). Some directories cannot be read, but only be opened (only x attribute)
+```ls -l /data/app/<app_package_name>-VP8zj7n2sqzHID5Oqfh88w==``` but I have no chance to find out the name because of the random code that changes on each installation (which also invalidates links to inside). Some directories cannot be read, but only be opened (only x attribute)
 
-You cannot access /data/data/* at all, so app data is protected between apps.
+You cannot access `/data/data/*` at all, so app data is protected between apps.
 
 ### Why is NB so slow?
 
@@ -205,7 +206,7 @@ a lot of work was put into optimizations and parallel execution.
 The startup including scanning for backups on internal or external storage (which is the most time consuming) should be done in 4-5 seconds.
 Only on remote locations (over the network) it will be much longer...
 
-<details><summary>Click to show some more details why NB was slow ...</summary>
+<details><summary>Click to show some more details on why NB was slow ...</summary>
 
 Since rebasing the app on SAF (Storage Access Framework) the performance is bound to what Android's (or Google's) framework can provide.
 Needless to say: This is how much love this framework receives from the developers... [Fuck-Storage-Access-Framework](https://github.com/K1rakishou/Fuck-Storage-Access-Framework/)
@@ -220,11 +221,11 @@ The other kind of "slow", that is still existent, comes from scanning the backup
 
 This is suboptimal with SAF, but isn't much faster with RootFile, because a command is invoked for each directory instead of one command for the whole tree. At some point this will probably be changed to scanning in one go (also with SAF if this is possible).
 
-Users tend to ask for using RootFile access instead. It is about toybox capabilities and the internal data structures.
+Users tend to ask for using `RootFile` access instead. It is about toybox capabilities and the internal data structures.
 Today SAF access is as fast as root access. Note: root file access could be faster, if it wouldn't use shell commands.
 For now there are no plans to put the machinery into a separate root service, that could use direct file access. 
 
-If you want to try RootFile, you need to enable allowShadowingDefault and shadowRootFile.
+If you want to try `RootFile[, you need to enable `allowShadowingDefault` and `shadowRootFile`.
 This works by searching for parts of the shitty uri scheme (you see it in the setting for the backup directory) in certain places. If it is found, then it's used, otherwise it falls back to SAF.
 Note, this can completely lock up the app, because certain file location can block completely (not sure why).
 To change back the backup directory, you can clear data, or edit it in the shared_prefs folder or you could try to start the Preferences activity of NB.
