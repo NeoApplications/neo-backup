@@ -386,4 +386,6 @@
     <string name="prefs_password_summary">تستخدم أيضا لفك التشفير عند الاستعادة</string>
     <string name="backup_revisions_limit">حد النسخ الاحتياطية: %d</string>
     <string name="clear_text">مسح النص</string>
+    <string name="prefs_laserbackground">إظهار الليزر المتحرك في الخلفية</string>
+    <string name="prefs_laserbackground_summary">استخدم أضواء ملونة متحركة كخلفية عند التحميل / العمل.</string>
 </resources>
