@@ -380,4 +380,6 @@
     <string name="prefs_password_summary">Також використовується для розшифровки під час відновлення</string>
     <string name="backup_revisions_limit">Ліміт резервних копій: %d</string>
     <string name="clear_text">Очистити текст</string>
+    <string name="prefs_laserbackground">Показати анімований лазер у фоновому режимі</string>
+    <string name="prefs_laserbackground_summary">Використовувати анімовані кольорові підсвічування як фон під час завантаження.</string>
 </resources>
