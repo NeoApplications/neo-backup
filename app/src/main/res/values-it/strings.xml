@@ -384,4 +384,6 @@
     <string name="prefs_password_summary">Utilizzato anche per la decrittazione al ripristino</string>
     <string name="backup_revisions_limit">Limite backup: %d</string>
     <string name="clear_text">Cancella testo</string>
+    <string name="prefs_laserbackground_summary">Usa luci colorate animate come sfondo quando sta caricando o è occupato.</string>
+    <string name="prefs_laserbackground">Mostra laser animato sullo sfondo</string>
 </resources>
