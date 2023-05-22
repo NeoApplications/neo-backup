@@ -383,4 +383,6 @@
     <string name="prefs_password_summary">También se utiliza para el descifrado en la restauración</string>
     <string name="backup_revisions_limit">Límite de las copias de seguridad: %d</string>
     <string name="clear_text">Borrar texto</string>
+    <string name="prefs_laserbackground">Mostrar láser animado en segundo plano</string>
+    <string name="prefs_laserbackground_summary">Usar luces de colores animadas como fondo cuando esté cargando/ocupado.</string>
 </resources>
