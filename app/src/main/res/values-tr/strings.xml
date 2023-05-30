@@ -351,4 +351,14 @@
     <string name="prefs_theme_black_summary">Koyu temadayken arka planı siyah yapmaya zorla</string>
     <string name="prefs_theme_black">Siyah tema</string>
     <string name="prefs_loadingtoasts_summary">Liste Yüklenirken gösterileri göster</string>
+    <string name="prefs_singularbackuprestore_summary">Geri yükleme için belirli yedeklemelerin seçilmesine izin veren alternatif geri yükleme öğesi düzenini kullanın.</string>
+    <string name="prefs_externaldata_summary">Harici depolama alanına yerleştirilen verileri yedekler (ör. /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_squeezenavtext_summary">Gezinti çubuğu öğelerinin altındaki metnin mevcut genişliğe sığacak şekilde yeniden boyutlandırılmasına izin verin.</string>
+    <string name="prefs_multilineinfochips_summary">Uygulama sayfasındaki bilgi yongalarının birden çok satıra yayılmasına izin verin.</string>
+    <string name="prefs_multilineinfochips">Çok satırlı bilgi çipleri</string>
+    <string name="prefs_squeezenavtext">Gezinme öğesinin metnini sıkıştırın</string>
+    <string name="prefs_laserbackground">Arka planda animasyonlu lazer göster</string>
+    <string name="prefs_laserbackground_summary">Yüklerken/meşgulken animasyonlu renkli ışıkları arka plan olarak kullanın.</string>
+    <string name="prefs_obbdata_summary">Harici depolama alanına yerleştirilen uygulamanın obb dosyalarını Yedekler ve geri yükler (örn. / storage/emulated / 0 / Android / obb/)</string>
+    <string name="prefs_password_summary">Geri yüklemede şifre çözme için de kullanılır</string>
 </resources>
