@@ -374,4 +374,6 @@
     <string name="post_notifications_permission_message">启动 Android 13 应用需要此权限才能发布通知。</string>
     <string name="post_notifications_permission_title">发布通知</string>
     <string name="prefs_password_summary">也用于还原时的解密</string>
+    <string name="backup_revisions_limit">备份限制：%d</string>
+    <string name="clear_text">清除文本</string>
 </resources>
