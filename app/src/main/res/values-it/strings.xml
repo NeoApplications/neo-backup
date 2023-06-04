@@ -386,4 +386,19 @@
     <string name="clear_text">Cancella testo</string>
     <string name="prefs_laserbackground_summary">Usa luci colorate animate come sfondo quando sta caricando o è occupato.</string>
     <string name="prefs_laserbackground">Mostra laser animato sullo sfondo</string>
+    <string name="sorting_order">Ordinamento</string>
+    <string name="show_new_apps">Nuove app</string>
+    <string name="filters_installed">Installazione</string>
+    <string name="filters_updated">Aggiornato</string>
+    <string name="filters_launchable">Avviabile</string>
+    <string name="show_installed_apps">App installate</string>
+    <string name="filters_enabled">Abilitato</string>
+    <string name="filters_latest">Ultimi backup</string>
+    <string name="show_new_backups">Nuovi backup</string>
+    <string name="filters_app">Tipo di app</string>
+    <string name="filters_backup">Tipi di backup</string>
+    <string name="radio_notlaunchable">App non avviabili</string>
+    <string name="show_enabled_apps">App abilitate</string>
+    <string name="show_updated_apps">App aggiornate</string>
+    <string name="show_old_apps">Vecchie app</string>
 </resources>
