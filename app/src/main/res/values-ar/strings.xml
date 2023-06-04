@@ -388,4 +388,19 @@
     <string name="clear_text">مسح النص</string>
     <string name="prefs_laserbackground">إظهار الليزر المتحرك في الخلفية</string>
     <string name="prefs_laserbackground_summary">استخدم أضواء ملونة متحركة كخلفية عند التحميل / العمل.</string>
+    <string name="filters_installed">تثبيت</string>
+    <string name="filters_enabled">ممكن</string>
+    <string name="filters_updated">محدث</string>
+    <string name="filters_latest">أحدث نسخة احتياطية</string>
+    <string name="filters_app">نوع التطبيق</string>
+    <string name="sorting_order">ترتيب الفرز</string>
+    <string name="show_updated_apps">تطبيقات محدثة</string>
+    <string name="show_new_apps">تطبيقات جديدة</string>
+    <string name="show_old_apps">تطبيقات قديمة</string>
+    <string name="show_enabled_apps">التطبيقات الممكنة</string>
+    <string name="show_installed_apps">التطبيقات المثبتة</string>
+    <string name="show_new_backups">نسخ احتياطية جديدة</string>
+    <string name="filters_launchable">قابل لتشغيل</string>
+    <string name="filters_backup">أنواع النسخ الاحتياطي</string>
+    <string name="radio_notlaunchable">تطبيقات غير قابلة للتشغيل</string>
 </resources>
