@@ -376,4 +376,21 @@
     <string name="prefs_password_summary">也用于还原时的解密</string>
     <string name="backup_revisions_limit">备份限制：%d</string>
     <string name="clear_text">清除文本</string>
+    <string name="filters_launchable">可启动</string>
+    <string name="radio_notlaunchable">不可启动的应用</string>
+    <string name="filters_enabled">已启用</string>
+    <string name="show_enabled_apps">已启用的应用</string>
+    <string name="show_installed_apps">已安装的应用</string>
+    <string name="show_new_backups">新备份</string>
+    <string name="show_updated_apps">更新的应用</string>
+    <string name="filters_installed">安装</string>
+    <string name="show_new_apps">新应用</string>
+    <string name="filters_updated">更新</string>
+    <string name="filters_latest">最新备份</string>
+    <string name="filters_app">应用类型</string>
+    <string name="filters_backup">备份类型</string>
+    <string name="sorting_order">排序顺序</string>
+    <string name="show_old_apps">旧应用</string>
+    <string name="prefs_laserbackground">在背景中显示动画彩光</string>
+    <string name="prefs_laserbackground_summary">在加载/忙碌时使用动画彩光作为背景。</string>
 </resources>
