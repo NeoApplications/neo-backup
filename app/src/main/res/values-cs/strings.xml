@@ -379,4 +379,19 @@
     <string name="clear_text">Vymazat text</string>
     <string name="prefs_laserbackground">Zobrazit animovaný laser na pozadí</string>
     <string name="prefs_laserbackground_summary">Použít animovaná barevná světla jako pozadí při načítání/zaneprázdnění.</string>
+    <string name="filters_latest">Poslední záloha</string>
+    <string name="radio_notlaunchable">Nespustitelné aplikace</string>
+    <string name="show_updated_apps">Aktualizované aplikace</string>
+    <string name="filters_installed">Instalace</string>
+    <string name="filters_enabled">Povoleno</string>
+    <string name="filters_launchable">Spustitelné</string>
+    <string name="filters_app">Typ aplikace</string>
+    <string name="filters_updated">Aktualizováno</string>
+    <string name="filters_backup">Typy záloh</string>
+    <string name="sorting_order">Pořadí řazení</string>
+    <string name="show_new_apps">Nové aplikace</string>
+    <string name="show_installed_apps">Nainstalované aplikace</string>
+    <string name="show_old_apps">Staré aplikace</string>
+    <string name="show_enabled_apps">Povolené aplikace</string>
+    <string name="show_new_backups">Nové zálohy</string>
 </resources>
