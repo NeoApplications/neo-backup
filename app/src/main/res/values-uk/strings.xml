@@ -382,4 +382,19 @@
     <string name="clear_text">Очистити текст</string>
     <string name="prefs_laserbackground">Показати анімований лазер у фоновому режимі</string>
     <string name="prefs_laserbackground_summary">Використовувати анімовані кольорові підсвічування як фон під час завантаження.</string>
+    <string name="filters_latest">Остання резервна копія</string>
+    <string name="filters_installed">Встановлення</string>
+    <string name="filters_launchable">Запускається</string>
+    <string name="filters_updated">Оновлено</string>
+    <string name="filters_enabled">Ввімкнено</string>
+    <string name="show_new_apps">Нові застосунки</string>
+    <string name="filters_app">Тип застосунку</string>
+    <string name="sorting_order">Порядок сортування</string>
+    <string name="filters_backup">Типи резервного копіювання</string>
+    <string name="radio_notlaunchable">Застосунки, які не запускаються</string>
+    <string name="show_installed_apps">Встановлені застосунки</string>
+    <string name="show_updated_apps">Оновлені застосунки</string>
+    <string name="show_old_apps">Старі застосунки</string>
+    <string name="show_enabled_apps">Ввімкнені застосунки</string>
+    <string name="show_new_backups">Нові резервні копії</string>
 </resources>
