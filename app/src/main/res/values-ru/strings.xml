@@ -388,4 +388,5 @@
     <string name="clear_text">Очистить текст</string>
     <string name="prefs_laserbackground">Показать анимированный лазер в фоновом режиме</string>
     <string name="prefs_laserbackground_summary">Использовать анимированные цветные подсветки в качестве фона во время загрузки.</string>
+    <string name="filters_installed">Установка</string>
 </resources>
