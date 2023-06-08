@@ -385,4 +385,19 @@
     <string name="clear_text">Borrar texto</string>
     <string name="prefs_laserbackground">Mostrar láser animado en segundo plano</string>
     <string name="prefs_laserbackground_summary">Usar luces de colores animadas como fondo cuando esté cargando/ocupado.</string>
+    <string name="filters_installed">Instalación</string>
+    <string name="filters_launchable">Ejecutable</string>
+    <string name="filters_enabled">Activado</string>
+    <string name="filters_updated">Actualizado</string>
+    <string name="filters_latest">Última copia de seguridad</string>
+    <string name="filters_app">Tipo de aplicación</string>
+    <string name="sorting_order">Orden de la clasificación</string>
+    <string name="radio_notlaunchable">Aplicaciones no ejecutables</string>
+    <string name="show_updated_apps">Aplicaciones actualizadas</string>
+    <string name="show_new_apps">Aplicaciones nuevas</string>
+    <string name="show_old_apps">Aplicaciones antiguas</string>
+    <string name="show_new_backups">Nuevas copias de seguridad</string>
+    <string name="filters_backup">Tipos de copias de seguridad</string>
+    <string name="show_enabled_apps">Aplicaciones habilitadas</string>
+    <string name="show_installed_apps">Aplicaciones instaladas</string>
 </resources>
