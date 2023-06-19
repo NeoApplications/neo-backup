@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="backup"></string>
+    <string name="backup">pagkopya</string>
     <string name="handleBoth">Pareho</string>
 </resources>
