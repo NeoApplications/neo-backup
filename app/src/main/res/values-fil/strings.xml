@@ -2,4 +2,23 @@
 <resources>
     <string name="backup">pagkopya</string>
     <string name="handleBoth">Pareho</string>
+    <string name="backupConfirmation">pagkopya</string>
+    <string name="radio_deviceprotecteddata">Data na Protektado ng Device</string>
+    <string name="radio_obbdata">OBB Data</string>
+    <string name="radio_mediadata">Media Data</string>
+    <string name="de_selectAll">De/piliin ang lahat</string>
+    <string name="batchbackup">Backup ng batch</string>
+    <string name="radio_externaldata">Panlabas na Data</string>
+    <string name="radio_system">System Apps</string>
+    <string name="radio_both">APK at Data</string>
+    <string name="restoreConfirmation">Ibalik\?</string>
+    <string name="handleData">Mga Data</string>
+    <string name="radio_user">Mga App ng Gumagamit</string>
+    <string name="handleApk">.APK</string>
+    <string name="radio_all">Lahat ng app</string>
+    <string name="radio_apk">.APK</string>
+    <string name="radio_data">Mga Data</string>
+    <string name="radio_special">Mga Espesyal na Backup</string>
+    <string name="refresh">Mag-refresh</string>
+    <string name="radio_updated">Na-update</string>
 </resources>
