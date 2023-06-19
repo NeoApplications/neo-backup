@@ -58,7 +58,7 @@
     <string name="uninstallFailure">अनइंस्टॉल करने में त्रुटि</string>
     <string name="errorDialogTitle">त्रुटियां हुईं</string>
     <string name="customListTitle">कस्टम सूची</string>
-    <string name="notInstalledModeDataWarning">एप्लिकेशन APK के बिना बैकअप से पुनर्स्थापित नहीं किया जा सकता</string>
+    <string name="notInstalledModeDataWarning">एपीके के बिना ऐप को बैकअप से रिस्टोर नहीं किया जा सकता है</string>
     <string name="shareTitle">साझा करें</string>
     <string name="batchDeleteMessage">बैकअप मिटाए जा रहे हैं…</string>
     <string name="batchDeleteNotificationTitle">बैकअप हटाएँ</string>
@@ -68,7 +68,7 @@
     <string name="enablePackageTitle">उपयोगकर्ताओं के लिए ऐप्लिकेशन सक्षम करें</string>
     <string name="disablePackage">ऐप्लिकेशन अक्षम करें</string>
     <string name="disablePackageTitle">उपयोगकर्ताओं के लिए एप्लिकेशन अक्षम करें</string>
-    <string name="uninstallSuccess">स्थापना रद्द पूर्ण हुई</string>
+    <string name="uninstallSuccess">अनइंस्टॉल करें</string>
     <string name="error_pmDataIncompleteException_dataRestoreFailed">ऐप्लिकेशन डेटा पुनर्स्थापित नहीं किया गया है।</string>
     <string name="prefs_title">प्राथमिकताएँ</string>
     <string name="prefs_user">उपयोगकर्ता प्राथमिकताएँ</string>
@@ -86,4 +86,15 @@
     <string name="backupProgress">बैकअप ले रहा है…</string>
     <string name="backupFolderError">कृपया प्राथमिकताओं में सही पथ स्थापित करें और सुनिश्चित करें कि यह मौजूद है या बनाने योग्य है</string>
     <string name="backupFailure">बैकअप में त्रुटि</string>
+    <string name="radio_apk">एपीके</string>
+    <string name="prefs_service_short">सेवा</string>
+    <string name="sortByPackageName">पैकेजनाम द्वारा क्रमबद्ध</string>
+    <string name="prefs_user_short">निजी</string>
+    <string name="showSplitAPKs">स्प्लिट-एपीके</string>
+    <string name="radio_deviceprotecteddata">डिवाइस संरक्षित डेटा</string>
+    <string name="radio_externaldata">बाहरी डेटा</string>
+    <string name="refresh">ताज़ा करना</string>
+    <string name="handleApk">APK</string>
+    <string name="de_selectAll">सबको अचयनित करो</string>
+    <string name="showOnlyDataBackedUp">केवल डेटा बैकअप वाले ऐप्स</string>
 </resources>
