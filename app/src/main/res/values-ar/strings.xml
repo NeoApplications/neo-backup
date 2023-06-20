@@ -3,7 +3,7 @@
     <string name="radio_special">نسخ احتياطية مميزة</string>
     <string name="radio_data">البيانات</string>
     <string name="radio_apk">APK</string>
-    <string name="radio_both">APK والبيانات</string>
+    <string name="radio_both">التطبيقات والبيانات</string>
     <string name="radio_system">تطبيقات النظام</string>
     <string name="radio_user">تطبيقات المستخدم</string>
     <string name="radio_all">جميع التطبيقات</string>
@@ -364,15 +364,15 @@
     <string name="prefs_tools_terminal">الطرفية</string>
     <string name="prefs_deviceprotecteddata_rst">استعادة البيانات المحمية بواسطة الجهاز</string>
     <string name="prefs_externaldata_rst">استعادة البيانات الخارجية</string>
-    <string name="prefs_externaldata_rst_summary">نسخ البيانات التي يتم وضعها على وحدة التخزين الخارجية احتياطيا (على سبيل المثال /storage/emlyed/0/Android/data/)</string>
+    <string name="prefs_externaldata_rst_summary">يستعيد البيانات الموضوعة على وحدة التخزين الخارجية (على سبيل المثال / التخزين / المحاكاة / 0 / Android / data /)</string>
     <string name="prefs_obbdata_rst">استعادة ملفات obb</string>
     <string name="prefs_mediadata_rst">استعادة ملفات الوسائط</string>
     <string name="prefs_nobackupdata_rst">استعادة الملفات no_backup</string>
     <string name="prefs_nobackupdata_rst_summary">استعادة الملفات الموجودة في البيانات التي تم تصنيفها على أنها غير احتياطية</string>
-    <string name="prefs_deviceprotecteddata_summary">النسخ الاحتياطي واستعادة البيانات التي يتم وضعها في data / user_de</string>
+    <string name="prefs_deviceprotecteddata_summary">النسخ الاحتياطي للبيانات التي يتم وضعها في data / user_de</string>
     <string name="prefs_mediadata_summary">نسخ ملفات وسائط التطبيق التي يتم وضعها على وحدة التخزين الخارجية احتياطيا (على سبيل المثال /storage/emulated/0/Android/media/)</string>
     <string name="prefs_externaldata_summary">نسخ البيانات التي يتم وضعها على وحدة التخزين الخارجية احتياطيا (على سبيل المثال /storage/emlyed/0/Android/data/)</string>
-    <string name="prefs_deviceprotecteddata_rst_summary">النسخ الاحتياطي واستعادة البيانات التي يتم وضعها في data / user_de</string>
+    <string name="prefs_deviceprotecteddata_rst_summary">استعادة البيانات التي يتم وضعها في البيانات / user_de</string>
     <string name="prefs_obbdata_rst_summary">يستعيد ملفات obb الخاصة بالتطبيق والتي يتم وضعها على وحدة التخزين الخارجية (على سبيل المثال /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_mediadata_rst_summary">يستعيد ملفات وسائط التطبيق التي يتم وضعها على وحدة التخزين الخارجية (على سبيل المثال /storage/emulated/0/Android/media/)</string>
     <string name="prefs_obbdata_summary">نسخ ملفات الوسائط الخاصة بالتطبيق التي يتم وضعها في التخزين الخارجي واستعادتها (على سبيل المثال /storage/emulated/0/Android/media / )</string>
