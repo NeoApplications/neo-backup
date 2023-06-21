@@ -22,4 +22,10 @@
     <string name="refresh">Mag-refresh</string>
     <string name="radio_updated">Na-update</string>
     <string name="restore">Ibalik\?</string>
+    <string name="batchrestore">Batch restore</string>
+    <string name="search">Maghanap</string>
+    <string name="searchHint">Maghanap ng mga app</string>
+    <string name="deleteBackup">Tanggalin ang backup</string>
+    <string name="uninstall">I-uninstall ang app</string>
+    <string name="uninstallProgress">I-uninstall ang…</string>
 </resources>
