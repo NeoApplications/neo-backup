@@ -389,4 +389,18 @@
     <string name="prefs_laserbackground">Показать анимированный лазер в фоновом режиме</string>
     <string name="prefs_laserbackground_summary">Использовать анимированные цветные подсветки в качестве фона во время загрузки.</string>
     <string name="filters_installed">Установка</string>
+    <string name="filters_launchable">Запускаемый</string>
+    <string name="filters_enabled">Включено</string>
+    <string name="filters_latest">Последний бэкап</string>
+    <string name="sorting_order">Сортировка по</string>
+    <string name="radio_notlaunchable">Незапускаемые приложения</string>
+    <string name="show_new_apps">Новые приложения</string>
+    <string name="show_installed_apps">Установленные приложения</string>
+    <string name="show_new_backups">Новые бэкапы</string>
+    <string name="filters_updated">Обновленные</string>
+    <string name="filters_app">Тип приложения</string>
+    <string name="filters_backup">Виды бэкапов</string>
+    <string name="show_updated_apps">Обновленные приложения</string>
+    <string name="show_old_apps">Старые приложения</string>
+    <string name="show_enabled_apps">Включенные приложения</string>
 </resources>
