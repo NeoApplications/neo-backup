@@ -401,4 +401,8 @@
     <string name="show_enabled_apps">App abilitate</string>
     <string name="show_updated_apps">App aggiornate</string>
     <string name="show_old_apps">Vecchie app</string>
+    <string name="prefs_altnavbaritem">Usa un elemento alternativo della barra di navigazione</string>
+    <string name="prefs_newandupdatednotification">Mostra notifica nuova e aggiornata</string>
+    <string name="prefs_newandupdatednotification_summary">Mostra le nuove app utente accanto alle app aggiornate nella barra delle notifiche nella pagina iniziale.</string>
+    <string name="prefs_altnavbaritem_summary">Usa la disposizione degli elementi della barra di navigazione alternativa/vecchia, che mostra l\'etichetta degli elementi non selezionati.</string>
 </resources>
