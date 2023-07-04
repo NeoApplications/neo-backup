@@ -403,4 +403,8 @@
     <string name="filters_launchable">قابل لتشغيل</string>
     <string name="filters_backup">أنواع النسخ الاحتياطي</string>
     <string name="radio_notlaunchable">تطبيقات غير قابلة للتشغيل</string>
+    <string name="prefs_newandupdatednotification">إظهار الإشعارات الجديدة والمحدثة</string>
+    <string name="prefs_newandupdatednotification_summary">إظهار تطبيقات المستخدم الجديدة بجانب التطبيقات المحدثة في شريط الإعلام في الصفحة الرئيسية.</string>
+    <string name="prefs_altnavbaritem">استخدم عنصر شريط التنقل البديل</string>
+    <string name="prefs_altnavbaritem_summary">استخدم تخطيط عنصر شريط التنقل البديل/القديم، الذي يعرض تسمية العناصر غير المحددة.</string>
 </resources>
