@@ -397,4 +397,8 @@
     <string name="show_old_apps">Старі застосунки</string>
     <string name="show_enabled_apps">Ввімкнені застосунки</string>
     <string name="show_new_backups">Нові резервні копії</string>
+    <string name="prefs_altnavbaritem_summary">Використовувати альтернативне/старе розташування елементів панелі навігації, яке показує мітки невибраних елементів.</string>
+    <string name="prefs_newandupdatednotification">Показувати нові та оновлені сповіщення</string>
+    <string name="prefs_newandupdatednotification_summary">Показувати нові користувацькі застосунки поруч з оновленими застосунками в панелі сповіщень на головній сторінці.</string>
+    <string name="prefs_altnavbaritem">Використовувати альтернативний вид панелі навігації</string>
 </resources>
