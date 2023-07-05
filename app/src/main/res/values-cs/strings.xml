@@ -394,4 +394,8 @@
     <string name="show_old_apps">Staré aplikace</string>
     <string name="show_enabled_apps">Povolené aplikace</string>
     <string name="show_new_backups">Nové zálohy</string>
+    <string name="prefs_altnavbaritem">Použít alternativní položky navigační lišty</string>
+    <string name="prefs_newandupdatednotification">Zobrazit nové a vylepšené oznámení</string>
+    <string name="prefs_newandupdatednotification_summary">Na domovské stránce v oznamovací liště zobrazit nové aplikace uživatele vedle těch aktualizovaných.</string>
+    <string name="prefs_altnavbaritem_summary">Použít alternativní/staré rozložení položek v navigační liště, které zobrazuje štítek nevybraných položek.</string>
 </resources>
