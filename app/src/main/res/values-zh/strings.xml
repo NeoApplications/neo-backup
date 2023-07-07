@@ -393,4 +393,8 @@
     <string name="show_old_apps">旧应用</string>
     <string name="prefs_laserbackground">在背景中显示动画彩光</string>
     <string name="prefs_laserbackground_summary">在加载/忙碌时使用动画彩光作为背景。</string>
+    <string name="prefs_newandupdatednotification_summary">在主页通知栏中更新的应用程序旁边显示新用户应用程序。</string>
+    <string name="prefs_newandupdatednotification">显示新的和更新的通知</string>
+    <string name="prefs_altnavbaritem">使用备用导航栏项</string>
+    <string name="prefs_altnavbaritem_summary">使用替代/旧导航栏项目布局，该布局显示未选定项目的标签。</string>
 </resources>
