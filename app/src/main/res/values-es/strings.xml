@@ -400,4 +400,8 @@
     <string name="filters_backup">Tipos de copias de seguridad</string>
     <string name="show_enabled_apps">Aplicaciones habilitadas</string>
     <string name="show_installed_apps">Aplicaciones instaladas</string>
+    <string name="prefs_newandupdatednotification">Mostrar notificaciones nuevas y actualizadas</string>
+    <string name="prefs_newandupdatednotification_summary">Muestra las nuevas aplicaciones del usuario junto a las aplicaciones actualizadas en la barra de notificaciones de la página de inicio.</string>
+    <string name="prefs_altnavbaritem_summary">Utiliza el diseño alternativo/antiguo de los elementos de la barra de navegación, que muestra la etiqueta de los elementos no seleccionados.</string>
+    <string name="prefs_altnavbaritem">Utilizar un elemento alternativo de la barra de navegación</string>
 </resources>
