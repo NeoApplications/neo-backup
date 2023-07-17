@@ -361,4 +361,13 @@
     <string name="prefs_nobackupdata_rst_summary">Palauttaa tiedostot, jotka on merkattu ei-varmuuskopioitaviksi</string>
     <string name="prefs_mediadata_rst_summary">Palauttaa sovelluksen mediatiedostot, jotka sijaitsevat ulkoisella tallennustilalla (esim. /storage/emulated/0/Android/media/)</string>
     <string name="prefs_tools_terminal">Pääte</string>
+    <string name="filters_app">Sovelluksen tyyppi</string>
+    <string name="sorting_order">Lajittelujärjestys</string>
+    <string name="filters_latest">Viimeisin varmuuskopio</string>
+    <string name="show_new_apps">Uudet sovellukset</string>
+    <string name="show_new_backups">Uudet varmuuskopiot</string>
+    <string name="show_installed_apps">Asennetut sovellukset</string>
+    <string name="show_old_apps">Vanhat sovellukset</string>
+    <string name="show_updated_apps">Päivitetyt sovellukset</string>
+    <string name="filters_updated">Päivitetty</string>
 </resources>
