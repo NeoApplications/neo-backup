@@ -403,4 +403,8 @@
     <string name="show_updated_apps">Обновленные приложения</string>
     <string name="show_old_apps">Старые приложения</string>
     <string name="show_enabled_apps">Включенные приложения</string>
+    <string name="prefs_newandupdatednotification_summary">Показывать новые пользовательские приложения рядом с обновленными приложениями на панели уведомлений на главной странице.</string>
+    <string name="prefs_newandupdatednotification">Показать новые и обновленные уведомления</string>
+    <string name="prefs_altnavbaritem">Использовать альтернативный элемент панели навигации</string>
+    <string name="prefs_altnavbaritem_summary">Использовать альтернативный/старый макет элементов панели навигации, в котором отображаются метки невыбранных элементов.</string>
 </resources>
