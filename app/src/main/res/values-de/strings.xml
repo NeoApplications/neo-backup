@@ -381,4 +381,25 @@
     <string name="post_notifications_permission_message">Ab Android 13 benötigen Apps diese Berechtigung, um Benachrichtigungen zu versenden.</string>
     <string name="backup_revisions_limit">Begrenzung der Sicherungen: %d</string>
     <string name="clear_text">Klartext</string>
+    <string name="filters_latest">Aktuelle Sicherung</string>
+    <string name="prefs_newandupdatednotification">Neue und aktualisierte Benachrichtigung anzeigen</string>
+    <string name="prefs_newandupdatednotification_summary">Neue Benutzer-Apps neben den aktualisierten Apps in der Benachrichtigungsleiste auf der Startseite anzeigen.</string>
+    <string name="prefs_altnavbaritem">Alternatives Navigationsleistenelement verwenden</string>
+    <string name="prefs_altnavbaritem_summary">Alternatives/altes Layout der Navigationsleistenelemente verwenden, das die Beschriftung nicht ausgewählter Elemente anzeigt.</string>
+    <string name="prefs_laserbackground">Animierter Laser im Hintergrund anzeigen</string>
+    <string name="prefs_laserbackground_summary">Animierte farbige Lichter als Hintergrund beim Laden/Betrieb verwenden.</string>
+    <string name="filters_installed">Installation</string>
+    <string name="filters_launchable">Startbar</string>
+    <string name="filters_enabled">Aktiviert</string>
+    <string name="filters_updated">Aktualisiert</string>
+    <string name="filters_app">App-Typ</string>
+    <string name="filters_backup">Sicherungstypen</string>
+    <string name="sorting_order">Sortierreihenfolge</string>
+    <string name="radio_notlaunchable">Nicht startbare Apps</string>
+    <string name="show_updated_apps">Aktualisierte Apps</string>
+    <string name="show_new_apps">Neue Apps</string>
+    <string name="show_old_apps">Alte Apps</string>
+    <string name="show_enabled_apps">Aktivierte Apps</string>
+    <string name="show_installed_apps">Installierte Apps</string>
+    <string name="show_new_backups">Neue Sicherungen</string>
 </resources>
