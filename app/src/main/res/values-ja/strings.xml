@@ -154,4 +154,15 @@
     <string name="prefs_stopcont">バックアップ、復元の前後にアプリを一時停止、再開する</string>
     <string name="prefs_stopcont_summary">上級者専用: バックアップ中にアプリがファイルを変更してバックアップが失敗する場合に役立つかもしれません。</string>
     <string name="prefs_saveappslist_summary">バックアップディレクトリにtxt形式でアプリのリストを保存する</string>
+    <string name="prefs_tools_short">ツール</string>
+    <string name="prefs_theme_black">ブラックテーマ</string>
+    <string name="prefs_theme_black_summary">ダークテーマ使用時に黒背景を強制する</string>
+    <string name="prefs_advanced_short">高度</string>
+    <string name="prefs_service_short">サービス</string>
+    <string name="prefs_user_short">個人設定</string>
+    <string name="prefs_theme_dynamic">ダイナミックテーマ（可能な場合）</string>
+    <string name="prefs_loadingtoasts">ロード中トースト</string>
+    <string name="prefs_multilineinfochips">複数行情報チップ</string>
+    <string name="prefs_multilineinfochips_summary">アプリシートで複数行の情報チップを許可する。</string>
+    <string name="prefs_loadingtoasts_summary">リストの読み込み中にトーストを表示する</string>
 </resources>
