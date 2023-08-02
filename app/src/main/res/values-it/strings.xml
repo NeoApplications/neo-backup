@@ -3,7 +3,7 @@
     <string name="backup">Backup</string>
     <string name="restore">Ripristino</string>
     <string name="backupConfirmation">Eseguire il backup\?</string>
-    <string name="restoreConfirmation">Eseguo il ripristino\?</string>
+    <string name="restoreConfirmation">Eseguire il ripristino\?</string>
     <string name="handleApk">APK</string>
     <string name="handleData">Dati</string>
     <string name="handleBoth">Entrambi</string>
@@ -12,8 +12,8 @@
     <string name="radio_both">APK e dati</string>
     <string name="de_selectAll">De/seleziona tutto</string>
     <string name="refresh">Aggiorna</string>
-    <string name="batchbackup">Backup in serie</string>
-    <string name="batchrestore">Ripristino in serie</string>
+    <string name="batchbackup">Backup in massa</string>
+    <string name="batchrestore">Ripristino in massa</string>
     <string name="search">Cerca</string>
     <string name="searchHint">Cerca app</string>
     <string name="deleteBackup">Elimina backup</string>
@@ -27,7 +27,7 @@
     <string name="showNewAndUpdated">App nuove e aggiornate</string>
     <string name="showOldBackups">Vecchi backup</string>
     <string name="showOnlyApkBackedUp">App con backup solo dell\'APK</string>
-    <string name="showOnlyDataBackedUp">App con solo il backup dei dati</string>
+    <string name="showOnlyDataBackedUp">App con backup solo dei dati</string>
     <string name="radio_special">Backup speciali</string>
     <string name="sortByLabel">Ordina per etichetta</string>
     <string name="sortByPackageName">Ordina per nome</string>
@@ -40,13 +40,13 @@
     <string name="dialogNo">No</string>
     <string name="restoreDataWithoutApkError">Impossibile ripristinare i dati senza ripristinare l\'APK, il pacchetto non è installato.</string>
     <string name="utilboxCheck">Controllo della presenza di busybox/toybox…</string>
-    <string name="noSu">Impossibile ottenere le autorizzazioni di superutente</string>
+    <string name="noSu">Impossibile ottenere i diritti di root</string>
     <!--mkfileError: an error occured while creating a file. format: string + " " + filename-->
     <string name="mkfileError">Impossibile creare</string>
     <!--fallbackToDefault: indicates a fallback to the default for creation of a specific file. used in the same way as mkfileError-->
     <string name="fallbackToDefault">Torna all\'impostazione predefinita</string>
     <string name="backupFolderError">Imposta il percorso corretto nelle preferenze e assicurati che esista o sia creabile</string>
-    <string name="shellReturnSuccess">Successo</string>
+    <string name="shellReturnSuccess">Completato</string>
     <string name="shellReturnError">Errore</string>
     <string name="backupProgress">Backup in corso…</string>
     <string name="backupSuccess">Backup completato</string>
@@ -197,7 +197,7 @@
     <string name="prefs_numBackupRevisions_summary">La revisione più vecchia verrà eliminata alla creazione di un nuovo backup se il numero viene superato. Impostalo su zero per mantenere tutte le revisioni.</string>
     <string name="prefs_numBackupRevisions">Numero di revisioni del backup</string>
     <string name="radio_obbdata">Dati OBB</string>
-    <string name="radio_deviceprotecteddata">Dati protetti del dispositivo</string>
+    <string name="radio_deviceprotecteddata">Dati protetti dal dispositivo</string>
     <string name="radio_externaldata">Dati esterni</string>
     <string name="fetching_action_list">Recupero elenco delle app per %1$s …</string>
     <plurals name="days_left">
