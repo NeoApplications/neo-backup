@@ -378,4 +378,22 @@
     <string name="batch">Seria</string>
     <string name="prefs_singularbackuprestore_summary">Użyj alternatywnego układu elementów przywracania, który pozwala wybrać określone kopie zapasowe do przywrócenia.</string>
     <string name="post_notifications_permission_message">Począwszy od Androida 13 aplikacja wymaga tego uprawnienia, aby móc wysyłać powiadomienia.</string>
+    <string name="filters_enabled">Włączone</string>
+    <string name="filters_updated">Zaktualizowane</string>
+    <string name="clear_text">Czysty tekst</string>
+    <string name="filters_latest">Ostatnia kopia zapasowa</string>
+    <string name="filters_app">Rodzaj aplikacji</string>
+    <string name="filters_backup">Rodzaje kopii zapasowej</string>
+    <string name="sorting_order">Kolejność sortowania</string>
+    <string name="show_updated_apps">Zaktualizowane aplikacje</string>
+    <string name="show_new_apps">Nowe aplikacje</string>
+    <string name="show_installed_apps">Zainstalowane aplikacje</string>
+    <string name="show_new_backups">Nowe kopie zapasowe</string>
+    <string name="radio_notlaunchable">Niewykonywalne aplikacje</string>
+    <string name="prefs_laserbackground">Pokaż animowany laser w tle</string>
+    <string name="filters_launchable">Wykonywalne</string>
+    <string name="show_old_apps">Stare aplikacje</string>
+    <string name="show_enabled_apps">Włączone aplikacje</string>
+    <string name="backup_revisions_limit">Limit liczby kopii zapasowych: %d</string>
+    <string name="filters_installed">Instalacja</string>
 </resources>
