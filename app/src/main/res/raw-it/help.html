@@ -1,20 +1,20 @@
 <html>
     <body>
-        <p><strong>Modalità di backup</strong>: è possibile eseguire il backup di un'app solo con l'apk, solo i dati o entrambi. Un'app attualmente non installata può essere ripristinata solo se l'apk è presente. Tre tipi speciali di dati sono supportati in aggiunta ai dati principali: dati protetti dal dispositivo, dati esterni e dati obb.
+        <p><strong>Modalità di backup</strong>: è possibile eseguire il backup di un'app solo dell'apk, solo dei dati o di entrambi. Un'app non installata può essere ripristinata solo se l'apk è presente. Sono supportati tre tipi speciali di dati in aggiunta ai dati principali: dati protetti dal dispositivo, dati esterni e dati obb.
         </p>
-        <p><strong>Elimina backup</strong>: elimina i file di backup per un'istanza di backup specifica. Mentre "elimina backup" elimina tutti i backup dell'app scelta.
+        <p><strong>Elimina backup</strong>: elimina i file di backup per un'istanza di backup specifica. Mentre "Elimina i backup" elimina tutti i backup dell'app scelta.
         </p>
-        <p><strong>Disinstallazione</strong>: un po' più aggressivo di una normale disinstallazione. Oltre a eseguire una normale disinstallazione tramite i comandi Android, la disinstallazione da OAndBackupX elimina i file che l'app potrebbe aver lasciato in /data/app-lib/.
+        <p><strong>Disinstalla</strong>: un po' più aggressivo di una normale disinstallazione. Oltre ad una normale disinstallazione tramite i comandi Android, la disinstallazione da Neo Backup elimina anche i file che l'app potrebbe aver lasciato in /data/app-lib/.
         </p>
-        <p><strong>Abilita/disabilita</strong>: utilizza lo script `pm` di Android per abilitare o disabilitare un'app. La disabilitazione di un'app la rimuove dalla normale interfaccia utente senza disinstallarla. Questo può essere utilizzato per abilitare o disabilitare un'app per più utenti alla volta (se il dispositivo ha più utenti). Gli utenti sono identificati con un ID, ad es. 0 è il primo utente (proprietario) 10 è in genere il profilo di lavoro.
+        <p><strong>Abilita/disabilita</strong>: utilizza lo script Android `pm` per abilitare o disabilitare un'app. Un'app disabilitata viene rimossa dalla normale interfaccia utente senza che venga disinstallata. Può essere utile per abilitare o disabilitare un'app per più utenti alla volta (se il dispositivo ha più utenti). Gli utenti sono identificati con un ID, ad es. 0 è il primo utente (proprietario) 10 è in genere il profilo di lavoro.
         </p>
-        <p><strong>Utenti multipli</strong>: la modalità multiutente è ancora un po' sperimentale ma dovrebbe funzionare. L'abilitazione e la disabilitazione funzionano solo dopo un'installazione iniziale (non necessariamente da OAndBackupx) o il ripristino dell'app.
+        <p><strong>Utenti multipli</strong>: la modalità multiutente è ancora sperimentale ma dovrebbe funzionare. L'abilitazione e la disabilitazione funzionano solo dopo un'installazione iniziale (non necessariamente da Neo Backup) o un ripristino dell'app.
         </p>
-        <p><strong>App senza sistema</strong>: il backup e il ripristino di app senza sistema installate come moduli Magisk non sono supportati e provarlo potrebbe portare a un errore del sistema e costringerti a formattarlo e aggiornarlo nuovamente.
+        <p><strong>App systemless</strong>: il backup e il ripristino di app installate systemless come moduli Magisk non sono supportati e farlo potrebbe portare a un errore di sistema che forza a formattarlo e flasharlo nuovamente.
         </p>
-        <p><strong>Navigazione</strong>: la barra di navigazione contiene "Impostazioni", "Home", "Backup in serie", "Ripristino in serie" e "Pianifica backup" (in quest'ordine). Il numero di app aggiornate dopo l'ultimo backup verrà presentato come notifica sul pulsante "Home".
+        <p><strong>Navigazione</strong>: la barra di navigazione contiene "Impostazioni", "Home", "Backup", "Ripristino" e "Pianificazione" (in quest'ordine). Il numero di app aggiornate dopo l'ultimo backup verrà visualizzato come notifica su "Home".
         </p>
-        <p><strong>App che utilizzano Keystore</strong>: Android dispone di un archivio crittografato per i dati sensibili. Le app che ne fanno uso per memorizzare i dati di accesso o alcune chiavi per la sua funzione non possono essere ripristinate correttamente. Due esempi di tali app sono Signal ed Element (Riot).
+        <p><strong>App che usano Keystore</strong>: Android dispone di una memoria crittografata per i dati sensibili. Le app che ne fanno uso per memorizzare i dati di accesso o alcune chiavi non possono essere ripristinate correttamente. Due esempi di queste app sono Signal ed Element (Riot).
         </p>
     </body>
 </html>
