@@ -370,4 +370,15 @@
     <string name="show_old_apps">Vanhat sovellukset</string>
     <string name="show_updated_apps">Päivitetyt sovellukset</string>
     <string name="filters_updated">Päivitetty</string>
+    <string name="prefs_newandupdatednotification">Näytä uudet ja päivitetyt-ilmoitus</string>
+    <string name="filters_backup">Varmuuskopioiden tyypit</string>
+    <string name="prefs_newandupdatednotification_summary">Näytä uudet käyttäjän sovellukset päivitettyjen sovellusten lisäksi ilmoituspalkissa aloitussivulla.</string>
+    <string name="filters_installed">Asennus</string>
+    <string name="filters_launchable">Käynnistettävä</string>
+    <string name="filters_enabled">Käytössä</string>
+    <string name="radio_notlaunchable">Ei käynnistettäviä sovelluksia</string>
+    <string name="show_enabled_apps">Käyttöön otetut sovellukset</string>
+    <string name="prefs_laserbackground">Näytä laser-animaatio taustalla</string>
+    <string name="prefs_laserbackground_summary">Näytä animoidut värivalot taustalla tietojen latauksen aikana.</string>
+    <string name="backup_revisions_limit">Varmuuskopioiden määrä : %d</string>
 </resources>
