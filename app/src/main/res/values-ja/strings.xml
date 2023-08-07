@@ -165,4 +165,18 @@
     <string name="prefs_multilineinfochips">複数行情報チップ</string>
     <string name="prefs_multilineinfochips_summary">アプリシートで複数行の情報チップを許可する。</string>
     <string name="prefs_loadingtoasts_summary">リストの読み込み中にトーストを表示する</string>
+    <string name="forceKillMessage">このアプリを強制停止します。よろしいですか\?</string>
+    <string name="forceKill">強制停止</string>
+    <string name="title_tags">タグ</string>
+    <string name="empty_filtered_list">当てはまるものはありません｡</string>
+    <string name="sort_and_filter">絞り込み</string>
+    <string name="logs_text_empty">なにも見せるものはないぞ!</string>
+    <string name="home">ホーム</string>
+    <string name="title_note">メモ</string>
+    <string name="launch_app">アプリを起動</string>
+    <string name="available_actions">可能な操作</string>
+    <string name="sched_blocklist">除外するアプリ</string>
+    <string name="delete_all_backups">全てのバックアップを削除</string>
+    <string name="backup_revisions_limit">バックアップ可能数: %d</string>
+    <string name="stats_backups">バックアップ</string>
 </resources>
