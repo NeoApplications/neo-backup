@@ -351,4 +351,5 @@
     <string name="prefs_tools_short">Outils</string>
     <string name="dialog_export_schedules">Exporter mon planning</string>
     <string name="prefs_theme_black">Thème noir</string>
+    <string name="prefs_theme_black_summary">imposer l\'arrière-plan noir lorsque le thème est sombre</string>
 </resources>
