@@ -123,7 +123,7 @@
     <string name="prefs_theme_dark">गहरा</string>
     <string name="prefs_squeezenavtext_summary">नेविगेशन बार आइटम के अंतर्गत टेक्स्ट को उपलब्ध चौड़ाई में फिट करने के लिए आकार बदलने की अनुमति दें।</string>
     <string name="prefs_altnavbaritem">वैकल्पिक नेविगेशन बार आइटम का उपयोग करें</string>
-    <string name="prefs_rememberfiltering">क्रमबद्ध और फ़िल्टर याद रखें</string>
+    <string name="prefs_rememberfiltering">सॉर्ट और फ़िल्टर याद रखें</string>
     <string name="prefs_laserbackground_summary">लोडिंग करते वक्त/व्यस्त होने पर बैकग्राउंड के रूप में एनिमेटेड रंगीन रोशनी का उपयोग करें।</string>
     <string name="prefs_password">एंक्रिप्ट करने का पासवर्ड</string>
     <string name="prefs_encryption_summary">डेटा बैकअप को एन्क्रिप्ट करने में सक्षम करें</string>
