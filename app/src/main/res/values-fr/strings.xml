@@ -35,8 +35,8 @@
     <string name="deleteBackupDialogMessage">Supprimer les fichiers de sauvegarde \?</string>
     <string name="dialogOK">OK</string>
     <string name="dialogCancel">annuler</string>
-    <string name="dialogYes">oui</string>
-    <string name="dialogNo">non</string>
+    <string name="dialogYes">Oui</string>
+    <string name="dialogNo">Non</string>
     <string name="restoreDataWithoutApkError">impossible de restaurer les données sans restaurer l\'APK car l\'application n\'est pas installée.</string>
     <string name="utilboxCheck">vérification de le présence de busybox/toybox…</string>
     <string name="noSu">impossible d\'acquérir les droits de super-utilisateur</string>
@@ -206,7 +206,7 @@
     <plurals name="days_left">
         <item quantity="one">%d jour</item>
         <item quantity="many">%d jours</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="logs_text_empty">Il n\'y a rien à afficher !</string>
     <string name="delete_all_backups">Supprimer toutes les sauvegardes</string>
@@ -231,7 +231,7 @@
     <plurals name="updated_apps">
         <item quantity="one">%d application mise à jour</item>
         <item quantity="many">%d applications mises à jour</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="app_info">Infos sur l\'appli</string>
     <string name="launch_app">Lancer l\'application</string>
@@ -250,7 +250,7 @@
     <plurals name="sched_interval_formal">
         <item quantity="one">chaque jour</item>
         <item quantity="many">tous les %d jours</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="global_blocklist_add">Ajouter à la liste de blocage globale</string>
     <string name="error_datachanged">Les données de l\'application ont été activement modifiées pendant la sauvegarde. Essayez de tuer son processus avant de faire la sauvegarde</string>
