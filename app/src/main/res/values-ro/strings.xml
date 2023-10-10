@@ -293,4 +293,17 @@
     <string name="prefs_mediadata_rst_summary">Restaurează fișierele media ale aplicațiilor care sunt plasate în spațiul de stocare extern (de ex., /storage/emulated/0/Android/media/)</string>
     <string name="prefs_mediadata_summary">Fă backup fișierelor media ale aplicațiilor care sunt plasate în spațiul de stocare extern (de ex., /storage/emulated/0/Android/media/)</string>
     <string name="prefs_theme_dynamic">Temă dinamică (dacă este disponibilă)</string>
+    <string name="prefs_altnavbaritem">Utilizează element alternativ din bara de navigare</string>
+    <string name="uninstallFailure">Eroare la dezinstalare</string>
+    <string name="prefs_newandupdatednotification_summary">Afișează noile aplicații de utilizator lângă aplicațiile actualizate în bara de notificări din pagina de pornire.</string>
+    <string name="fallbackToDefault">Revenire la implicit</string>
+    <string name="prefs_singularbackuprestore_summary">Utilizează un aspect alternativ al elementelor de restaurare care permite alegerea unor copii de rezervă specifice pentru restaurare.</string>
+    <string name="shareTitle">Distribuire</string>
+    <string name="prefs_user_short">Personal</string>
+    <string name="mkfileError">Nu s-a putut crea</string>
+    <string name="prefs_singularbackuprestore">Restaurare unică a copiei de rezervă</string>
+    <string name="prefs_newandupdatednotification">Afișează notificarea noi și actualizate</string>
+    <string name="backupFailure">Eroare la backup</string>
+    <string name="errorDialogTitle">Au apărut erori</string>
+    <string name="noSu">Nu s-au putut obține permisiunile de super-utilizator</string>
 </resources>
