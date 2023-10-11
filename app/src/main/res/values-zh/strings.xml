@@ -100,7 +100,7 @@
     <string name="prefs_copyselfapk_summary">将 Neo Backup 的一份副本放在备份文件夹内</string>
     <string name="prefs_rememberfiltering_summary">记住所选择的排序和过滤方法。只有那些在菜单中用复选框标记的才会被记住。</string>
     <string name="prefs_batchdelete_summary">删除已有的未安装应用的备份。</string>
-    <string name="sched_title">定时</string>
+    <string name="sched_title">计划</string>
     <string name="sched_notificationMessage">定时备份</string>
     <string name="sched_interval">间隔天数:</string>
     <string name="sched_hourOfDay">执行时间:</string>
@@ -235,7 +235,7 @@
     <string name="prefs_enablespecial_summary">这些备份模式仍然在测试中，它很可能导致系统应用出现问题。始终欢迎反馈此模式相关信息。</string>
     <string name="copyOwnApkFailed">未能将应用的 APK 复制到备份目录</string>
     <string name="copyOwnApkSuccess">已将应用程序的 APK 复制到备份目录</string>
-    <string name="prefs_devicelock_summary">使用设备凭据保护此应用程序</string>
+    <string name="prefs_devicelock_summary">使用设备已有安全凭据保护此应用程序</string>
     <string name="prefs_devicelock">设备锁</string>
     <string name="wait_noappslist">应用列表未加载完成，请等待…</string>
     <string name="prefs_saveappslist_summary">将应用列表及其包名写入备份目录中的 list 文件</string>
@@ -262,7 +262,7 @@
     <string name="help_group_telegram">我们的 Telegram 群组</string>
     <string name="sortAscDesc">升序-降序</string>
     <string name="intro_permission_storage_location_warning">不要选择主存储目录或“Download”文件夹，为你的备份创建一个独立的文件夹。 在常见问题解答中会有更多说明</string>
-    <string name="global_blocklist_add">添加到全局拦截列表</string>
+    <string name="global_blocklist_add">添加到黑名单</string>
     <string name="forceKill">强制停止</string>
     <string name="backup_all_updated">备份全部已更新的应用</string>
     <string name="prefs_secondary_color">副主题色</string>
@@ -347,10 +347,10 @@
     <string name="prefs_tools_short">工具</string>
     <string name="prefs_multilineinfochips_summary">允许应用列表中的内容跨行显示。</string>
     <string name="prefs_multilineinfochips">多行显示</string>
-    <string name="prefs_squeezenavtext">缩进显示导航项的文本</string>
+    <string name="prefs_squeezenavtext">自适应导航栏标签文本</string>
     <string name="prefs_nobackupdata_summary">备份标记为无需备份的文件</string>
     <string name="prefs_tools_terminal">终端命令</string>
-    <string name="prefs_squeezenavtext_summary">允许调整导航栏的文本大小以适应宽度。</string>
+    <string name="prefs_squeezenavtext_summary">允许自动调整导航栏的文字大小以适应屏幕宽度。</string>
     <string name="prefs_nobackupdata">备份 no_backup 文件</string>
     <string name="prefs_deviceprotecteddata_summary">备份 /data/user_de 中的数据</string>
     <string name="prefs_obbdata_summary">备份应用程序在外部存储中的obb数据文件（例如 /storage/emulated/0/Android/obb/）</string>
@@ -369,8 +369,8 @@
     <string name="context_menu">关联菜单</string>
     <string name="prefs_theme_black">深色主题</string>
     <string name="prefs_theme_black_summary">使用深色主题时强制使用黑色背景</string>
-    <string name="prefs_singularbackuprestore">单一备份恢复</string>
-    <string name="prefs_singularbackuprestore_summary">使用允许选择要还原的特定备份的备用还原项布局。</string>
+    <string name="prefs_singularbackuprestore">多备份自选恢复模式</string>
+    <string name="prefs_singularbackuprestore_summary">更改还原功能页面布局为可单选每个应用的多个恢复数据的模式。</string>
     <string name="post_notifications_permission_message">启动 Android 13 应用需要此权限才能发布通知。</string>
     <string name="post_notifications_permission_title">发布通知</string>
     <string name="prefs_password_summary">也用于还原时的解密</string>
@@ -392,9 +392,9 @@
     <string name="sorting_order">排序顺序</string>
     <string name="show_old_apps">旧应用</string>
     <string name="prefs_laserbackground">在背景中显示动画彩光</string>
-    <string name="prefs_laserbackground_summary">在加载/忙碌时使用动画彩光作为背景。</string>
-    <string name="prefs_newandupdatednotification_summary">在主页通知栏中更新的应用程序旁边显示新用户应用程序。</string>
-    <string name="prefs_newandupdatednotification">显示新的和更新的通知</string>
-    <string name="prefs_altnavbaritem">使用备用导航栏项</string>
-    <string name="prefs_altnavbaritem_summary">使用替代/旧导航栏项目布局，该布局显示未选定项目的标签。</string>
+    <string name="prefs_laserbackground_summary">在应用加载/忙碌时在背景显示动画彩光。</string>
+    <string name="prefs_newandupdatednotification_summary">使主页面中更新的应用程序提醒中包含未备份的应用程序。</string>
+    <string name="prefs_newandupdatednotification">显示未备份应用提醒</string>
+    <string name="prefs_altnavbaritem">使用备用导航栏布局</string>
+    <string name="prefs_altnavbaritem_summary">使用替代/旧的导航栏布局，该布局会显示未选定选项页的标签名。</string>
 </resources>
