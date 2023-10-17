@@ -169,7 +169,7 @@
     <string name="sched_add">Aggiungi pianificazione</string>
     <string name="showSplitAPKs">APK diviso</string>
     <string name="prefs_biometriclock_summary">Proteggi l\'app con il blocco biometrico del dispositivo (ad es. impronta digitale, sblocco facciale)</string>
-    <string name="prefs_biometriclock">Blocco biometrico</string>
+    <string name="prefs_biometriclock">Sblocco biometrico</string>
     <string name="dialogSave">Salva</string>
     <string name="prefs_password_match_false">Le password non corrispondono</string>
     <string name="prefs_password_match_true">Le password corrispondono</string>
