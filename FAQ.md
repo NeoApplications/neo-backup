@@ -506,7 +506,9 @@ Generally please see [What are Special Backups?](#what-are-special-backups) firs
 **SMS/MMS and Call-logs** </br>
 NB starts supporting backup SMS/MMS and Call logs beginning with version 8. The current implementation (of [DL](https://github.com/dl200010)) writes all the details into a JSON format.
 
-The Call-Logs are saved in data providers like some other special data (`com.android.providers.telephony`). Sometimes you would need to restart after restoring its data.
+The Call-Logs are saved in data providers like some other special data (`com.android.providers.telephony`). 
+
+*You may need to restart your device after restoring special data, to see the restored data*.
 
 Next to this users asked quite often about **contacts, calendar** and todo-lists:
 We advice to use [DecSync](https://github.com/39aldo39/DecSync) with its diverse apps.
@@ -550,8 +552,9 @@ Here are several examples - e.g.:
 
 ## Why is it not recommended to backup system apps?
 
-* ... as they change over the android version and restore might un-stabilize the system
-* You've done your backup on 4.0.0, then you should place the data you want to restore at the same directory as when they got backed up.
+* System apps can change over the android version. They are often tighter bound to the system they were designed for.
+* Therefore restoring a system app, especially to a different system, might de-stabilize the system **or make it unbootable**.
+* If your backup was done on 4.0.0, then you should place the data you want to restore at the same directory as when they got backed up.
   * --> In 5.0.0 this is already fixed.
 
 ## Can I backup and restore the settings of NB?
@@ -769,7 +772,8 @@ Here is a quick status overview, what NB is capable of - to be edited.
 | Filter apps by name / type / status / Apps Organizer labels (also affects Batch operations) | YES / YES(?) / YES(?) / NO (not yet) |
 | Backup/restore regular apps + their settings | YES |
 | Backup/restore protected apps + their settings | PROBABLY (what is it exactly? - maybe device protected data? -> YES) |
-| Backup/restore system apps + their settings (incl. Wi-Fi AP list) | YES (some system data, called special backups, "package" names special.*, label starts with $) |
+| Backup/restore system apps + their settings (incl. Wi-Fi AP list) | YES (some system data, called special backups, "package" names special.*, label starts with $). (Restoring system **apps** is not recommended, can de-stabilise system or make it unbootable) |
+| Backup/restore (migrate) some system data (eg: SMS/MMS) across incompatible ROMs | YES (only SMS/MMS/call logs) |
 | Backup/restore external app data | YES (external_data, obb, media) |
 | Restores the Market links when restoring apps | NO |
 | Zero-click background batch backup | YES (batch backup, but what is zero click?) |
@@ -791,7 +795,6 @@ Here is a quick status overview, what NB is capable of - to be edited.
 | Multi-user support for some apps (eg: games) with a widget for quick switching! | NO |
 | Batch verification of your backups | NO |
 | Create an “update.zip” file containing apps+data, which can be flashed in recovery mode to restore everything in one shot | NO |
-| Migrate some system data (eg: SMS/MMS) across incompatible ROMs | YES (only SMS/MMS/call logs) |
 | Convert users apps to system apps | NO |
 | Ultra fast HyperShell (much faster for almost everything) | NO (not sure how fast this is, NB currently uses toybox, which might also be fast) |
 | App freezer can disable an app (and make it invisible) without un-installing it | YES |
