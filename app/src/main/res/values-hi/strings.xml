@@ -127,4 +127,16 @@
     <string name="prefs_password">एंक्रिप्ट करने का पासवर्ड</string>
     <string name="prefs_encryption_summary">डेटा बैकअप को एन्क्रिप्ट करने में सक्षम करें</string>
     <string name="prefs_encryption">कूटलेखन</string>
+    <string name="prefs_obbdata_summary">ऐप की ओबीबी फाइलों का बैकअप लेता है जो बाहरी स्टोरेज पर रखी जाती हैं (उदाहरण के लिए /स्टोरेज/एमुलेटेड/0/एंड्रॉइड/ओबीबी/)</string>
+    <string name="prefs_externaldata_summary">बाहरी स्टोरेज पर रखे गए डेटा का बैकअप लेता है (उदा. /storage/emulated/0/Android/data/)</string>
+    <string name="prefs_password_summary">रीस्टोर पर डिक्रिप्शन के लिए भी उपयोग किया जाता है</string>
+    <string name="prefs_enablespecial_summary">अभी भी गहन परीक्षण की आवश्यकता है, यह बूट लूप का कारण बनने वाले खतरे को जानने का प्रयास करें। प्रतिक्रिया का हमेशा स्वागत है।</string>
+    <string name="prefs_externaldata">बाहरी डेटा का बैकअप लें</string>
+    <string name="prefs_excludecache">ऐप का कैश बाहर निकालें</string>
+    <string name="prefs_obbdata">ओबीबी फाइलों का बैकअप लें</string>
+    <string name="prefs_password_match_false">पासवर्ड मेल नहीं खाते</string>
+    <string name="prefs_password_match_true">पासवर्ड मेल खाते हैं</string>
+    <string name="prefs_excludecache_summary">डेटा बैकअप से ऐप के कैश को बाहर निकालें</string>
+    <string name="prefs_passwordconfirmation">एन्क्रिप्शन पासवर्ड पुष्टिकरण</string>
+    <string name="prefs_enablespecial">विशेष बैकअप सक्षम करें</string>
 </resources>
