@@ -360,4 +360,10 @@
     <string name="prefs_laserbackground_summary">Yüklerken/meşgulken animasyonlu renkli ışıkları arka plan olarak kullanın.</string>
     <string name="prefs_obbdata_summary">Harici depolama alanına yerleştirilen uygulamanın obb dosyalarını Yedekler ve geri yükler (örn. / storage/emulated / 0 / Android / obb/)</string>
     <string name="prefs_password_summary">Geri yüklemede şifre çözme için de kullanılır</string>
+    <string name="prefs_altnavbaritem">Alternatif gezinti çubuğu öğesi kullan</string>
+    <string name="prefs_newandupdatednotification_summary">Ana sayfadaki bildirim çubuğunda güncellenen uygulamaların yanında yeni kullanıcı uygulamalarını gösterin.</string>
+    <string name="prefs_mediadata_summary">Uygulamanın harici depolama alanına yerleştirilen medya dosyalarını yedekler (örn. /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_singularbackuprestore">Tekil yedekleme geri yükleme</string>
+    <string name="prefs_newandupdatednotification">Yeni ve güncellenmiş bildirimi göster</string>
+    <string name="prefs_altnavbaritem_summary">Seçili olmayan öğelerin etiketini gösteren alternatif/eski gezinti çubuğu öğe düzenini kullan.</string>
 </resources>
