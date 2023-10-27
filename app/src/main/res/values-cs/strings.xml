@@ -397,4 +397,9 @@
     <string name="prefs_newandupdatednotification">Zobrazit nové a vylepšené oznámení</string>
     <string name="prefs_newandupdatednotification_summary">Na domovské stránce v oznamovací liště zobrazit nové aplikace uživatele vedle těch aktualizovaných.</string>
     <string name="prefs_altnavbaritem_summary">Použít alternativní/staré rozložení položek v navigační liště, které zobrazuje štítek nevybraných položek.</string>
+    <string name="prefs_theme_dynamic_black">Černý s dynamickými barvami</string>
+    <string name="prefs_theme_dynamic">Dynamický motiv</string>
+    <string name="prefs_theme_dynamic_light">Světlý s dynamickými barvami</string>
+    <string name="prefs_theme_system_black">Systémový motiv (černý)</string>
+    <string name="prefs_theme_dynamic_dark">Tmavý s dynamickými barvami</string>
 </resources>
