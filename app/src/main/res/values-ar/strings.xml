@@ -406,4 +406,9 @@
     <string name="prefs_newandupdatednotification_summary">إظهار تطبيقات المستخدم الجديدة بجانب التطبيقات المحدثة في شريط الإعلام في الصفحة الرئيسية.</string>
     <string name="prefs_altnavbaritem">استخدم عنصر شريط التنقل البديل</string>
     <string name="prefs_altnavbaritem_summary">استخدم تخطيط عنصر شريط التنقل البديل/القديم، الذي يعرض تسمية العناصر غير المحددة.</string>
+    <string name="prefs_theme_dynamic_black">اسود بالألوان المتكيفة</string>
+    <string name="prefs_theme_dynamic">الموضوع المتكيف</string>
+    <string name="prefs_theme_dynamic_light">مضيء بالألوان المتكيفة</string>
+    <string name="prefs_theme_system_black">موضوع النظام(اسود)</string>
+    <string name="prefs_theme_dynamic_dark">داكن بالألوان المتكيفة</string>
 </resources>
