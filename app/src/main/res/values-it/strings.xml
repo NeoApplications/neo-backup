@@ -143,7 +143,7 @@
     <string name="deleted_backup">Backup eliminato</string>
     <string name="prefs_theme_light">Chiaro</string>
     <string name="prefs_theme_dark">Scuro</string>
-    <string name="prefs_theme_system">Tema di sistema</string>
+    <string name="prefs_theme_system">Tema del sistema</string>
     <string name="empty_filtered_list">La lista filtrata è vuota.</string>
     <string name="dialog_refuse">Non lo farò</string>
     <string name="dialog_approve">Procedi!</string>
@@ -404,4 +404,9 @@
     <string name="prefs_newandupdatednotification">Mostra notifica per app nuove e aggiornate</string>
     <string name="prefs_newandupdatednotification_summary">Mostra nella barra delle notifiche in Home le nuove app utente e le app aggiornate.</string>
     <string name="prefs_altnavbaritem_summary">Usa la disposizione degli elementi della barra di navigazione alternativa/vecchia, che mostra l\'etichetta degli elementi non selezionati.</string>
+    <string name="prefs_theme_dynamic_black">Nero con colori dinamici</string>
+    <string name="prefs_theme_dynamic">Tema dinamico</string>
+    <string name="prefs_theme_dynamic_light">Chiaro con colori dinamici</string>
+    <string name="prefs_theme_system_black">Tema del sistema (nero)</string>
+    <string name="prefs_theme_dynamic_dark">Scuro con colori dinamici</string>
 </resources>
