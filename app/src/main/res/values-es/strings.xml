@@ -344,7 +344,7 @@
     <string name="prefs_loadingtoasts">Barras de carga</string>
     <string name="add_tag">Agregar nueva etiqueta</string>
     <string name="edit_note">Editar nota</string>
-    <string name="root_is_mandatory">Dado que las aplicaciones están aisladas entre sí, se requiere acceso de superusuario para realizar copias de seguridad y restaurar sus datos.</string>
+    <string name="root_is_mandatory">Debido a que las aplicaciones están aisladas una de la otra, el acceso como superusuario es requerido para poder respaldar y restaurar los datos de aplicación.</string>
     <string name="enabled">Activado</string>
     <string name="see_faq">¡Consulte las preguntas frecuentes!</string>
     <string name="sortAppDataSize">Tamaño de los datos de la aplicación</string>
