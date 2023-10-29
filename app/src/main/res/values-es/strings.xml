@@ -281,7 +281,7 @@
     <string name="prefs_secondary_5">Rosa Flamingo</string>
     <string name="prefs_secondary_4">Naranja lava</string>
     <string name="prefs_secondary_3">Ámbar tigre</string>
-    <string name="prefs_secondary_2">Limette</string>
+    <string name="prefs_secondary_2">Lima</string>
     <string name="prefs_secondary_1">Verde azulado océano</string>
     <string name="prefs_secondary_0">Cían ártico</string>
     <string name="prefs_accent_7">Naranja albaricoque</string>
@@ -403,4 +403,9 @@
     <string name="prefs_newandupdatednotification_summary">Muestra las nuevas aplicaciones del usuario junto a las aplicaciones actualizadas en la barra de notificaciones de la página de inicio.</string>
     <string name="prefs_altnavbaritem_summary">Utiliza el diseño alternativo/antiguo de los elementos de la barra de navegación, que muestra la etiqueta de los elementos no seleccionados.</string>
     <string name="prefs_altnavbaritem">Utilizar un elemento alternativo de la barra de navegación</string>
+    <string name="prefs_theme_dynamic_black">Negro con colores dinámicos</string>
+    <string name="prefs_theme_dynamic">Tema dinámico</string>
+    <string name="prefs_theme_dynamic_light">Claro con colores dinámicos</string>
+    <string name="prefs_theme_system_black">Temas del sistema (negro)</string>
+    <string name="prefs_theme_dynamic_dark">Oscuro con colores dinámicos</string>
 </resources>
