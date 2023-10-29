@@ -350,7 +350,7 @@
     <string name="sortAppDataSize">Tamaño de los datos de la aplicación</string>
     <string name="dialog_export_schedules">Exportar mis planes</string>
     <string name="delete">Eliminar</string>
-    <string name="root_missing">¡Falta ROOT!</string>
+    <string name="root_missing">No hay acceso de ROOT</string>
     <string name="prefs_multilineinfochips_summary">Permitir que las fichas de información en la hoja de aplicación se extiendan por varias líneas.</string>
     <string name="prefs_squeezenavtext">Comprimir el texto del elemento de la navegación</string>
     <string name="prefs_squeezenavtext_summary">Permita que el texto debajo de los elementos de la barra de navegación cambie de tamaño para ajustarse al ancho disponible.</string>
