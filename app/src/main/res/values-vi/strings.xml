@@ -391,4 +391,9 @@
     <string name="clear_text">Xóa chữ</string>
     <string name="filters_updated">Đã cập nhật</string>
     <string name="show_new_apps">Ứng dụng mới</string>
+    <string name="prefs_theme_dynamic_black">Đen với màu sắc năng động</string>
+    <string name="prefs_theme_dynamic">Chủ đề động</string>
+    <string name="prefs_theme_dynamic_light">Sáng với màu sắc năng động</string>
+    <string name="prefs_theme_system_black">Chủ đề của hệ thống (Đen)</string>
+    <string name="prefs_theme_dynamic_dark">Tối với màu sắc năng động</string>
 </resources>
