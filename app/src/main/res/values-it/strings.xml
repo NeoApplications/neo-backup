@@ -3,7 +3,7 @@
     <string name="backup">Backup</string>
     <string name="restore">Ripristino</string>
     <string name="backupConfirmation">Eseguire il backup\?</string>
-    <string name="restoreConfirmation">Eseguire il ripristino\?</string>
+    <string name="restoreConfirmation">Ripristinare\?</string>
     <string name="handleApk">APK</string>
     <string name="handleData">Dati</string>
     <string name="handleBoth">Entrambi</string>
