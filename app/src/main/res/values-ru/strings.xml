@@ -83,7 +83,7 @@
     <string name="prefs_copyselfapk">Копировать собственный apk</string>
     <string name="prefs_copyselfapk_summary">Разместить копию Neo Backup в верхнем уровне папки с резервными копиями</string>
     <string name="prefs_languages">Язык</string>
-    <string name="prefs_language_system">Системный</string>
+    <string name="prefs_language_system">Как в системе</string>
     <string name="prefs_rememberfiltering">Запомнить сортировку и фильтр</string>
     <string name="prefs_rememberfiltering_summary">Сохраняет выбранные методы сортировки и фильтрования. учитываются только отмеченные флажком.</string>
     <string name="prefs_enablespecial">Включить специальное резервное копирование</string>
@@ -135,7 +135,7 @@
     <string name="prefs_password">Пароль шифрования</string>
     <string name="prefs_encryption_summary">Включить шифрование резервных копий данных</string>
     <string name="prefs_encryption">Шифрование</string>
-    <string name="prefs_theme_system">Системная</string>
+    <string name="prefs_theme_system">Как в системе</string>
     <string name="prefs_theme_dark">Темная</string>
     <string name="prefs_theme_light">Светлая</string>
     <string name="prefs_theme">Тема</string>
@@ -409,6 +409,6 @@
     <string name="prefs_theme_dynamic_black">Чёрная динамичная</string>
     <string name="prefs_theme_dynamic">Динамичная</string>
     <string name="prefs_theme_dynamic_light">Светлая динамичная</string>
-    <string name="prefs_theme_system_black">Системная чёрная</string>
+    <string name="prefs_theme_system_black">Как в системе (чёрная)</string>
     <string name="prefs_theme_dynamic_dark">Тёмная динамичная</string>
 </resources>
