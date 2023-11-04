@@ -1,20 +1,20 @@
 <html>
     <body>
-        <p><strong>Backup modes</strong>: An app can be backed up with only its apk, only its data or both. An app not currently installed can only be restored if the apk is present. Three special types of data is supported extra to the main data: device protected data, external data and obb data.
+        <p><strong>Načini rada sigurnosnog kopiranja</strong>: Aplikacija se može sigurnosno kopirati sa samo instalacijskom datotekom, samo sa podacima ili sa oboje. Aplikacija koja trenutno nije instalirana se može vratiti samo ako je prisutna instalacijska datoteka. Tri posebna tipa podataka su podržana uz glavne podatke: podaci zaštićeni uređajem, vanjski podaci i obb podaci.
         </p>
-        <p><strong>Delete backup</strong>: Deletes the backup files for a specific backup instance. While "delete backups" delete all of the backups of the chosen app.
+        <p><strong>Izbriši sigurnosnu kopiju</strong>: Briše sigurnosne kopije podataka za specifičnu instancu sigurnosne kopije. Dok gumb "izbriši sigurnosne kopije" briše sve sigurnosne kopije odabrane aplikacije.
         </p>
-        <p><strong>Uninstall</strong>: Somewhat more aggressive than a normal uninstall. In addition to doing a normal uninstall via Android commands, uninstalling from OAndBackupX deletes files the app might have left over in /data/app-lib/.
+        <p><strong>Izbriši</strong>: Nešto agresivnije od normalnog brisanja (deinstaliranja). Ne samo da radi normalno brisanje sa Android naredbama, brisanje sa OAndBackupX briše podatke koje aplikacija možda ostavi u /data/app-lib/.
         </p>
-        <p><strong>Enable / disable</strong>: Uses the Android `pm` script to enable or disable an app. Disabling an app removes it from the normal user interface without uninstalling it. This can be used for enabling or disabling an app for multiple users at a time (if the device has multiple users). Users are identified with an ID e.g. 0 is the first user (owner) 10 is usually the work profile.
+        <p><strong>Omogući / onemogući</strong>: Koristi Android `pm` skriptu da omogući ili onemogući aplikaciju. Onemogućavanje aplikacije uklanja je sa normalnog korisničkog sučelja bez da je obriše. Ovo se može koristiti za omogućavanje ili onemogućavanje aplikacije za više korisnika istovremeno (ako uređaj sadrži više korisnika). Korisnici su identificirani sa ID-em npr. 0 je prvi korisnik (vlasnik) dok je 10 obično radni profil.
         </p>
-        <p><strong>Multiple users</strong>: Multi-user is still somewhat experimental but should work. Enabling and disabling only works after an initial install (not necessarily from OAndBackupx) or restore of the app.
+        <p><strong>Više korisnike</strong>: Opcija za više korisnika je još donekle eksperimentalna ali bi trebala raditi. Omogućavanje i onemogućavanje radi samo nakon prvog inicijalnog instaliranja (ne nužno od OAndBackupX) ili vraćanja aplikacije.
         </p>
-        <p><strong>System-less apps</strong>: Backup and restore of system-less apps installed as Magisk modules is not supported and trying it could lead to system failure and forcing you to format and flash it anew.
+        <p><strong>Aplikacije neovisne o sistemu</strong>: Spremanje i vraćanje aplikacija neovisnih o sistemu instalirane kao Magisk moduli nije podržano i pokušavanje sigurnosnog kopiranja istih može dovesti do pada sistema nakon čega je potrebno formatiranje i flashanje nanovo.
         </p>
-        <p><strong>Navigation</strong>: The navigation bar has "Settings", "Home", "Batch backup", "Batch restore" and "Schedule backups" (in that order). The number of apps upgraded after their last backup will be presented as a notification on "Home" button.
+        <p><strong> Navigacija</strong>: Navigacijska traka ima "Postavke", "Početna", "Skupno sigurnosno kopiranje", "Skupno vraćanje" i "Zakazivanje sigurnosnih kopija" (tim redoslijedom). Broj aplikacija nadograđenih nakon njihove zadnje sigurnosne kopije bit će prikazan kao obavijest na gumbu "Početna".
         </p>
-        <p><strong>Apps using Keystore</strong>: Android has an encrypted storage for sensitive data. Apps that make use of this to store login data or some keys for its function can't be restored successfully. Two examples of such apps are Signal and Element(Riot).
+        <p><strong>Aplikacije koje koriste Keystore</strong>: Android ima šifriranu pohranu za osjetljive podatke. Aplikacije koje to koriste za pohranjivanje podataka za prijavu ili nekih ključeva za njihovu funkciju ne mogu se uspješno vratiti (samo instalirati bez vraćanja podataka). Dva primjera takvih aplikacija su Signal i Element(Riot).
         </p>
     </body>
 </html>
