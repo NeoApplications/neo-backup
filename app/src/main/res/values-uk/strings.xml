@@ -400,4 +400,9 @@
     <string name="prefs_newandupdatednotification">Показувати нові та оновлені сповіщення</string>
     <string name="prefs_newandupdatednotification_summary">Показувати нові користувацькі застосунки поруч з оновленими застосунками в панелі сповіщень на головній сторінці.</string>
     <string name="prefs_altnavbaritem">Використовувати альтернативний вид панелі навігації</string>
+    <string name="prefs_theme_dynamic_black">Чорна динамічна</string>
+    <string name="prefs_theme_dynamic">Динамічна тема</string>
+    <string name="prefs_theme_dynamic_light">Світла динамічна</string>
+    <string name="prefs_theme_system_black">Системна тема (Чорна)</string>
+    <string name="prefs_theme_dynamic_dark">Темна динамічна</string>
 </resources>
