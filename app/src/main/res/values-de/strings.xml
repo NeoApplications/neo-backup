@@ -401,4 +401,9 @@
     <string name="show_enabled_apps">Aktivierte Apps</string>
     <string name="show_installed_apps">Installierte Apps</string>
     <string name="show_new_backups">Neue Sicherungen</string>
+    <string name="prefs_theme_dynamic_black">Schwarz mit dynamischen Farben</string>
+    <string name="prefs_theme_dynamic">Dynamisches Thema</string>
+    <string name="prefs_theme_dynamic_light">Hell mit dynamischen Farben</string>
+    <string name="prefs_theme_system_black">Systemthema (Schwarz)</string>
+    <string name="prefs_theme_dynamic_dark">Dunkel mit dynamischen Farben</string>
 </resources>
