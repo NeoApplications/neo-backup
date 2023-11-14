@@ -1,20 +1,20 @@
 <html>
     <body>
-        <p><strong>Backup modes</strong>: An app can be backed up with only its apk, only its data or both. An app not currently installed can only be restored if the apk is present. Three special types of data is supported extra to the main data: device protected data, external data and obb data.
+        <p><strong>बैकअप मोड</strong>: किसी ऐप का बैकअप केवल उसके एपीके, केवल उसके डेटा या दोनों से लिया जा सकता है। जो ऐप वर्तमान में इंस्टॉल नहीं है उसे केवल एपीके मौजूद होने पर ही पुनर्स्थापित किया जा सकता है। मुख्य डेटा के अतिरिक्त तीन विशेष प्रकार के डेटा का समर्थन किया जाता है: डिवाइस संरक्षित डेटा, बाहरी डेटा और ओबीबी डेटा।
         </p>
-        <p><strong>Delete backup</strong>: Deletes the backup files for a specific backup instance. While "delete backups" delete all of the backups of the chosen app.
+        <p><strong>बैकअप हटाएं</strong>: किसी विशिष्ट बैकअप उदाहरण के लिए बैकअप फ़ाइलें हटाता है। जबकि "बैकअप हटाएं" चुने गए ऐप के सभी बैकअप हटा दें।
         </p>
-        <p><strong>Uninstall</strong>: Somewhat more aggressive than a normal uninstall. In addition to doing a normal uninstall via Android commands, uninstalling from OAndBackupX deletes files the app might have left over in /data/app-lib/.
+        <p><strong>अनइंस्टॉल</strong>: सामान्य अनइंस्टॉल की तुलना में कुछ अधिक आक्रामक। एंड्रॉइड कमांड के माध्यम से सामान्य अनइंस्टॉल करने के अलावा, OAndBackupX से अनइंस्टॉल करने से ऐप द्वारा /data/app-lib/ में छोड़ी गई फ़ाइलें हट जाती हैं।
         </p>
-        <p><strong>Enable / disable</strong>: Uses the Android `pm` script to enable or disable an app. Disabling an app removes it from the normal user interface without uninstalling it. This can be used for enabling or disabling an app for multiple users at a time (if the device has multiple users). Users are identified with an ID e.g. 0 is the first user (owner) 10 is usually the work profile.
+        <p><strong>सक्षम / अक्षम</strong>: किसी ऐप को सक्षम या अक्षम करने के लिए एंड्रॉइड `pm` स्क्रिप्ट का उपयोग करता है। किसी ऐप को अक्षम करने से उसे अनइंस्टॉल किए बिना सामान्य उपयोगकर्ता इंटरफ़ेस से हटा दिया जाता है। इसका उपयोग एक समय में एकाधिक उपयोगकर्ताओं के लिए किसी ऐप को सक्षम या अक्षम करने के लिए किया जा सकता है (यदि डिवाइस में एकाधिक उपयोगकर्ता हैं)। उपयोगकर्ताओं की पहचान एक आईडी से की जाती है, उदा. 0 पहला उपयोगकर्ता (मालिक) है 10 आमतौर पर कार्य प्रोफ़ाइल है।
         </p>
-        <p><strong>Multiple users</strong>: Multi-user is still somewhat experimental but should work. Enabling and disabling only works after an initial install (not necessarily from OAndBackupx) or restore of the app.
+        <p><strong>एकाधिक उपयोगकर्ता</strong>: बहु-उपयोगकर्ता अभी भी कुछ हद तक प्रयोगात्मक है लेकिन इसे काम करना चाहिए। सक्षम और अक्षम करना केवल प्रारंभिक इंस्टॉल (जरूरी नहीं कि OAndBackupx से हो) या ऐप को पुनर्स्थापित करने के बाद ही काम करता है।
         </p>
-        <p><strong>System-less apps</strong>: Backup and restore of system-less apps installed as Magisk modules is not supported and trying it could lead to system failure and forcing you to format and flash it anew.
+        <p><strong>सिस्टम-रहित ऐप्स</strong>: मैजिक मॉड्यूल के रूप में इंस्टॉल किए गए सिस्टम-रहित ऐप्स का बैकअप और रीस्टोर समर्थित नहीं है और इसे आज़माने से सिस्टम विफल हो सकता है और आपको इसे प्रारूपित करने और नए सिरे से फ्लैश करने के लिए मजबूर होना पड़ सकता है।
         </p>
-        <p><strong>Navigation</strong>: The navigation bar has "Settings", "Home", "Batch backup", "Batch restore" and "Schedule backups" (in that order). The number of apps upgraded after their last backup will be presented as a notification on "Home" button.
+        <p><strong>नेविगेशन</strong>: नेविगेशन बार में "सेटिंग्स", "होम", "बैच बैकअप", "बैच रिस्टोर" और "शेड्यूल बैकअप" (उसी क्रम में) हैं। अंतिम बैकअप के बाद अपग्रेड किए गए ऐप्स की संख्या "होम" बटन पर एक अधिसूचना के रूप में प्रस्तुत की जाएगी।
         </p>
-        <p><strong>Apps using Keystore</strong>: Android has an encrypted storage for sensitive data. Apps that make use of this to store login data or some keys for its function can't be restored successfully. Two examples of such apps are Signal and Element(Riot).
+        <p><strong>कीस्टोर का उपयोग करने वाले ऐप्स</strong>: एंड्रॉइड में संवेदनशील डेटा के लिए एक एन्क्रिप्टेड स्टोरेज है। जो ऐप्स इसका उपयोग लॉगिन डेटा या इसके फ़ंक्शन के लिए कुछ कुंजियों को संग्रहीत करने के लिए करते हैं, उन्हें सफलतापूर्वक पुनर्स्थापित नहीं किया जा सकता है। ऐसे ऐप्स के दो उदाहरण सिग्नल और एलिमेंट (दंगा) हैं।
         </p>
     </body>
 </html>
