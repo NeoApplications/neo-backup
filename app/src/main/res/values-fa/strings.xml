@@ -116,4 +116,12 @@
     <string name="prefs_batchdelete_summary">حذف نسخه‌های پشتیبان همه برنامه‌هایی که در حال حاضر نصب نیستند.</string>
     <string name="prefs_copyselfapk">رونوشت از خود برنامه پشتیبان‌گیر</string>
     <string name="prefs_saveappslist">ذخیره لیست برنامه‌ها</string>
+    <string name="prefs_theme_black">نمایه سیاه</string>
+    <string name="prefs_theme_dynamic">نمایه پویا</string>
+    <string name="prefs_advanced_short">پیشرفته</string>
+    <string name="prefs_squeezenavtext">کشیدن متن آیتم پیمایش</string>
+    <string name="prefs_user_short">شخصی</string>
+    <string name="prefs_service_short">خدمت</string>
+    <string name="prefs_newandupdatednotification">نمایش اطلاعیه‌های جدید و به‌روز</string>
+    <string name="prefs_tools_short">ابزار‌ها</string>
 </resources>
