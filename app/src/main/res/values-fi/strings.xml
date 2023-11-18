@@ -380,4 +380,9 @@
     <string name="prefs_laserbackground">Näytä laser-animaatio taustalla</string>
     <string name="prefs_laserbackground_summary">Näytä animoidut värivalot taustalla tietojen latauksen aikana.</string>
     <string name="backup_revisions_limit">Varmuuskopioiden määrä : %d</string>
+    <string name="prefs_theme_dynamic_black">Musta dynaamisilla väreillä</string>
+    <string name="prefs_theme_dynamic">Dynaaminen teema</string>
+    <string name="prefs_theme_dynamic_light">Vaalea dynaamisilla väreillä</string>
+    <string name="prefs_theme_system_black">Järjestelmän teema (musta)</string>
+    <string name="prefs_theme_dynamic_dark">Tumma dynaamisilla väreillä</string>
 </resources>
