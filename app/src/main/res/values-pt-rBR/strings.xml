@@ -397,4 +397,9 @@
     <string name="prefs_nobackupdata">Backup de arquivos no_backup</string>
     <string name="backup_revisions_limit">Limite de backups: %d</string>
     <string name="prefs_password_summary">Também usado para descriptografia na restauração</string>
+    <string name="prefs_theme_dynamic_black">Preto com cores dinâmicas</string>
+    <string name="prefs_theme_dynamic">Tema dinâmico</string>
+    <string name="prefs_theme_dynamic_light">Claro com cores dinâmicas</string>
+    <string name="prefs_theme_system_black">Tema do sistema (preto)</string>
+    <string name="prefs_theme_dynamic_dark">Escuro com cores dinâmicas</string>
 </resources>
