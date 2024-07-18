@@ -77,7 +77,7 @@
     <string name="prefs_title">Preferenze</string>
     <string name="prefs_acquirewakelock">Impedisci la modalità sleep</string>
     <string name="prefs_acquirewakelock_summary">Acquisisce un blocco del risveglio durante le operazioni in massa per impedire la sospensione. Accelera notevolmente backup e ripristini, ma consuma più energia.</string>
-    <string name="prefs_pathbackupfolder">Cartella di backup</string>
+    <string name="prefs_pathbackupfolder">Cartella backup</string>
     <string name="prefs_oldbackups">Filtra backup per età</string>
     <!--prefs_summaryOldBackups: the quoted filter title is @string/showOldBackups-->
     <string name="prefs_oldbackups_summary">Filtra i backup più vecchi del valore in giorni. Utilizzato con il filtro \'Mostra vecchi backup\'.</string>
@@ -415,4 +415,8 @@
     <string name="prefs_backupcache_summary">Back up files in cache directories</string>
     <string name="prefs_restorecache">Restore cached data</string>
     <string name="prefs_restorecache_summary">Restore files in cache directories</string>
+    <string name="prefs_compression_type">Tipo compressione</string>
+    <string name="prefs_compression_type_summary">Seleziona tipo di compressione usato</string>
+    <string name="prefs_altblocklayout">Usa disposizione alternativa per blocchi di pagina</string>
+    <string name="prefs_altblocklayout_summary">Usa una disposizione alternativa/vecchia per i blocchi di pagina con bordi anziché superfici colorate.</string>
 </resources>
