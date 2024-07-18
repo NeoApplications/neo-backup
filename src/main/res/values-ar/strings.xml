@@ -413,8 +413,12 @@
     <string name="prefs_theme_dynamic_dark">داكن بالألوان المتكيفة</string>
     <string name="enforce_backups_limit">فرض حد النسخ الاحتياطية</string>
     <string name="enforce_backups_limit_description">قم بحذف النسخ الاحتياطية القديمة لفرض الحد الأقصى لـ %d</string>
-    <string name="prefs_backupcache">Back up cached data</string>
-    <string name="prefs_backupcache_summary">Back up files in cache directories</string>
-    <string name="prefs_restorecache">Restore cached data</string>
-    <string name="prefs_restorecache_summary">Restore files in cache directories</string>
+    <string name="prefs_backupcache">النسخ الاحتياطي للبيانات المخزنة مؤقتًا</string>
+    <string name="prefs_backupcache_summary">نسخ الملفات احتياطيًا في دلائل ذاكرة التخزين المؤقت</string>
+    <string name="prefs_restorecache">استعادة البيانات المخزنة مؤقتًا</string>
+    <string name="prefs_restorecache_summary">استعادة الملفات في دلائل ذاكرة التخزين المؤقت</string>
+    <string name="prefs_compression_type">نوع الضغط</string>
+    <string name="prefs_compression_type_summary">اختيار نوع الضغط المستخدم</string>
+    <string name="prefs_altblocklayout">استخدم تخطيطًا بديلاً لكتل الصفحات</string>
+    <string name="prefs_altblocklayout_summary">استخدام مخطط بديل/كبير لقطع الصفحات مع الحدود بدلا من الأسطح الملونة.</string>
 </resources>
