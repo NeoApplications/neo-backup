@@ -221,9 +221,9 @@
         <item quantity="other">%d dias</item>
     </plurals>
     <plurals name="sched_interval_formal">
-        <item quantity="one">cada dia</item>
-        <item quantity="many">cada %d dias</item>
-        <item quantity="other">cada %d dias</item>
+        <item quantity="one">todos os dias</item>
+        <item quantity="many">a cada %d dias</item>
+        <item quantity="other">a cada %d dias</item>
     </plurals>
     <string name="backup_all_updated">Atualizar tudo</string>
     <string name="intro_permission_storage_location_warning">Não escolha o diretório principal de armazenamento ou a pasta de Downloads, crie uma pasta apenas para seus backups. Mais sobre isso no FAQ</string>
@@ -402,8 +402,14 @@
     <string name="prefs_theme_dynamic_light">Claro com cores dinâmicas</string>
     <string name="prefs_theme_system_black">Tema do sistema (preto)</string>
     <string name="prefs_theme_dynamic_dark">Escuro com cores dinâmicas</string>
-    <string name="prefs_backupcache">Back up cached data</string>
-    <string name="prefs_backupcache_summary">Back up files in cache directories</string>
-    <string name="prefs_restorecache">Restore cached data</string>
-    <string name="prefs_restorecache_summary">Restore files in cache directories</string>
+    <string name="prefs_backupcache">Fazer backup dos dados armazenados em cache</string>
+    <string name="prefs_backupcache_summary">Fazer backup dos arquivos armazenados em cache</string>
+    <string name="prefs_restorecache">Restaurar dados armazenados em cache</string>
+    <string name="prefs_restorecache_summary">Restaurar arquivos armazenados em cache</string>
+    <string name="prefs_compression_type">Tipo de compressão</string>
+    <string name="prefs_compression_type_summary">Selecione o tipo de compactação a ser usada</string>
+    <string name="enforce_backups_limit">Aplicar limite de backups</string>
+    <string name="enforce_backups_limit_description">Excluir backups mais antigos para aplicar o limite de %d</string>
+    <string name="prefs_altblocklayout">Usar layout alternativo para blocos de página</string>
+    <string name="prefs_altblocklayout_summary">Use um layout alternativo/antigo para blocos de página com bordas em vez de superfícies coloridas.</string>
 </resources>
