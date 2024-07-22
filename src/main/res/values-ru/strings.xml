@@ -417,4 +417,8 @@
     <string name="prefs_backupcache_summary">Back up files in cache directories</string>
     <string name="prefs_restorecache">Restore cached data</string>
     <string name="prefs_restorecache_summary">Restore files in cache directories</string>
+    <string name="prefs_compression_type">Тип сжатия</string>
+    <string name="prefs_compression_type_summary">Выберите тип сжатия для резервных копий</string>
+    <string name="prefs_altblocklayout_summary">Альтернативный (старый) интерфейс разделов страниц с рамками вместо цветных фонов.</string>
+    <string name="prefs_altblocklayout">Иной интерфейс для разделов страниц</string>
 </resources>
