@@ -411,4 +411,10 @@
     <string name="prefs_compression_type_summary">Виберіть, який тип стиснення використовувати</string>
     <string name="prefs_altblocklayout">Використовувати альтернативний макет для блоків сторінок</string>
     <string name="prefs_altblocklayout_summary">Використовувати альтернативний/старий макет для блоків сторінок з рамками замість кольорових поверхонь.</string>
+    <string name="filters_tags">Теги</string>
+    <string name="search_package">Шукайте застосунок у крамниці</string>
+    <string name="prefs_backupcache">Резервне копіювання кешованих даних</string>
+    <string name="prefs_backupcache_summary">Резервне копіювання файлів у каталогах кешу</string>
+    <string name="prefs_restorecache">Відновлення кешованих даних</string>
+    <string name="prefs_restorecache_summary">Відновлення файлів у кеш-каталогах</string>
 </resources>
