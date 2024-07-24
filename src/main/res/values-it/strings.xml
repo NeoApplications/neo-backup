@@ -419,4 +419,5 @@
     <string name="prefs_compression_type_summary">Seleziona tipo di compressione usato</string>
     <string name="prefs_altblocklayout">Usa disposizione alternativa per blocchi di pagina</string>
     <string name="prefs_altblocklayout_summary">Usa una disposizione alternativa/vecchia per i blocchi di pagina con bordi anziché superfici colorate.</string>
+    <string name="filters_tags">Tag</string>
 </resources>
