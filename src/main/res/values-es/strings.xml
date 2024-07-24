@@ -418,4 +418,6 @@
     <string name="prefs_compression_type_summary">Seleccione el tipo de compresión utilizada</string>
     <string name="prefs_altblocklayout_summary">Utilice un diseño alternativo/antiguo para bloques de páginas con bordes en lugar de superficies coloreadas.</string>
     <string name="prefs_altblocklayout">Utilizar un diseño alternativo para los bloques de páginas</string>
+    <string name="search_package">Busca la aplicación en la tienda</string>
+    <string name="filters_tags">Etiquetas</string>
 </resources>
