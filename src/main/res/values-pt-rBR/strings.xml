@@ -412,4 +412,6 @@
     <string name="enforce_backups_limit_description">Excluir backups mais antigos para aplicar o limite de %d</string>
     <string name="prefs_altblocklayout">Usar layout alternativo para blocos de página</string>
     <string name="prefs_altblocklayout_summary">Use um layout alternativo/antigo para blocos de página com bordas em vez de superfícies coloridas.</string>
+    <string name="filters_tags">Tags</string>
+    <string name="search_package">Procurar aplicativo na loja</string>
 </resources>
