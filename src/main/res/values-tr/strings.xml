@@ -2,8 +2,8 @@
 <resources>
     <string name="backup">Yedekle</string>
     <string name="restore">Geri Yükle</string>
-    <string name="backupConfirmation">Yedekle?</string>
-    <string name="restoreConfirmation">Geri Yükle?</string>
+    <string name="backupConfirmation">Yedeklensin mi?</string>
+    <string name="restoreConfirmation">Geri Yüklensin mi?</string>
     <string name="handleApk">APK</string>
     <string name="handleData">Veri</string>
     <string name="handleBoth">Her İkisi</string>
@@ -116,7 +116,7 @@
     <string name="prefs_rememberfiltering">Sıralama ve filtrelemeyi hatırla</string>
     <string name="prefs_rememberfiltering_summary">Seçilen sıralama ve filtreleme yöntemini kaydeder. Yalnızca menüde işaretlenenler dikkate alınır.</string>
     <string name="prefs_oldbackups">Yedekleri yaşa göre filtrele</string>
-    <string name="prefs_oldbackups_summary">'Eski yedekleri göster' filtresiyle birlikte kullanılır. Yaşı gün olarak belirtilen değerden eski yedekleri filtreler.</string>
+    <string name="prefs_oldbackups_summary">'\Eski yedekleri göster\' filtresiyle birlikte kullanılır. Yaşı gün olarak belirtilen değerden eski yedekleri filtreler.</string>
     <string name="prefs_encryption">Şifreleme</string>
     <string name="prefs_encryption_summary">Veri yedeklerini şifrelemek için etkinleştirin</string>
     <string name="prefs_password">Şifreleme parolası</string>
@@ -162,7 +162,7 @@
     <string name="prefs_acquirewakelock">Uyku modunu önle</string>
     <string name="prefs_acquirewakelock_summary">Toplu işlemler sırasında uyku modunu önlemek için bir wakelock alır. Yedekleme ve geri yükleme işlemlerini önemli ölçüde hızlandırır ancak daha fazla enerji tüketir.</string>
     <string name="prefs_disableverification">"USB üzerinden uygulama doğrulama" seçeneğini devre dışı bırak</string>
-    <string name="prefs_disableverification_summary">APK'leri geri yüklerken bu geliştirici seçeneğini devre dışı bırakır ve ardından yeniden etkinleştirir. Bu hatayı çözer: INSTALL_FAILED_VERIFICATION_FAILURE.</string>
+    <string name="prefs_disableverification_summary">APK\'leri geri yüklerken bu geliştirici seçeneğini devre dışı bırakır ve ardından yeniden etkinleştirir. Bu hatayı çözer: INSTALL_FAILED_VERIFICATION_FAILURE.</string>
     <string name="prefs_restoreallpermissions_summary">Geri yüklenen uygulamaya istediği tüm izinleri verin.</string>
     <string name="prefs_restoreallpermissions">Tüm izinlerle geri yükle</string>
     <string name="prefs_allowdowngrade_summary">Yüklenen uygulamanın daha eski bir sürümünü geri yüklemeye izin ver (yalnızca hata ayıklama sürümleri için geçerlidir).</string>
@@ -171,8 +171,8 @@
     <string name="prefs_stopcont_summary">Yalnızca uzmanlar: Uygulama yedekleme sırasında dosyaları değiştiriyorsa ve yedekleme başarısız oluyorsa bu yardımcı olabilir.</string>
     <string name="prefs_batchdelete">Yedekleri sil\?</string>
     <string name="prefs_batchdelete_summary">Şu anda yüklü olmayan tüm uygulamaların yedeklerini sil.</string>
-    <string name="prefs_copyselfapk">Kendi APK'sını kopyala</string>
-    <string name="prefs_copyselfapk_summary">Neo Backup'ın bir kopyasını yedekleme klasörünün en üst seviyesine yerleştir</string>
+    <string name="prefs_copyselfapk">Kendi APK\'sını kopyala</string>
+    <string name="prefs_copyselfapk_summary">Neo Backup\'ın bir kopyasını yedekleme klasörünün en üst seviyesine yerleştir</string>
     <string name="prefs_saveappslist">Uygulama listesini kaydet</string>
     <string name="prefs_saveappslist_summary">Kullanıcının yedekleme dizinine bir txt dosyasına uygulama listesi yazar</string>
     <string name="prefs_logviewer">Günlüğü görüntüle</string>
@@ -195,7 +195,7 @@
     <string name="spec_accounts">Hesaplar</string>
     <string name="spec_smsmmsjson">SMS/MMS JSON</string>
     <string name="spec_calllogsjson">Arama Kayıtları JSON</string>
-    <string name="spec_appwidgets">Uygulama Widget'ları</string>
+    <string name="spec_appwidgets">Uygulama Widget\'ları</string>
     <string name="spec_bluetooth">Bluetooth</string>
     <string name="spec_data">Veri Kullanımı ve Politikası</string>
     <string name="spec_wallpaper">Duvar kağıdı</string>
@@ -246,14 +246,14 @@
     <string name="post_notifications_permission_message">Android 13 ile birlikte uygulamalar bildirim gönderebilmek için bu izni gerektiriyor.</string>
     <string name="ignore_battery_optimization_not_supported">Maalesef, bu cihaz batarya optimizasyonunu görmezden gelmeyi desteklemiyor!</string>
     <string name="failed_unzipping">Verileri çıkartırken hata oluştu, şifreleme parolasını kontrol edin!</string>
-    <string name="split_apks">Bölünmüş APK'lar</string>
+    <string name="split_apks">Bölünmüş APK\'lar</string>
     <string name="backup_filters">Yedekleme Filtreleri:</string>
     <string name="smsmms_permission_title">SMS/MMS İzinleri</string>
-    <string name="grant_smsmms_message">SMS/MMS'inizi yedeklemek/geri yüklemek için bu gereklidir.</string>
+    <string name="grant_smsmms_message">SMS/MMS\'inizi yedeklemek/geri yüklemek için bu gereklidir.</string>
     <string name="calllogs_permission_title">Çağrı Kayıtları İzinleri</string>
     <string name="grant_calllogs_message">Çağrı Kayıtlarınızı yedeklemek/geri yüklemek için bu gereklidir.</string>
     <string name="contacts_permission_title">Kişiler İzinleri</string>
-    <string name="grant_contacts_message">Bir kişiyi SMS/MMS'e eşleştirmek için bu gereklidir.</string>
+    <string name="grant_contacts_message">Bir kişiyi SMS/MMS\'e eşleştirmek için bu gereklidir.</string>
     <string name="grant_usage_access_title">Kullanım Erişimi İzni Ver</string>
     <string name="grant_usage_access_message">Uygulamaların dosya boyutları hakkında bilgi almak için bu gereklidir.</string>
     <string name="app_size">Uygulama Boyutu:</string>
@@ -269,8 +269,8 @@
     <string name="enable_encryption_message">Verilerinizi şifrelemeden cihazınızda tutmak güvenli değildir. Verilerinizin güvenliği için şifrelemeyi etkinleştirin ve bir parola belirleyin.</string>
     <string name="sort_and_filter"><![CDATA[Sırala ve Filtrele]]></string>
     <string name="storage_access">Depolama Erişimi</string>
-    <string name="welcome_to_oabx">Neo Backup'a Hoş Geldiniz!</string>
-    <string name="intro_welcome_message"> Neo Backup (eski adıyla OAndBackupX), ünlü OAndBackup'ın bir çatalıdır ve OAndBackup'ı 202X'e taşımayı ve Neo Applications paketi içinde yer almayı amaçlar. Şu an için uygulama tamamen yeniden yazılmış olup, robust hale getirilmesi ve yedekleme/geri yükleme iş akışını herhangi bir cihazda kolaylaştıracak uzun süredir planlanan bazı özelliklerin eklenmesi hedeflenmektedir.
+    <string name="welcome_to_oabx">Neo Backup\'a Hoş Geldiniz!</string>
+    <string name="intro_welcome_message"> Neo Backup (eski adıyla OAndBackupX), ünlü OAndBackup\'ın bir çatalıdır ve OAndBackup\'ı 202X\'e taşımayı ve Neo Applications paketi içinde yer almayı amaçlar. Şu an için uygulama tamamen yeniden yazılmış olup, robust hale getirilmesi ve yedekleme/geri yükleme iş akışını herhangi bir cihazda kolaylaştıracak uzun süredir planlanan bazı özelliklerin eklenmesi hedeflenmektedir.
             \n Bu nedenle her türlü katkı her zaman memnuniyetle karşılanır.
             \n
             \n Uygulamamızın işlevselliği:
@@ -280,11 +280,11 @@
             \n • Yedeklemeler, bireysel planların sayısında bir sınırlama olmaksızın programlanabilir ve yüklü uygulamalar listesinden özel listeler oluşturma olanağı vardır.</string>
     <string name="intro_permission_storage">Uygulama, diğer uygulamaların dış veri/obb yedekleme olanağı sağlayabilmek için depolamayı okuma/yazma iznini kullanır.</string>
     <string name="intro_permission_storage_location">Uygulama, yedekleri depolamak için bir yedekleme konumu gerektirir. Tam bir yedekleme için birkaç gigabayt depolama alanına ihtiyaç duyulabilir ve dosya sistemini sıkça sorgular. Ağ tabanlı depolama konumları seçerken lütfen bunu göz önünde bulundurun.</string>
-    <string name="intro_permission_smsmms">Uygulama, SMS/MMS'inizi yedeklemek/geri yüklemek için bu izni gerektirir.</string>
+    <string name="intro_permission_smsmms">Uygulama, SMS/MMS\'inizi yedeklemek/geri yüklemek için bu izni gerektirir.</string>
     <string name="intro_permission_calllogs">Uygulama, Çağrı Kayıtlarınızı yedeklemek/geri yüklemek için bu izni gerektirir.</string>
-    <string name="intro_permission_contacts">Uygulama, bir kişiyi SMS/MMS'e eşleştirmek için bu izni gerektirir.</string>
+    <string name="intro_permission_contacts">Uygulama, bir kişiyi SMS/MMS\'e eşleştirmek için bu izni gerektirir.</string>
     <string name="intro_permission_usageaccess">Uygulama, uygulamalarınızın veri ve önbellek boyutlarını kontrol edebilmek için bu izni gerektirir.</string>
-    <string name="intro_permission_batteryoptimization">Uygulama, bazı ROM'larda agresif batarya optimizasyonu benimseyen (örneğin MIUI), ancak hatta vanilya AOSP'de bile zamanlanmış yedeklemeler yaparken bazı sorunlarla karşılaşabilir.</string>
+    <string name="intro_permission_batteryoptimization">Uygulama, bazı ROM\'larda agresif batarya optimizasyonu benimseyen (örneğin MIUI), ancak hatta vanilya AOSP\'de bile zamanlanmış yedeklemeler yaparken bazı sorunlarla karşılaşabilir.</string>
     <string name="msg_appkill_warning">Seçilen uygulama(lar) durdurulma sinyali alacak ve görev tamamlandıktan sonra devam edecek. İşlem sonrası işlenen uygulamalarınızı kontrol edin (ve işlem devam ederken bunları başlatmaktan kaçının).</string>
     <string name="delete_all_backups">Tüm yedekleri sil</string>
     <string name="logs_text_empty">Gösterilecek bir şey yok!</string>
@@ -302,8 +302,8 @@
     <string name="launch_app">Uygulamayı başlat</string>
     <string name="app_info">Uygulama Bilgisi</string>
     <string name="forceKillMessage">Uygulamayı zorla kapatmak istediğinizden emin misiniz?</string>
-    <string name="copyOwnApkSuccess">Uygulamanın APK'sı yedekleme dizinine kopyalandı</string>
-    <string name="copyOwnApkFailed">Uygulamanın APK'si yedekleme dizinine kopyalanamadı</string>
+    <string name="copyOwnApkSuccess">Uygulamanın APK\'sı yedekleme dizinine kopyalandı</string>
+    <string name="copyOwnApkFailed">Uygulamanın APK\'si yedekleme dizinine kopyalanamadı</string>
     <string name="wait_noappslist">Uygulama listesi henüz getirilemedi. Bekleyin…</string>
     <string name="filtered_list">Filtrelenmiş liste</string>
     <string name="write_apps_list_filtered">Filtrelenmiş uygulama listesi dosyası yazıldı</string>
@@ -311,7 +311,7 @@
     <string name="prefs_schedulesexportimport">Zamanlamaları dışa aktar/içe aktar</string>
     <string name="prefs_schedulesexportimport_summary">Oluşturduğunuz zamanlama listesini dışa aktarır veya içe aktarır.</string>
     <string name="no_file_manager_title">SAF yöneticisi yok</string>
-    <string name="no_file_manager_message">SAF'i yönetmek için bir dosya yöneticisi yok. Belki de yerleşik dosya yöneticisini devre dışı bıraktınız. Lütfen geri yükleyin veya yeniden etkinleştirin.</string>
+    <string name="no_file_manager_message">SAF\'i yönetmek için bir dosya yöneticisi yok. Belki de yerleşik dosya yöneticisini devre dışı bıraktınız. Lütfen geri yükleyin veya yeniden etkinleştirin.</string>
     <string name="shell_initproblem">Kabuk işleyici başlatılamadı. Ya toybox/busybox eksik ya da uygulama için kök izni devre dışı bırakıldı.</string>
     <string name="schedule_failed">Zamanlama çalıştırılamadı</string>
     <string name="dialog_export">Dışa Aktar</string>
@@ -324,7 +324,7 @@
     <string name="sortAscDesc">Artan-Azalan</string>
     <string name="forceKill">Zorla kapat</string>
     <string name="global_blocklist_add">Global engelleme listesine ekle</string>
-    <string name="intro_permission_storage_location_warning">Ana depolama dizinini veya İndirilenler klasörünü seçmeyin, yalnızca yedekleriniz için bir klasör oluşturun. Bu konuda daha fazla bilgi için SSS'ye bakın</string>
+    <string name="intro_permission_storage_location_warning">Ana depolama dizinini veya İndirilenler klasörünü seçmeyin, yalnızca yedekleriniz için bir klasör oluşturun. Bu konuda daha fazla bilgi için SSS\'ye bakın</string>
     <string name="backup_all_updated">Tüm güncellenmiş uygulamaları yedekle</string>
     <string name="prefs_accent_0">Kırmızı Kuyruklu Yıldız</string>
     <string name="prefs_accent_1">İnce Mor</string>
@@ -365,7 +365,7 @@
     <string name="help_changelog">Değişiklik Günlüğü</string>
     <string name="home">Ana Sayfa</string>
     <string name="all_data">Tüm verileri kontrol et</string>
-    <string name="all_apk">Tüm APK'leri kontrol et</string>
+    <string name="all_apk">Tüm APK\'leri kontrol et</string>
     <string name="showDisabled">Devre dışı bırakılmış uygulamalar</string>
     <string name="schedule">Zamanlama</string>
     <string name="finished">bitti</string>
@@ -379,7 +379,7 @@
     <string name="supended_apps_cleanup">askıya alınmış uygulamaları temizle</string>
     <string name="root_missing">ROOT eksik!</string>
     <string name="root_is_mandatory">Uygulamalar birbirinden izole edildiği için, verilerini yedeklemek ve geri yüklemek için süper kullanıcı erişimi zorunludur.</string>
-    <string name="see_faq">SSS'ye bakın!</string>
+    <string name="see_faq">SSS\'ye bakın!</string>
     <string name="add_tag">Yeni etiket ekle</string>
     <string name="edit_note">Notu düzenle</string>
     <string name="prefs_tools_terminal">Terminal</string>
