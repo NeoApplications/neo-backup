@@ -292,7 +292,7 @@
     <string name="prefs_obbdata_summary">Fă backup fișierelor obb ale aplicațiilor care sunt plasate în spațiul de stocare extern (de ex., /storage/emulated/0/Android/obb/)</string>
     <string name="prefs_mediadata_rst_summary">Restaurează fișierele media ale aplicațiilor care sunt plasate în spațiul de stocare extern (de ex., /storage/emulated/0/Android/media/)</string>
     <string name="prefs_mediadata_summary">Fă backup fișierelor media ale aplicațiilor care sunt plasate în spațiul de stocare extern (de ex., /storage/emulated/0/Android/media/)</string>
-    <string name="prefs_altnavbaritem">Utilizează element alternativ din bara de navigare</string>
+    <string name="prefs_altnavbaritem">Folosește un element alternativ pentru bara de navigare</string>
     <string name="uninstallFailure">Eroare la dezinstalare</string>
     <string name="prefs_newandupdatednotification_summary">Afișează noile aplicații de utilizator lângă aplicațiile actualizate în bara de notificări din pagina de pornire.</string>
     <string name="fallbackToDefault">Revenire la implicit</string>
@@ -309,14 +309,14 @@
     <string name="prefs_laserbackground">Afișează laserul animat în fundal</string>
     <string name="prefs_mediadata_rst">Restaurează fișierele media</string>
     <string name="prefs_deviceprotecteddata_rst">Restaurează datele protejate de dispozitiv</string>
-    <string name="prefs_laserbackground_summary">Utilizează lumini colorate animate ca fundal atunci când se încarcă/este ocupat.</string>
+    <string name="prefs_laserbackground_summary">Folosește lumini colorate animate ca fundal atunci când se încarcă/este ocupat.</string>
     <string name="prefs_password_summary">Folosit și pentru decriptare la restaurare</string>
     <string name="prefs_theme_dynamic">Temă dinamică</string>
     <string name="prefs_theme_dynamic_light">Deschisă cu culori dinamice</string>
     <string name="prefs_theme_system_black">Tema sistemului (neagră)</string>
     <string name="prefs_stopcont">STOP-CONT pre- și postprocesare a aplicațiilor la backup/restaurare</string>
     <string name="prefs_acquirewakelock_summary">Obține un wakelock în timpul operațiunilor în lot pentru a preveni adormirea. Accelerează considerabil backup-urile și restaurările, dar consumă mai multă energie.</string>
-    <string name="prefs_altnavbaritem_summary">Utilizează aspect alternativ/vechi al elementelor din bara de navigare, care arată eticheta elementelor neselectate.</string>
+    <string name="prefs_altnavbaritem_summary">Folosește aspectul alternativ/vechi al elementelor din bara de navigare, care arată eticheta elementelor neselectate.</string>
     <string name="prefs_theme_dynamic_dark">Întunecată cu culori dinamice</string>
     <string name="prefs_externaldata_rst">Restaurează datele externe</string>
     <string name="prefs_obbdata_rst">Restaurează fișierele obb</string>
