@@ -226,7 +226,7 @@
         <item quantity="other">a cada %d dias</item>
     </plurals>
     <string name="backup_all_updated">Atualizar tudo</string>
-    <string name="intro_permission_storage_location_warning">Não escolha o diretório principal de armazenamento ou a pasta de Downloads, crie uma pasta apenas para seus backups. Mais sobre isso no FAQ</string>
+    <string name="intro_permission_storage_location_warning">Não escolha o diretório de armazenamento principal ou a pasta de Downloads, crie uma pasta somente para seus backups. Mais informações sobre isso em \"Perguntas frequentes\"</string>
     <string name="forceKill">Forçar parada</string>
     <string name="logs_share_failed">Arquivo de registro não encontrado</string>
     <string name="dialog_import">Importar</string>
@@ -336,7 +336,7 @@
     <string name="add_tag">Adicionar nova tag</string>
     <string name="prefs_tools_terminal">Terminal</string>
     <string name="edit_note">Editar nota</string>
-    <string name="see_faq">Consulte as FAQ!</string>
+    <string name="see_faq">Veja as perguntas frequentes!</string>
     <string name="prefs_externaldata_rst">Restaurar dados externos</string>
     <string name="sortDesc">Decrescente</string>
     <string name="sortAsc">Crescente</string>
@@ -349,7 +349,7 @@
     <string name="spec_smsmmsjson">SMS/MMS no formato JSON</string>
     <string name="root_missing">ROOT em falta!</string>
     <string name="dialog_export_schedules">Exportar meus agendamentos</string>
-    <string name="root_is_mandatory">Como as aplicações estão isoladas entre si, o acesso \'superuser\' é obrigatório para conseguir fazer os backups e o restauro dos dados.</string>
+    <string name="root_is_mandatory">Como os aplicativos são isolados uns dos outros, o acesso de superusuário é obrigatório para poder fazer backup e restaurar seus dados.</string>
     <string name="supended_apps_cleanup">remover todos os resíduos de aplicações suspensas</string>
     <string name="prefs_squeezenavtext_summary">Permitir que os itens da barra de navegação sejam redimensionados para ajustar a largura disponível.</string>
     <string name="prefs_altnavbaritem_summary">Usar o layout da barra de navegação alternativa/antiga, que mostra a etiqueta de itens não selecionados.</string>
