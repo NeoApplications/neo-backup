@@ -14,10 +14,10 @@
     <string name="radio_apk">APK</string>
     <string name="radio_data">Data</string>
     <string name="radio_special">Backup khusus</string>
-    <string name="de_selectAll">Tidak/pilih semua</string>
+    <string name="de_selectAll">Jangan/pilih semua</string>
     <string name="refresh">Segarkan</string>
-    <string name="batchbackup">Pencadangan batch</string>
-    <string name="batchrestore">Pemulihan batch</string>
+    <string name="batchbackup">Pencadangan serentak</string>
+    <string name="batchrestore">Pemulihan serentak</string>
     <string name="search">Cari</string>
     <string name="searchHint">Cari aplikasi</string>
     <string name="deleteBackup">Hapus cadangan</string>
@@ -28,7 +28,7 @@
     <string name="showNotBackedup">Aplikasi tanpa cadangan</string>
     <string name="showNotInstalled">Aplikasi yang tidak terpasang</string>
     <string name="showNewAndUpdated">Aplikasi baru dan yang diperbarui</string>
-    <string name="showOldBackups">Backup lama</string>
+    <string name="showOldBackups">Cadangan lama</string>
     <string name="showSplitAPKs">Pisahkan-APK</string>
     <string name="showOnlyApkBackedUp">Aplikasi dengan hanya APK yang dicadangkan</string>
     <string name="showOnlyDataBackedUp">Aplikasi dengan hanya data yang dicadangkan</string>
@@ -55,12 +55,12 @@
     <string name="backupFailure">Kesalahan saat mencadangkan</string>
     <string name="restoreProgress">Memulihkan…</string>
     <string name="restoreSuccess">Pemulihan selesai</string>
-    <string name="restoreFailure">Kesalahan saat memulihkan</string>
+    <string name="restoreFailure">Galat saat memulihkan</string>
     <string name="batchSuccess">Operasi selesai</string>
-    <string name="batchFailure">Lengkap dengan kesalahan</string>
-    <string name="uninstallSuccess">Copot pemasangan selesai</string>
-    <string name="uninstallFailure">Kesalahan saat mencopot pemasangan</string>
-    <string name="errorDialogTitle">Terjadi kesalahan</string>
+    <string name="batchFailure">Selesai, tetapi ada galat</string>
+    <string name="uninstallSuccess">Pencopotan pemasangan selesai</string>
+    <string name="uninstallFailure">Galat saat mencopot pemasangan</string>
+    <string name="errorDialogTitle">Terjadi kegalatan</string>
     <string name="customListTitle">Daftar kustom</string>
     <string name="notInstalledModeDataWarning">Aplikasi tidak dapat dipulihkan dari cadangan tanpa APK</string>
     <string name="shareTitle">Bagikan</string>
@@ -68,8 +68,8 @@
     <string name="batchDeleteMessage">Menghapus cadangan…</string>
     <string name="batchDeleteNotificationTitle">Hapus cadangan</string>
     <!-- tools_backupsDeleted: ditampilkan dalam pemberitahuan diikuti oleh jumlah cadangan yang dihapus -->
-    <string name="batchDeleteBackupsDeleted">Cadangan dihapus:</string>
-    <string name="batchDeleteNothingToDelete">Tidak ada cadangan untuk dihapus</string>
+    <string name="batchDeleteBackupsDeleted">Cadangan yang dihapus:</string>
+    <string name="batchDeleteNothingToDelete">Tidak ada cadangan yang dapat dihapus</string>
     <string name="enablePackage">Aktifkan aplikasi</string>
     <!-- enablePackageTitle: judul untuk daftar pengguna yang dapat diperiksa -->
     <string name="enablePackageTitle">Aktifkan aplikasi untuk pengguna</string>
@@ -85,7 +85,7 @@
     <string name="prefs_oldbackups">Saring cadangan berdasarkan usia</string>
     <string name="prefs_copyselfapk">Salin sendiri APK</string>
     <string name="prefs_languages">Bahasa</string>
-    <string name="prefs_language_system">Sistem standar</string>
+    <string name="prefs_language_system">Ikuti sistem perangkat</string>
     <string name="prefs_rememberfiltering">Ingat mengurutkan dan memfilter</string>
     <string name="prefs_enablespecial">Aktifkan cadangan khusus</string>
     <string name="prefs_excludecache">Bersihkan cache aplikasi</string>
@@ -199,7 +199,7 @@
     <string name="prefs_numBackupRevisions">Jumlah revisi cadangan</string>
     <string name="prefs_biometriclock_summary">Amankan aplikasi dengan kunci biometrik perangkat (misalnya sidik jari, buka kunci wajah)</string>
     <string name="prefs_biometriclock">Kunci biometrik</string>
-    <string name="prefs_advanced">Preferensi lanjutan</string>
+    <string name="prefs_advanced">Preferensi lebih lanjut</string>
     <string name="radio_obbdata">Data OBB</string>
     <string name="radio_deviceprotecteddata">Data yang Dilindungi Perangkat</string>
     <string name="radio_externaldata">Data Eksternal</string>
@@ -337,14 +337,14 @@
     <string name="sortDesc">turun</string>
     <string name="prefs_user_short">Pribadi</string>
     <string name="prefs_service_short">Layanan</string>
-    <string name="prefs_advanced_short">Lanjutan</string>
+    <string name="prefs_advanced_short">Lebih lanjut</string>
     <string name="prefs_tools_short">Peralatan</string>
     <string name="dialog_export_schedules">Ekspor jadwal Saya</string>
     <string name="prefs_dev_settings">Pengaturan Pengembang</string>
     <string name="prefs_dev_settings_summary">Jangan diubah kecuali jika pengembang menyuruh Anda melakukannya!</string>
     <string name="prefs_theme_black">Tema hitam</string>
     <string name="prefs_multilineinfochips">Chip info multi-baris</string>
-    <string name="prefs_theme_black_summary">Mengatur latar belakang menjadi hitam pekat saat menggunakan tema gelap</string>
+    <string name="prefs_theme_black_summary">Mengatur latar belakang menjadi hitam pekat saat tema gelap diaktifkan</string>
     <string name="show_installed_apps">Aplikasi terpasang</string>
     <string name="prefs_newandupdatednotification_summary">Menampilkan aplikasi pengguna baru daripada aplikasi yang diperbarui pada bilah notifikasi di halaman beranda.</string>
     <string name="show_enabled_apps">Aplikasi aktif</string>
