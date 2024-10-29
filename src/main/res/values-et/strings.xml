@@ -165,7 +165,7 @@
     <string name="intro_permission_usageaccess">See rakendus vajab seda luba, et kontrollida sinu rakenduste statistikat ja andmete/vahemälu suuruseid.</string>
     <string name="intro_permission_storage">See rakendus kasutab mäluruumi kirjutamis-/lugemisõigust, et välisele mäluruumile ligi pääseda ning võimaldada teiste rakenduste väliste andmete või OBB varundamist.</string>
     <string name="storage_access">Mäluruumi ligipääs</string>
-    <string name="sort_and_filter">Sorteeri ja filtreeri</string>
+    <string name="sort_and_filter"><![CDATA[Sorteeri ja filtreeri]]></string>
     <string name="welcome_to_oabx">Tere tulemast OABX-i!</string>
     <string name="enable_encryption_title">Andmete krüpteering</string>
     <string name="apptype_special">Eriline varundus</string>
@@ -273,7 +273,7 @@
     <string name="spec_smsmmsjson">SMS/MMS sõnumid JSON-vormingus</string>
     <string name="spec_fingerprint">Sõrmejäljed</string>
     <string name="sortBackupSize">Varukoopia suurus</string>
-    <string name="sortAppDataSize">Rakenduse andmete suurus</string>
+    <string name="sortAppDataSize"><![CDATA[Rakenduse ja andmete maht]]></string>
     <string name="sortAppSize">Rakenduse suurus</string>
     <string name="prefs_newandupdatednotification">Näita uusi ja uuendatud teavitusi</string>
     <string name="prefs_newandupdatednotification_summary">Näita uuendatud rakenduste kõrval ka uusi rakendusi avalehe teavitusteribal.</string>
@@ -409,4 +409,6 @@
     <string name="enforce_backups_limit">Kasuta varukoopiate ülempiiri</string>
     <string name="enforce_backups_limit_description">Jõustamaks varukoopiate ülempiiri, kustuta vanemad kui %d varukoopiad</string>
     <string name="prefs_altblocklayout">Kasuta lehevaate alternatiivset paigutust</string>
+    <string name="prefs_altbackupdate">Näita varukoopiates kuupäeva ISO-vormingus</string>
+    <string name="prefs_altbackupdate_summary">Lokaadikohase kuupäeva asemele kasuta varukoopiates kuupäeva ISO-vormingus.</string>
 </resources>
