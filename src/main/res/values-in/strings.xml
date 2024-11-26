@@ -174,7 +174,7 @@
     <string name="intro_welcome_message">Neo Backup (sebelumnya OAndBackupX) ialah cabang dari OAndBackup yang terkenal dgn tujuan untuk membawa OAndBackup ke 202X dan bagian dari rangkaian Neo Applications. Untuk saat ini aplikasi sudah sepenuhnya ditulis ulang, kedatangannya akan membuatnya kuat dan menambahkan beberapa fitur yang direncanakan secara panjang yang dapat memudahkan alur kerja pencadangan/pemulihan dengan perangkat apa pun. Oleh karena itu semua jenis kontribusi selalu diterima.\nSekarang tentang fungsionalitas Aplikasi kami:\n• Ini membutuhkan root dan memungkinkan Anda untuk membuat cadangan aplikasi individual dan datanya.\n• Pencadangan dan pemulihan program masing-masing secara individual dan pencadangan dan pemulihan dari beberapa program didukung.\n• Memulihkan aplikasi sistem dapat dilakukan tanpa memerlukan reboot setelahnya.\n• Pencadangan dapat dijadwalkan tanpa batasan jumlah jadwal individu dan memungkinkan untuk membuat daftar khusus dari daftar aplikasi yang diinstal.</string>
     <string name="welcome_to_oabx">Selamat datang di Neo Backup!</string>
     <string name="storage_access">Akses Penyimpanan</string>
-    <string name="sort_and_filter">Urutkan &amp; Saring</string>
+    <string name="sort_and_filter"><![CDATA[Urutkan & Saring]]></string>
     <string name="enable_encryption_message">Tidak aman untuk menyimpan data anda di perangkat anda yang tidak dienkripsi. Untuk keamanan data anda, aktifkan enkripsi dan setel kata sandi.</string>
     <string name="enable_encryption_title">Enkripsi data</string>
     <string name="help_appTypeHint">* Ikon jenis aplikasi akan berwarna abu-abu jika aplikasi dicopot dan abu-abu tua jika aplikasi dinonaktifkan.</string>
@@ -292,7 +292,7 @@
     <string name="all_apk">Periksa semua APK</string>
     <string name="showDisabled">Aplikasi nonaktif</string>
     <string name="sortAppSize">ukuran aplikasi</string>
-    <string name="sortAppDataSize">ukuran data aplikasi</string>
+    <string name="sortAppDataSize"><![CDATA[aplikasi \& ukuran data]]></string>
     <string name="sortBackupSize">ukuran cadangan</string>
     <string name="grant_contacts_message">Ini penting untuk dapat mencocokkan kontak dengan SMS/MMS.</string>
     <string name="prefs_restorepermissions">Pulihkan izin</string>
