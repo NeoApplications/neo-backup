@@ -173,7 +173,7 @@
 \n• 备份可以定时执行，对计划任务的数量没有限制，并且可以从已安装应用程序列表中选定并创建所需的自定义备份列表。</string>
     <string name="welcome_to_oabx">欢迎使用 Neo Backup！</string>
     <string name="storage_access">访问存储空间</string>
-    <string name="sort_and_filter">排序 &amp; 筛选</string>
+    <string name="sort_and_filter"><![CDATA[排序 & 筛选]]></string>
     <string name="enable_encryption_message">在设备上不加密保存你的数据是很不安全的。为了你的数据的安全，请启用加密并设置一个密码。</string>
     <string name="enable_encryption_title">数据加密</string>
     <string name="apptype_special">特殊备份</string>
