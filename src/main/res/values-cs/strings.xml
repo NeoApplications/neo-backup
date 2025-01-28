@@ -416,4 +416,10 @@
     <string name="search_package">Hledat aplikaci v obchodě</string>
     <string name="prefs_altbackupdate_summary">Použít u položek zálohy formát dat ISO namísto místního.</string>
     <string name="prefs_altbackupdate">Zobrazit datum v zálohách ve formátu ISO</string>
+    <string name="dark_medium_contrast">Tmavý (střední kontrast)</string>
+    <string name="dark_high_contrast">Tmavý (vysoký kontrast)</string>
+    <string name="black_medium_contrast">Černý (střední kontrast)</string>
+    <string name="black_high_contrast">Černý (vysoký kontrast)</string>
+    <string name="light_high_contrast">Světlý (vysoký kontrast)</string>
+    <string name="light_medium_contrast">Světlý (střední kontrast)</string>
 </resources>
