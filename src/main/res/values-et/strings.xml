@@ -411,4 +411,10 @@
     <string name="prefs_altblocklayout">Kasuta lehevaate alternatiivset paigutust</string>
     <string name="prefs_altbackupdate">Näita varukoopiates kuupäeva ISO-vormingus</string>
     <string name="prefs_altbackupdate_summary">Lokaadikohase kuupäeva asemele kasuta varukoopiates kuupäeva ISO-vormingus.</string>
+    <string name="dark_medium_contrast">Tume (keskmiselt kontrastne)</string>
+    <string name="dark_high_contrast">Tume (väga kontrastne)</string>
+    <string name="black_high_contrast">Must (väga kontrastne)</string>
+    <string name="black_medium_contrast">Must (keskmiselt kontrastne)</string>
+    <string name="light_high_contrast">Hele (väga kontrastne)</string>
+    <string name="light_medium_contrast">Hele (keskmiselt kontrastne)</string>
 </resources>
