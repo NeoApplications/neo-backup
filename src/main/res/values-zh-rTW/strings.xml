@@ -403,4 +403,10 @@
     <string name="prefs_altblocklayout">對頁面區塊使用替代佈局</string>
     <string name="prefs_altblocklayout_summary">對頁面區塊使用替代性/舊的佈局而非上色的頁面。</string>
     <string name="show_new_apps">新應用程式</string>
+    <string name="light_high_contrast">淺色（高對比）</string>
+    <string name="dark_high_contrast">深色（高對比）</string>
+    <string name="black_medium_contrast">黑色（中等對比）</string>
+    <string name="black_high_contrast">黑色（高對比）</string>
+    <string name="dark_medium_contrast">深色（中等對比）</string>
+    <string name="light_medium_contrast">淺色（中等對比）</string>
 </resources>
