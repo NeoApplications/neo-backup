@@ -1,0 +1,7 @@
+新增：分組無效備份的選項（pref_createInvalidBackups）
+修復：重複執行計劃的非計劃運行
+更新：用注入取代 WorkHandler 和 WorkManager 呼叫
+更新：讓 ViewModels 成為單例
+修復：強制關閉後阻止啟動應用程式
+修復：計劃計時器和應用程式頁面的反應性
++ 超過 15 次提交
