@@ -415,4 +415,10 @@
     <string name="prefs_altblocklayout_summary">对页面块使用替代性/旧的布局而非上色的页面。</string>
     <string name="prefs_altbackupdate_summary">在备份条目中使用ISO数据格式代替本地数据。</string>
     <string name="prefs_altbackupdate">在备份中显示ISO数据格式</string>
+    <string name="light_medium_contrast">亮色 (中等对比度)</string>
+    <string name="light_high_contrast">亮色 (高对比度)</string>
+    <string name="dark_medium_contrast">暗色 (中等对比度)</string>
+    <string name="dark_high_contrast">暗色 (高对比度)</string>
+    <string name="black_medium_contrast">暗黑 (中等对比度)</string>
+    <string name="black_high_contrast">暗黑 (高对比度)</string>
 </resources>
