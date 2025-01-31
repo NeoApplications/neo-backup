@@ -418,4 +418,10 @@
     <string name="prefs_compression_type">Τύπος συμπίεσης</string>
     <string name="prefs_backupcache">Δημιουργία αντιγράφων ασφαλείας προσωρινών δεδομένων</string>
     <string name="prefs_backupcache_summary">Δημιουργία αντιγράφων ασφαλείας αρχείων σε καταλόγους προσωρινής μνήμης</string>
+    <string name="light_high_contrast">Φως (υψηλή αντίθεση)</string>
+    <string name="dark_medium_contrast">Σκούρο (μέτρια αντίθεση)</string>
+    <string name="dark_high_contrast">Σκούρο (υψηλή αντίθεση)</string>
+    <string name="black_medium_contrast">Μαύρο (μέτρια αντίθεση)</string>
+    <string name="about_build_FORMAT">%s (Κατασκευή %s)</string>
+    <string name="black_high_contrast">Μαύρο (υψηλή αντίθεση)</string>
 </resources>
