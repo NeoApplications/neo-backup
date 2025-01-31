@@ -429,4 +429,5 @@
     <string name="black_high_contrast">Nero (contrasto alto)</string>
     <string name="light_medium_contrast">Chiaro (contrasto medio)</string>
     <string name="dark_medium_contrast">Scuro (contrasto medio)</string>
+    <string name="about_build_FORMAT">%s (Compilazione %s)</string>
 </resources>
