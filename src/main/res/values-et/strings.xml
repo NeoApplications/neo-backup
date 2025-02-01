@@ -417,4 +417,5 @@
     <string name="black_medium_contrast">Must (keskmiselt kontrastne)</string>
     <string name="light_high_contrast">Hele (väga kontrastne)</string>
     <string name="light_medium_contrast">Hele (keskmiselt kontrastne)</string>
+    <string name="about_build_FORMAT">%s (kompileerimisjärk: %s)</string>
 </resources>
