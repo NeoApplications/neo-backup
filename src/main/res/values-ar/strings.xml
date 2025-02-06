@@ -431,4 +431,5 @@
     <string name="dark_high_contrast">داكن (عال التباين)</string>
     <string name="black_medium_contrast">أسود (تباين متوسط)</string>
     <string name="black_high_contrast">أسود (تباين عال)</string>
+    <string name="about_build_FORMAT">%s (الإصدار %s)</string>
 </resources>
