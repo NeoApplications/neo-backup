@@ -136,4 +136,8 @@
     <string name="error_pmDataIncompleteException_dataRestoreFailed">Lietotnes dati netika ielasīti.</string>
     <string name="prefs_language_system">Sistēmas noklusējuma</string>
     <string name="prefs_externaldata_rst">Ielasīt rezerves kopijas ārējos datus</string>
+    <string name="prefs_theme_system_black">Sistēmas nokrāsa (Melna)</string>
+    <string name="prefs_theme_dynamic_dark">Tumša ar dinamiskām krāsām</string>
+    <string name="prefs_theme_dynamic_black">Melna ar dinamiskām krāsām</string>
+    <string name="prefs_theme_dynamic_light">Gaiša ar dinamiskām krāsām</string>
 </resources>
