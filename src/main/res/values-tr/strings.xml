@@ -411,4 +411,12 @@
     <string name="prefs_restorecache_summary">Önbellek dizinlerindeki dosyaları geri yükle</string>
     <string name="filters_tags">Etiketler</string>
     <string name="search_package">Uygulamayı mağazada ara</string>
+    <string name="dark_high_contrast">Koyu (yüksek kontrast)</string>
+    <string name="black_medium_contrast">Siyah (orta kontrast)</string>
+    <string name="black_high_contrast">Siyah (yüksek kontrast)</string>
+    <string name="light_high_contrast">Açık (yüksek kontrast)</string>
+    <string name="light_medium_contrast">Açık (orta kontrast)</string>
+    <string name="dark_medium_contrast">Koyu (orta kontrast)</string>
+    <string name="prefs_altbackupdate">Yedeklerde ISO tarih biçimini göster</string>
+    <string name="prefs_altbackupdate_summary">Yedekleme ögelerinde yerel tarih biçimi yerine ISO tarih biçimini kullanın.</string>
 </resources>

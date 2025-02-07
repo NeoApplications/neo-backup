@@ -423,4 +423,11 @@
     <string name="search_package">Cerca app nello store</string>
     <string name="prefs_altbackupdate">Mostra formato data ISO nei backup</string>
     <string name="prefs_altbackupdate_summary">Usa il formato data ISO negli elementi di backup anziché quello locale.</string>
+    <string name="light_high_contrast">Chiaro (contrasto alto)</string>
+    <string name="black_medium_contrast">Nero (contrasto medio)</string>
+    <string name="dark_high_contrast">Scuro (contrasto alto)</string>
+    <string name="black_high_contrast">Nero (contrasto alto)</string>
+    <string name="light_medium_contrast">Chiaro (contrasto medio)</string>
+    <string name="dark_medium_contrast">Scuro (contrasto medio)</string>
+    <string name="about_build_FORMAT">%s (Compilazione %s)</string>
 </resources>

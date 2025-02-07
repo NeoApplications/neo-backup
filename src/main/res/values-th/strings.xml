@@ -64,4 +64,5 @@
 \n • Both backing up and restoring individual programs one-at-a-time and batch backup and restoration of multiple programs are supported.
 \n • Restoring system apps should be possible without requiring a reboot afterwards, but still we don\'t advise to do it.
 \n • Backups can be scheduled with no limit on the number of individual schedules and there is the possibility of creating unique custom lists.</string>
+    <string name="about_build_FORMAT">%s (Compilazione %s)</string>
 </resources>

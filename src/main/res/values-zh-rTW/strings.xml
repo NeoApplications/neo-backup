@@ -121,7 +121,7 @@
     <string name="spec_accounts">帳號</string>
     <string name="sched_excludeSystemCheckBox">排除系統應用程式</string>
     <string name="sched_checkbox">啟用</string>
-    <string name="sched_hourOfDay">一天中的小時 (0..23)</string>
+    <string name="sched_hourOfDay">一天中的時間：</string>
     <string name="showOldBackups">顯示舊的備份</string>
     <string name="batchbackup">批次備份</string>
     <string name="dialogNo">否</string>
@@ -175,7 +175,7 @@
     <string name="prefs_restoreallpermissions_summary">給予還原的應用程式所有要求的權限。</string>
     <string name="radio_updated">已更新</string>
     <string name="radio_deviceprotecteddata">受裝置保護的資料</string>
-    <string name="showSplitAPKs">Split-APK</string>
+    <string name="showSplitAPKs">拆分的APKs</string>
     <string name="prefs_biometriclock">生物特徵辨識鎖</string>
     <string name="prefs_biometriclock_summary">使用裝置的生物特徵辨識鎖（例如指紋、人臉解鎖）保護本應用程式</string>
     <string name="prefs_devicelock">裝置鎖定</string>
@@ -199,7 +199,7 @@
     <string name="contacts_permission_title">聯絡人權限</string>
     <string name="grant_contacts_message">需要此權限來比對聯絡人與 SMS/MMS。</string>
     <string name="grant_usage_access_title">允許存取使用記錄</string>
-    <string name="grant_usage_access_message">需要此權限來獲取應用程式檔案大小的資訊。</string>
+    <string name="grant_usage_access_message">這對於獲取應用程式檔案大小的資訊至關重要</string>
     <string name="delete_all_backups">刪除所有備份</string>
     <string name="logs_text_empty">沒有東西可顯示！</string>
     <string name="fetching_action_list">正在獲取 %1$s 的應用程式清單…</string>
@@ -217,16 +217,7 @@
     <string name="intro_permission_contacts">本應用程式需要此權限來將聯絡人連結到 SMS/MMS。</string>
     <string name="intro_permission_usageaccess">本應用程式需要此權限來檢查應用程式資料和快取的狀態與大小。</string>
     <string name="stats_updated">已更新</string>
-    <string name="intro_welcome_message">OAndBackupX 是 OAndBackup 的分支，旨在讓其在 2020 年後重返榮耀。目前已經重寫本應用程式的大部分功能與使用者界面，同時也加入了一些新的功能。
-\n 本應用程式仍處於 beta 測試階段，並且經常重訂基底。因此請在每次發布新版本時仔細閱讀更新日誌。
-\n 歡迎任何形式的貢獻：翻譯、想法、報告錯誤或是程式碼。
-\n
-\n
-\n OAndBackupX 功能一覽：
-\n • 需要 root 權限，允許您備份個別應用程式及其資料。
-\n • 支援單獨備份和還原單個應用程式，也支援批次備份和還原多個程式。
-\n • 還原系統應用程式後無需重新啟動，雖然我們不建議這麼做。
-\n • 支援排程備份，排程數量沒有限制，並且可以建立自訂清單。</string>
+    <string name="intro_welcome_message">Neo Backup（以前稱為 OAndBackupX）是著名的 OAndBackup 的一個分支，旨在將 OAndBackup 帶到 202X 並成為 Neo 應用程式套件的一部分。目前，該應用程式已完全重寫，接下來將使其更加強大，並添加一些長期計劃的功能，以簡化任何設備的備份/復原工作流程。\n 因此，我們歡迎各種類型的貢獻。\n\n 現在介紹一下我們應用程式的功能：\n • 它需要root權限並允許您備份單一應用程式及其資料。\n • 既支援單獨程式的備份和恢復，也支援多個程式的批次備份和還原。\n • 可恢復系統應用程序，無需重新啟動。\n • 可以安排備份，單一計劃的數量不受限制，並且可以從已安裝的應用程式清單中建立自訂清單。</string>
     <string name="intro_permission_storage_location">本應用程式需要一個備份位置來儲存備份。本應用程式可能需要好幾 GB 的儲存空間來完整備份，並且會經常查詢檔案系統。當您選擇基於網路的儲存位置時，請注意這一點。</string>
     <string name="forceKillMessage">你確定要強制停止該應用程式嗎？</string>
     <string name="launch_app">啟動應用程式</string>
@@ -240,7 +231,7 @@
     <string name="calllogs_permission_title">通話記錄權限</string>
     <string name="error_creating_notification_channel">無法建立通知頻道</string>
     <string name="empty_filtered_list">篩選清單為空。</string>
-    <string name="split_apks">Split APKs:</string>
+    <string name="split_apks">拆分的 APK</string>
     <string name="help_appTypeHint">* 如果應用程式已解除安裝，應用程式類型的圖示會是灰色。如果應用程式已停用，則會是深灰色。</string>
     <string name="dialog_start">開始吧！</string>
     <string name="copyOwnApkSuccess">已將應用程式的 APK 複製到備份資料夾</string>
@@ -364,7 +355,7 @@
     <string name="prefs_altnavbaritem_summary">使用替代/舊的導覽列佈局，該佈局會顯示未選定選項頁的標籤名稱。</string>
     <string name="prefs_laserbackground">在背景中顯示動畫彩光</string>
     <string name="prefs_loadingtoasts">顯示載入時的toasts訊息</string>
-    <string name="prefs_singularbackuprestore">恢复备用</string>
+    <string name="prefs_singularbackuprestore">還原备用</string>
     <string name="prefs_squeezenavtext">自適應導覽列標籤文字</string>
     <string name="prefs_singularbackuprestore_summary">使用備用復原項佈局，允許選擇特定備份進行復原。</string>
     <string name="prefs_oldbackups_summary">指定多少天後已備份的資料屬於「舊備份」。用於篩選。</string>
@@ -412,4 +403,10 @@
     <string name="prefs_altblocklayout">對頁面區塊使用替代佈局</string>
     <string name="prefs_altblocklayout_summary">對頁面區塊使用替代性/舊的佈局而非上色的頁面。</string>
     <string name="show_new_apps">新應用程式</string>
+    <string name="light_high_contrast">淺色（高對比）</string>
+    <string name="dark_high_contrast">深色（高對比）</string>
+    <string name="black_medium_contrast">黑色（中等對比）</string>
+    <string name="black_high_contrast">黑色（高對比）</string>
+    <string name="dark_medium_contrast">深色（中等對比）</string>
+    <string name="light_medium_contrast">淺色（中等對比）</string>
 </resources>
