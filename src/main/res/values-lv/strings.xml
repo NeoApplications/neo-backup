@@ -140,4 +140,18 @@
     <string name="prefs_theme_dynamic_dark">Tumša ar dinamiskām krāsām</string>
     <string name="prefs_theme_dynamic_black">Melna ar dinamiskām krāsām</string>
     <string name="prefs_theme_dynamic_light">Gaiša ar dinamiskām krāsām</string>
+    <string name="prefs_sessionIinstaller_summary">Pamatinstalatora vietā izmantojiet sesijas instalatoru. Tas ir lēnāks, bet novērš problēmas ar Android 13+</string>
+    <string name="prefs_restorepermissions_summary">Atjaunot atļaujas, kas tika piešķirtas lietotnei dublējuma izveides brīdī. Ņemiet vērā, ka dažas atļaujas nevar piešķirt programmatiski, tāpēc paketes atjaunošana kopumā neizdodas, un Neo Backup tad ietver paketes atjaunošanu bez atļaujām.</string>
+    <string name="prefs_obbdata_rst">Atjaunot obb failus</string>
+    <string name="prefs_obbdata_rst_summary">Atjauno lietotnes obb failus, kas atrodas ārējā atmiņā (piemēram, /storage/emulated/0/Android/obb/)</string>
+    <string name="prefs_mediadata_rst">Atjaunot multivides failus</string>
+    <string name="prefs_mediadata_rst_summary">Atjauno lietotnes multivides failus, kas atrodas ārējā atmiņā (piemēram, /storage/emulated/0/Android/media/)</string>
+    <string name="prefs_nobackupdata_rst">Atjaunot no_backup failus</string>
+    <string name="prefs_nobackupdata_rst_summary">Atjauno failus datos, kas ir apzīmēti kā nedublējami</string>
+    <string name="prefs_sessionIinstaller">Izmantot sesijas uzstādīšanas programmu</string>
+    <string name="prefs_installerpackagename">Uzstādītāja pakotnes nosaukums:</string>
+    <string name="prefs_restorepermissions">Atjaunot atļaujas</string>
+    <string name="prefs_deviceprotecteddata">Ierīces aizsargātu datu dublēšana</string>
+    <string name="prefs_deviceprotecteddata_summary">Datu, kas atrodas datubāzē data/user_de, dublēšana</string>
+    <string name="prefs_numBackupRevisions">Rezerves kopiju versiju skaits</string>
 </resources>
