@@ -425,4 +425,11 @@
     <string name="search_package">ابحث عن التطبيق في المتجر</string>
     <string name="prefs_altbackupdate">عرض تنسيق تاريخ ISO في النسخ الاحتياطية</string>
     <string name="prefs_altbackupdate_summary">استخدم تنسيق تاريخ ISO في عناصر النسخ الاحتياطي بدلاً من تنسيق اللغة.</string>
+    <string name="light_medium_contrast">مضيء (تباين متوسط)</string>
+    <string name="light_high_contrast">مضيء (تباين عال)</string>
+    <string name="dark_medium_contrast">داكن (تباين متوسط)</string>
+    <string name="dark_high_contrast">داكن (عال التباين)</string>
+    <string name="black_medium_contrast">أسود (تباين متوسط)</string>
+    <string name="black_high_contrast">أسود (تباين عال)</string>
+    <string name="about_build_FORMAT">%s (الإصدار %s)</string>
 </resources>
